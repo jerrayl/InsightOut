@@ -1,0 +1,233 @@
+﻿Country,Language,Percentage
+Afghanistan,Dari ,80
+Albania,Albanian,98.8
+American Samoa,Samoan,88.6
+Andorra,Catalan,100
+Angola,Portuguese,71.2
+Angola,Umbundu,23
+Anguilla,English,100
+Antigua and Barbuda,English,100
+Argentina,Spanish,100
+Armenia,Armenian,100
+Aruba,Papiamento,100
+Australia,English,72.7
+Austria,German,88.6
+Azerbaijan,Azerbaijani ,92.5
+The Bahamas ,English,100
+Bahrain,Arabic,100
+Bangladesh,Banglali,98.8
+Barbados,English,100
+Belarus,Russian,70.2
+Belarus,Belarusian,23.4
+Belgium,Dutch,60
+Belgium,French,40
+Belize,English,62.9
+Belize,Spanish,56.6
+Benin,French,100
+Bermuda,English,100
+Bolivia,Spanish,60.7
+Bolivia,Quechua,21.2
+Bosnia and Herzegovina,Bosnian,52.9
+Bosnia and Herzegovina,Serbian,30.8
+Botswana,Setswana,77.3
+Botswana,Sekalanga,7.4
+Brazil,Portuguese,100
+British Virgin Islands,English,100
+Brunei,Malay,100
+Bulgaria,Bulgarian,76.8
+Bulgaria,Turkish,8.2
+Burkina Faso,French,100
+Burma,Burmese,100
+Cabo Verde,Portuguese,100
+Cambodia,Khmer,96.3
+Cameroon,English,100
+Canada,English,58.7
+Canada,French,22
+Cayman Islands,English,90.9
+Central African Republic,French,100
+Chad,French,100
+Chile,Spanish,99.5
+China,Mandarin,100
+Colombia,Spanish,100
+Comoros,Arabic,100
+Democratic Republic of the Congo,French,100
+Republic of the Congo,French,100
+Cook Islands,English,86.4
+Costa Rica,Spanish,100
+Cote d'Ivoire,French,100
+Croatia,Croatian,95.6
+Cuba,Spanish,100
+Curacao,Papiamento,100
+Cyprus,Greek,80.9
+Czechia,Czech,95.4
+Djibouti,French,100
+Dominica,English,100
+Dominican Republic,Spanish,100
+Ecuador,Spanish,93
+Egypt,Arabic,100
+El Salvador,Spanish,100
+Eritrea,Tigrinya,100
+Estonia,Estonian,68.5
+Estonia,Russian,29.6
+Eswatini,English,100
+Falkland Islands ,English,89
+Faroe Islands,Faroese,93.8
+Fiji,English,100
+Finland,Finnish,87.9
+France,French,100
+French Polynesia,French,100
+French Polynesia,Polynesian,28.2
+Gabon,French,100
+The Gambia,English,100
+Georgia,Georgian,87.6
+Germany,German,100
+Gibraltar,English,100
+Greece,Greek,99
+Greenland,Danish,100
+Grenada,English,100
+Guinea,French,100
+Guinea-Bissau,Crioulo,100
+Guyana,English,100
+Haiti,French,100
+Honduras,Spanish,100
+Hong Kong,Cantonese,88.9
+Hungary,Hungarian,99.6
+Iceland,Icelandic,100
+Indonesia,Indonesian,100
+Iran,Persian,100
+Iraq,Arabic ,100
+Ireland,English,100
+Isle of Man,English,100
+Israel,Hebrew,100
+Italy,Italian,100
+Jamaica,English,100
+Japan,Japanese,100
+Jersey,English,94.5
+Jordan,Arabic ,100
+Kazakhstan,Kazakh,74
+Kazakhstan,Russian,94.4
+Kenya,English,100
+Kiribati,English,100
+North Korea,Korean,100
+South Korea,Korean,100
+Kosovo,Albanian,94.5
+Kuwait,Arabic,100
+Kyrgyzstan,Kyrgyz,71.4
+Kyrgyzstan,Uzbek,14.4
+Laos,Lao,100
+Latvia,Latvian,56.3
+Latvia,Russian,33.8
+Lebanon,Arabic,100
+Lesotho,Southern Sotho,100
+Libya,Arabic,100
+Liechtenstein,German,91.5
+Lithuania,Lithuanian,82
+Macau,Cantonese,80.1
+Macedonia,Macedonian,66.5
+Macedonia,Albanian,25.1
+Madagascar,French,100
+Malawi,English,100
+Malaysia,Malay,100
+Maldives,Dhivehi,100
+Mali,French,100
+Malta,Maltese,90.1
+Marshall Islands,Marshallese,98.2
+Mauritania,Arabic,100
+Mauritius,Creole,86.5
+Mexico,Spanish,92.7
+Federated States of Micronesia,English,100
+Moldova,Romanian,80.2
+Monaco,French,100
+Mongolia,Mongolian,90
+Montenegro,Serbian ,42.9
+Montenegro,Montenegrin,37
+Montserrat,English,100
+Morocco,Arabic,100
+Nauru,Nauruan,93
+Netherlands,Dutch,100
+New Caledonia,French,100
+New Zealand,English,89.8
+Nicaragua,Spanish,95.3
+Niger,French,100
+Nigeria,English,100
+Norfolk Island,English,44.9
+Norfolk Island,Norfolk,40.3
+Norway,Norwegian,100
+Oman,Arabic,100
+Panama,Spanish,100
+Papua New Guinea,Tok Pisin,100
+Paraguay,Spanish,100
+Peru,Spanish,82.9
+Philippines,Filipino,100
+Pitcairn Islands,English,100
+Poland,Polish,98.2
+Portugal,Portuguese,100
+Puerto Rico,Spanish,100
+Qatar,Arabic,100
+Romania,Romanian,85.4
+Russia,Russian,85.7
+Rwanda,Kinyarwanda,93.2
+Saint Barthelemy,French,100
+"Saint Helena, Ascension, and Tristan da Cunha",English,100
+Saint Kitts and Nevis,English,100
+Saint Lucia,English,100
+Saint Martin,French,100
+Saint Pierre and Miquelon,French,100
+Samoa,Samoan,91.1
+San Marino,Italian,100
+Sao Tome and Principe,Portuguese,98.4
+Saudi Arabia,Arabic,100
+Senegal,French,100
+Serbia,Serbian,88.1
+Seychelles,Seychellois Creole,89.1
+Sierra Leone,English,100
+Sint Maarten,English,67.5
+Sint Maarten,Spanish,12.9
+Slovakia,Slovak,78.6
+Slovakia,Hungarian,9.4
+Slovenia,Slovenian,91.1
+Solomon Islands,Melanesian pidgin,100
+Somalia,Somali,100
+South Sudan,English,100
+Spain,Spanish,74
+Spain,Catalan,17
+Sri Lanka,Sinhala,74
+Sri Lanka,Tamil,18
+Sudan,Arabic,100
+Suriname,Dutch,100
+Svalbard,Norwegian,100
+Sweden,Swedish,100
+Sweden,German,63
+Switzerland,French,22.7
+Syria,Arabic,100
+Taiwan,Mandarin,100
+Tajikistan,Tajik ,100
+Tanzania,Swahili,100
+Thailand,Thai,90.7
+Togo,French,100
+Tokelau,Tokelauan,88.1
+Trinidad and Tobago,English,100
+Tunisia,Arabic,100
+Turkey,Turkish,100
+Turkmenistan,Turkman ,72
+Turkmenistan,Russian,12
+Turks and Caicos Islands,English,100
+Tuvalu,Tuvaluan,100
+Uganda,English,100
+Ukraine,Ukrainian,67.5
+Ukraine,Russian,29.6
+United Arab Emirates,Arabic,100
+United Kingdom,English,100
+United States,English,79
+United States,Spanish,13
+Uruguay,Spanish,100
+Uzbekistan,Uzbek,74.3
+Uzbekistan,Russian,14.2
+Venezuela,Spanish,100
+Vietnam,Vietnamese,100
+Virgin Islands,English,71.6
+Virgin Islands,Spanish,17.2
+Wallis and Futuna,Wallisian,58.9
+Wallis and Futuna,Futunian,30.1
+Yemen,Arabic,100
+Zimbabwe,Shona,100
