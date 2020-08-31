@@ -1,0 +1,105 @@
+---
+title: "PANAS by country preliminary analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(dplyr)
+library(tidyverse)
+library(here)
+
+```
+
+
+
+```{r loaddata, include=TRUE}
+positive_words = c("active", "enthusiastic", "attentive", "strong", "interested", "alert", "proud", "excited")
+negative_words <- c("afraid", "nervous", "scared", "upset", "guilty", "hostile", "ashamed", "jittery", "irritable", "distressed")
+
+dict_path <- here("data", "capstone20_dictionaries.csv")  
+adjcount_path <- here("data", "dictionary_word_matrix_adj.csv")  
+countries_path <- here("data", "countries-languages.csv")
+mh_path <- here("data", "country-mentalhealth.csv")
+
+# List of countries and the languages they speak
+countries <- read_csv(countries_path) 
+
+# Mental health disorder prevalance by country
+mh <- read_csv(mh_path) 
+
+
+
+dict <- read_csv(dict_path)  
+
+# load adj matrix and sum across columns to compute the total size of each dictionary
+adjcount <- read_csv(adjcount_path) %>%  
+  mutate(dictsize = select(., abbreviated:zealous) %>% apply(1, sum, na.rm=TRUE))
+
+positive_count <- adjcount %>% 
+  select(id, positive_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+negative_count <- adjcount %>% 
+  select(id, negative_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+
+# we'll express frequencies in terms of counts per 10000 tokens
+unit <- 10000
+
+# d is the dataframe we'll use for our analyses
+d <- dict %>% 
+  inner_join(positive_count, by="id") %>%
+  filter(dictsize >= 5000)  # only include dictionaries with more than 5000 tokens
+
+# generate frequencies
+for (word in positive_words){
+  d <- d %>% mutate(!!sym(word) :=  unit * !!sym(word)/dictsize)
+}
+
+```
+
+```{r loaddata, include=TRUE}
+# Testing compatibility with CIA languages csv and Dictionary Languages csv
+dict_languages <- dict$langname
+CIA_languages <- countries$Language
+
+notFoundLang <- CIA_languages[!CIA_languages %in% dict_languages] %>% na.omit() %>% unique() 
+print(notFoundLang)
+
+#Issues : 1: Standard Arabic / Arabic 2: Use of , and / to seperate languages 3: Mandarin Chinese/Beijing Mandarin
+```
+
+```{r loaddata, include=TRUE}
+# Testing compatibility with CIA languages csv and Dictionary Languages csv
+mh_countries <- mh$location
+CIA_countries <- countries$Country
+
+notFoundCountry <- mh_countries[!mh_countries %in% CIA_countries] %>% na.omit() %>% unique() 
+print(notFoundCountry)
+
+
+```
+   
+Now plot the relationship between frequency of "ice" and "snow" and temperature.
+   
+```{r freqvstmp, include=TRUE}
+   
+# convert to long form for easy plotting
+plotd <- d %>% 
+  pivot_longer(cols=c(ice_propn, snow_propn, icesnow_propn), names_to="word", values_to="propn") %>% 
+  mutate(word = recode(word, ice_propn="ice", snow_propn="snow", icesnow_propn="ice and snow combined")) %>% 
+  mutate(word = factor(word, levels=c("ice", "snow", "ice and snow combined")))
+
+propnplot <- plotd %>% 
+  ggplot(aes(x=env, y=propn)) +
+  geom_point() +
+  facet_wrap(~word) +
+  geom_smooth(method=lm) +
+  labs(y="counts per 10000", x="yearly minimum temperature")
+
+plot(propnplot)
+```
+
+The plot suggests that dictionaries for languages from cold regions do tend to include more tokens of "ice" and "snow." Combining counts for "ice" and "snow" leads to a cleaner result than considering the two words individually.
