@@ -12,7 +12,6 @@ knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
 library(dplyr)
 library(tidyverse)
 library(here)
-
 ```
 
 
@@ -65,8 +64,8 @@ for (word in positive_words){
 dict_languages <- dict$langname
 CIA_languages <- countries$Language
 
-notFoundLang <- CIA_languages[!CIA_languages %in% dict_languages] %>% na.omit() %>% unique() 
-print(notFoundLang)
+notFoundLang <- CIA_languages[CIA_languages %in% dict_languages] %>% na.omit() %>% unique() 
+print(length(notFoundLang))
 
 #Issues : 1: Standard Arabic / Arabic 2: Use of , and / to seperate languages 3: Mandarin Chinese/Beijing Mandarin
 ```
@@ -81,25 +80,3 @@ print(notFoundCountry)
 
 
 ```
-   
-Now plot the relationship between frequency of "ice" and "snow" and temperature.
-   
-```{r freqvstmp, include=TRUE}
-   
-# convert to long form for easy plotting
-plotd <- d %>% 
-  pivot_longer(cols=c(ice_propn, snow_propn, icesnow_propn), names_to="word", values_to="propn") %>% 
-  mutate(word = recode(word, ice_propn="ice", snow_propn="snow", icesnow_propn="ice and snow combined")) %>% 
-  mutate(word = factor(word, levels=c("ice", "snow", "ice and snow combined")))
-
-propnplot <- plotd %>% 
-  ggplot(aes(x=env, y=propn)) +
-  geom_point() +
-  facet_wrap(~word) +
-  geom_smooth(method=lm) +
-  labs(y="counts per 10000", x="yearly minimum temperature")
-
-plot(propnplot)
-```
-
-The plot suggests that dictionaries for languages from cold regions do tend to include more tokens of "ice" and "snow." Combining counts for "ice" and "snow" leads to a cleaner result than considering the two words individually.
