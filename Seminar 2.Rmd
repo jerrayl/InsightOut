@@ -1,0 +1,81 @@
+---
+title: "Seminar 2"
+author: "Uyen"
+date: "8/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(tidyverse)
+library(here)
+
+noun_table <- read_csv(file=here("dictionary_word_matrix_noun.csv"))
+dictionary <- read_csv(file=here("capstone20_dictionaries.csv"))
+```
+
+
+Making PANAS, Mental Health, and CIA table
+```{r import dataset, echo=FALSE}
+
+adj_table <- read_csv(file=here("dictionary_word_matrix_adj.csv"))
+prevalence <- read_csv(file=here("IHME-GBD_2017_DATA.csv"))
+coun_lang <- read_csv(file=here("CIA fact sheet-2.csv"))
+```
+
+
+Editing Mental Health data, changing to Wide form so each row is a country
+```{r MH edit}
+prevalence$upper <- NULL
+prevalence$lower <- NULL
+prevalence$measure <- NULL
+prevalence$metric <- NULL
+prevalence$age <- NULL
+prevalence$sex <- NULL
+prevalence$percent = prevalence$val *100
+prevalence$val <- NULL
+
+prevalenceWide<- prevalence %>%
+  pivot_wider(names_from = cause, values_from = percent)
+```
+
+```{r Join MHP and CIA}
+MHPandLang <- inner_join(prevalenceWide, coun_lang, by = c("location"="Country"))
+```
+
+Editing dictionary data before joining with MHPrevalence and CIA file
+```{r PANAS-X edit}
+
+# select only relevent PANAS-X words
+PANAS <- adj_table %>% 
+  select("title","langname","area","active","alert","attentive","enthusiastic","excited","interested","proud","happy","joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless","afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset","distressed","frightened","shaky","angry","irritable","disgusted","sad","lonely") 
+
+# Add 2 columns that have total frequency of Positive and Negative words by each dictionary
+PANASsum <- PANAS %>% 
+  mutate(totalPos = select(., active:fearless) %>% rowSums(na.rm = TRUE),
+         totalNeg = select(., afraid:lonely)%>% rowSums(na.rm = TRUE))
+
+#New table: frequency of Positive And Negative words - average across dictionaries of the same language
+PANASavr <- PANASsum %>%
+  group_by(langname)%>%
+  summarise(mnPos = mean(totalPos),
+            mnNeg = mean(totalNeg))%>% 
+  add_row(langname= "English", mnPos = 20, mnNeg = 17)%>%
+  ungroup()
+
+```
+
+#Join MH data, CIA, and Average PANAS table
+```{r Join all 3 table}
+d_all <- inner_join(MHPandLang, PANASavr, by = c("Language" = "langname" ))
+
+```
+
+##Plots
+
+```{r pressure, echo=FALSE}
+
+```
+
