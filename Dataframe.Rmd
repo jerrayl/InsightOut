@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
 library(dplyr)
 library(tidyverse)
 library(here)
+library(DataCombine)
 ```
 
 Specify paths for each of the files and load them
@@ -34,7 +35,7 @@ mh <- read_csv(mh_path)
 Positive and negative affect words from PANAS X
 ```{r loaddata, include=TRUE}
 positive_words = c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
-negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","irritable","disgusted","sad","lonely")
+negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","disgusted","sad","lonely")
 ```
 
 
@@ -73,6 +74,14 @@ panas_frequencies <- panas_frequencies %>% select(language, mean_positive, mean_
 
 ```
 
+Replace Language Names to match CIA dataset to Dictionary Dataset
+```{r loaddata, include=TRUE}
+replaces <- data.frame(from = c("Albanian", "Bosnian", "Khmer", "Croatian", "Serbian", "Arabic", "Mandarin", "Persian", "Mongolian", "Greek", "Hebrew", "Armenian", "Malay", "Kyrgyz"), to = c("Northern Tosk Albanian", "Serbian-Croatian-Bosnian", "Central Khmer", "Serbian-Croatian-Bosnian", "Serbian-Croatian-Bosnian", "Standard Arabic", "Mandarin Chinese", "Western Farsi", "Halh Mongolian", "Modern Greek", "Modern Hebrew", "Eastern Armenian", "Standard Malay", "Kirghiz"))
+lang_countries <- FindReplace(data = as.data.frame(lang_countries), Var = "Language", replaceData = replaces,
+                     from = "from", to = "to", exact = TRUE)
+
+```
+
 
 Merge IMHE data with CIA data to obtain disorder prevelance by countries and languages spoken
 ```{r loaddata, include=TRUE}
@@ -80,10 +89,36 @@ Merge IMHE data with CIA data to obtain disorder prevelance by countries and lan
 depression_prevalence <- mh %>%  filter(cause == "Depressive disorders")  %>% select(location, val, upper, lower)
 
 temp1 <- merge(x= depression_prevalence, y = lang_countries, by.x = "location", by.y = "Country")
+
 ```
 
 
 Merge temporary dataset with panas frequencies
 ```{r loaddata, include=TRUE}
-# TODO
+d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
+
+# weigh each country by the percentage of people speaking the particular language
+d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% subset(select = -c(Language,Percentage)) %>% distinct()
+
+# convert val to percentage
+d <- d %>% mutate_at(c("val", "upper", "lower"), function(x) x * 100)
+
+# add ratio column
+d <- d %>% mutate(ratio = mean_negative / mean_positive)
+```
+
+Draw ratio graph
+```{r loaddata, include=TRUE}
+
+plotd <- d %>% 
+  pivot_longer(cols=c(mean_positive, mean_negative, ratio), names_to="affect_words", values_to="propn") %>% 
+  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive")) %>% 
+  mutate(affect_words = factor(affect_words, levels=c("positive words", "negative words", "ratio of negative to positive")))
+
+
+ggplot(plotd, aes(x=val, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="mood disorder prevalence/%", y="counts per 1000, ratio")
 ```
