@@ -1,0 +1,59 @@
+---
+title: "PANAS by country preliminary analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(dplyr)
+library(tidyverse)
+library(here)
+library(DataCombine)
+```
+
+
+Positive and Negative Affect words from PANAS X
+```{r loaddata, include=TRUE}
+positive_words = c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
+negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset","distressed", "frightened","shaky","angry","disgusted","sad","lonely")
+```
+
+
+File Paths
+```{r loaddata, include-TRUE}
+dictionary_path <- here("data", "capstone20_dictionaries.csv")  
+adjcount_path <- here("data", "dictionary_word_matrix_adj.csv")  
+countries_path <- here("data", "countries-languages.csv")
+mentalhealth <- here("data", "country-mentalhealth.csv")
+
+# List of countries and their language
+countries <- read_csv(countries_path) 
+
+# Mental health disorder prevalance
+mentalhealth <- read_csv(mentalhealth) 
+
+# Dictionary data
+dict <- read_csv(dictionary_path)  
+
+# Adjective data
+adjcount <- read_csv(adjcount_path) %>%
+    mutate(dictsize = select(., abbreviated:zealous) %>% apply(1, sum, na.rm=TRUE))
+```
+
+```{r loaddata, include=TRUE}
+# PANAS counts
+PosAff <- adjcount %>%
+  select(langname, positive_words)
+NegAff <- adjcount %>%
+  select(langname, negative_words)
+
+# dataframe
+dataframe <- adjcount %>%
+  filter(dictsize >= 5000) %>%
+  select(langname, area, positive_words, negative_words, dictsize) %>%
+  mutate_all(~replace_na(.x, 0))
+```

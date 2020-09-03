@@ -1,0 +1,781 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Prevalence,Ghana,Both,All Ages,Depressive disorders,Percent,2017,0.0277549284675,0.0304286783549,0.0254980532164
+Prevalence,Ghana,Both,All Ages,Major depressive disorder,Percent,2017,0.0186492667773,0.0209315051177,0.0167528474166
+Prevalence,Ghana,Both,All Ages,Dysthymia,Percent,2017,0.00959181893482,0.0111312006118,0.00831455148478
+Prevalence,Ghana,Both,All Ages,Anxiety disorders,Percent,2017,0.0284040883127,0.0303497656004,0.0264571446284
+Prevalence,Central African Republic,Both,All Ages,Depressive disorders,Percent,2017,0.0345509847199,0.0381465121625,0.0314512436913
+Prevalence,Central African Republic,Both,All Ages,Major depressive disorder,Percent,2017,0.0263402457297,0.0296488227004,0.0236319799025
+Prevalence,Central African Republic,Both,All Ages,Dysthymia,Percent,2017,0.00891557613392,0.0103825567285,0.00772010810697
+Prevalence,Haiti,Both,All Ages,Depressive disorders,Percent,2017,0.0263878843322,0.0290659960342,0.0241466255281
+Prevalence,Haiti,Both,All Ages,Major depressive disorder,Percent,2017,0.0185083550864,0.0207220116601,0.0164576451824
+Prevalence,Haiti,Both,All Ages,Dysthymia,Percent,2017,0.00828413332976,0.00963038393528,0.00714124289228
+Prevalence,Haiti,Both,All Ages,Anxiety disorders,Percent,2017,0.0436112990161,0.0468336879783,0.040484797324
+Prevalence,Latvia,Both,All Ages,Depressive disorders,Percent,2017,0.0463453229171,0.0501708884695,0.0428130508411
+Prevalence,Latvia,Both,All Ages,Major depressive disorder,Percent,2017,0.027275977153,0.0298818118653,0.0249851179963
+Prevalence,Latvia,Both,All Ages,Dysthymia,Percent,2017,0.0201596504733,0.0233012939525,0.017468319506
+Prevalence,Latvia,Both,All Ages,Anxiety disorders,Percent,2017,0.0317028707362,0.0336481421551,0.0297635438844
+Prevalence,Saudi Arabia,Both,All Ages,Depressive disorders,Percent,2017,0.0379370968894,0.0420582940639,0.0344988343056
+Prevalence,Saudi Arabia,Both,All Ages,Major depressive disorder,Percent,2017,0.0277916612675,0.0312889783162,0.024466208338
+Prevalence,Saudi Arabia,Both,All Ages,Dysthymia,Percent,2017,0.0108266423649,0.0127185064567,0.0092802554808
+Prevalence,Saudi Arabia,Both,All Ages,Anxiety disorders,Percent,2017,0.0523658893609,0.0564237305025,0.0487813617878
+Prevalence,Venezuela,Both,All Ages,Depressive disorders,Percent,2017,0.028717376997,0.0312410078801,0.0264092875536
+Prevalence,Venezuela,Both,All Ages,Major depressive disorder,Percent,2017,0.0203169128556,0.0225396012535,0.0183875417115
+Prevalence,Venezuela,Both,All Ages,Dysthymia,Percent,2017,0.00884142764155,0.0101684169563,0.00771868555703
+Prevalence,Venezuela,Both,All Ages,Anxiety disorders,Percent,2017,0.0294974141695,0.0314276873648,0.0275981771986
+Prevalence,Turkmenistan,Both,All Ages,Anxiety disorders,Percent,2017,0.0253669098952,0.0270811695152,0.0237175322916
+Prevalence,Tanzania,Both,All Ages,Depressive disorders,Percent,2017,0.0271971994306,0.0299158478617,0.0249834479864
+Prevalence,Tanzania,Both,All Ages,Major depressive disorder,Percent,2017,0.0192529369656,0.021652588513,0.0171846732512
+Prevalence,Tanzania,Both,All Ages,Dysthymia,Percent,2017,0.00844785723679,0.00994535494095,0.00729438621271
+Prevalence,Tanzania,Both,All Ages,Anxiety disorders,Percent,2017,0.0324955269815,0.0348586864873,0.0301566345264
+Prevalence,Cyprus,Both,All Ages,Depressive disorders,Percent,2017,0.0380158573149,0.0416067685357,0.0349816612039
+Prevalence,Cyprus,Both,All Ages,Major depressive disorder,Percent,2017,0.020112009273,0.0223244845208,0.0179980404933
+Prevalence,Cyprus,Both,All Ages,Dysthymia,Percent,2017,0.0185861188785,0.0216411755116,0.0160816259758
+Prevalence,Cyprus,Both,All Ages,Anxiety disorders,Percent,2017,0.0549967627036,0.0588270423151,0.0516714916087
+Prevalence,Syria,Both,All Ages,Depressive disorders,Percent,2017,0.033541877676,0.0369206340922,0.0307054094687
+Prevalence,Syria,Both,All Ages,Major depressive disorder,Percent,2017,0.0242651324044,0.0272653801944,0.0216040352767
+Prevalence,Syria,Both,All Ages,Dysthymia,Percent,2017,0.0098750130676,0.0113722795694,0.0086373329196
+Prevalence,Syria,Both,All Ages,Anxiety disorders,Percent,2017,0.0495491540725,0.053044207871,0.0464160385682
+Prevalence,Central African Republic,Both,All Ages,Anxiety disorders,Percent,2017,0.0308258810378,0.0331100312702,0.0285864717934
+Prevalence,Jamaica,Both,All Ages,Anxiety disorders,Percent,2017,0.0481960159456,0.0515830125144,0.0449581030427
+Prevalence,American Samoa,Both,All Ages,Depressive disorders,Percent,2017,0.0278778846857,0.0305756663087,0.0254849042025
+Prevalence,American Samoa,Both,All Ages,Major depressive disorder,Percent,2017,0.0133873973261,0.0150053034902,0.0120449164205
+Prevalence,American Samoa,Both,All Ages,Dysthymia,Percent,2017,0.0149285835302,0.0171469104397,0.0130481825276
+Prevalence,American Samoa,Both,All Ages,Anxiety disorders,Percent,2017,0.033031463784,0.0354621550514,0.0309051271668
+Prevalence,Chile,Both,All Ages,Depressive disorders,Percent,2017,0.0437134127755,0.0477937664025,0.0403860635889
+Prevalence,Chile,Both,All Ages,Major depressive disorder,Percent,2017,0.0278695915003,0.0309155392921,0.0253503715334
+Prevalence,Chile,Both,All Ages,Dysthymia,Percent,2017,0.0167379821089,0.0193827575595,0.0144940386444
+Prevalence,Guam,Both,All Ages,Depressive disorders,Percent,2017,0.0365151307318,0.0396347630759,0.033630680957
+Prevalence,Guam,Both,All Ages,Major depressive disorder,Percent,2017,0.0199581903101,0.0221645208608,0.0181889179709
+Prevalence,Guam,Both,All Ages,Dysthymia,Percent,2017,0.0172472823829,0.019784367005,0.0150600895078
+Prevalence,Guam,Both,All Ages,Anxiety disorders,Percent,2017,0.0337877781479,0.0361357962335,0.0317195843745
+Prevalence,Uzbekistan,Both,All Ages,Depressive disorders,Percent,2017,0.0271916874742,0.0297439571192,0.0250287268813
+Prevalence,Uzbekistan,Both,All Ages,Major depressive disorder,Percent,2017,0.0165415840794,0.0183243670577,0.0150232901789
+Prevalence,Uzbekistan,Both,All Ages,Dysthymia,Percent,2017,0.0110762136017,0.012839478979,0.00955631935468
+Prevalence,Uzbekistan,Both,All Ages,Anxiety disorders,Percent,2017,0.0253647325737,0.0271304297001,0.0237374355756
+Prevalence,Denmark,Both,All Ages,Anxiety disorders,Percent,2017,0.0544268222123,0.0581314351651,0.0511439811733
+Prevalence,Chile,Both,All Ages,Anxiety disorders,Percent,2017,0.0652785682688,0.0696993907084,0.0611473991214
+Prevalence,Guinea,Both,All Ages,Depressive disorders,Percent,2017,0.0255903926285,0.0280611596645,0.02347638945
+Prevalence,Guinea,Both,All Ages,Major depressive disorder,Percent,2017,0.0178361992419,0.0199999212389,0.0158755275773
+Prevalence,Guinea,Both,All Ages,Dysthymia,Percent,2017,0.00824247593192,0.00956609072763,0.00712930522349
+Prevalence,Guinea,Both,All Ages,Anxiety disorders,Percent,2017,0.0262965199408,0.0281156248156,0.0244095107308
+Prevalence,Kiribati,Both,All Ages,Depressive disorders,Percent,2017,0.0268112428741,0.0295301850141,0.0246394995883
+Prevalence,Kiribati,Both,All Ages,Major depressive disorder,Percent,2017,0.014571742026,0.0163845747665,0.0129852064986
+Prevalence,Kiribati,Both,All Ages,Dysthymia,Percent,2017,0.0126780754515,0.0146317756486,0.0111104669621
+Prevalence,Kiribati,Both,All Ages,Anxiety disorders,Percent,2017,0.030134487295,0.0323649603809,0.0280128831647
+Prevalence,Suriname,Both,All Ages,Depressive disorders,Percent,2017,0.0412912249654,0.0445746172371,0.0383193761482
+Prevalence,Suriname,Both,All Ages,Major depressive disorder,Percent,2017,0.0319496379522,0.034919035397,0.029282519389
+Prevalence,Suriname,Both,All Ages,Dysthymia,Percent,2017,0.0101813306508,0.0117441738217,0.00885602204892
+Prevalence,Suriname,Both,All Ages,Anxiety disorders,Percent,2017,0.0471143709997,0.0504432315529,0.0441586451112
+Prevalence,Fiji,Both,All Ages,Depressive disorders,Percent,2017,0.030886132747,0.0338408583069,0.0283628076177
+Prevalence,Uruguay,Both,All Ages,Depressive disorders,Percent,2017,0.0389979612848,0.0421325998647,0.0361326639702
+Prevalence,Uruguay,Both,All Ages,Major depressive disorder,Percent,2017,0.0229875552545,0.0252796082472,0.0209383580704
+Prevalence,Uruguay,Both,All Ages,Dysthymia,Percent,2017,0.0167112877838,0.0192911430103,0.0145239687069
+Prevalence,Uruguay,Both,All Ages,Anxiety disorders,Percent,2017,0.064644463533,0.0690084094803,0.0606482196299
+Prevalence,China,Both,All Ages,Depressive disorders,Percent,2017,0.0415545483488,0.0453347769767,0.038247435025
+Prevalence,China,Both,All Ages,Major depressive disorder,Percent,2017,0.0211387222137,0.0233778091365,0.0192572972956
+Prevalence,China,Both,All Ages,Dysthymia,Percent,2017,0.021390797692,0.0247305444666,0.0183845512188
+Prevalence,Argentina,Both,All Ages,Depressive disorders,Percent,2017,0.0382907697364,0.0417113495105,0.0352518580464
+Prevalence,Argentina,Both,All Ages,Major depressive disorder,Percent,2017,0.0230807193904,0.0256522072477,0.0207882440683
+Prevalence,Argentina,Both,All Ages,Dysthymia,Percent,2017,0.0159188323732,0.0184954513989,0.0138164594811
+Prevalence,Argentina,Both,All Ages,Anxiety disorders,Percent,2017,0.0641396801322,0.0685239887293,0.0599893065792
+Prevalence,Guinea-Bissau,Both,All Ages,Depressive disorders,Percent,2017,0.0261625696132,0.0287401586401,0.0239390610761
+Prevalence,Guinea-Bissau,Both,All Ages,Major depressive disorder,Percent,2017,0.018328531034,0.0203905125631,0.0163342412436
+Prevalence,Guinea-Bissau,Both,All Ages,Dysthymia,Percent,2017,0.00831115940545,0.0097251210771,0.00714595569773
+Prevalence,Guinea-Bissau,Both,All Ages,Anxiety disorders,Percent,2017,0.0267376715862,0.028718023931,0.0247597091711
+Prevalence,Trinidad and Tobago,Both,All Ages,Depressive disorders,Percent,2017,0.0370489854219,0.0404056720734,0.0344163739638
+Prevalence,Trinidad and Tobago,Both,All Ages,Major depressive disorder,Percent,2017,0.0262932147906,0.0291463224818,0.023911386285
+Prevalence,Trinidad and Tobago,Both,All Ages,Dysthymia,Percent,2017,0.0113964298706,0.0131340318499,0.00991506529894
+Prevalence,Trinidad and Tobago,Both,All Ages,Anxiety disorders,Percent,2017,0.0489312144744,0.0522519638126,0.045849472288
+Prevalence,China,Both,All Ages,Anxiety disorders,Percent,2017,0.0329885243777,0.0359907031548,0.030368307065
+Prevalence,Lithuania,Both,All Ages,Depressive disorders,Percent,2017,0.0539673230208,0.0582762504827,0.0502885678035
+Prevalence,Marshall Islands,Both,All Ages,Anxiety disorders,Percent,2017,0.0309790545898,0.0332525555984,0.0288366187231
+Prevalence,Uganda,Both,All Ages,Depressive disorders,Percent,2017,0.033491530636,0.0371387192834,0.0305745661624
+Prevalence,Uganda,Both,All Ages,Major depressive disorder,Percent,2017,0.0265638699072,0.0300752749522,0.0237293645659
+Prevalence,Uganda,Both,All Ages,Dysthymia,Percent,2017,0.00767245779777,0.00904941422261,0.00657579802867
+Prevalence,Uganda,Both,All Ages,Anxiety disorders,Percent,2017,0.0305511536305,0.033334578759,0.027916867395
+Prevalence,Fiji,Both,All Ages,Major depressive disorder,Percent,2017,0.0160193306749,0.0179261376284,0.0144831965917
+Prevalence,Fiji,Both,All Ages,Dysthymia,Percent,2017,0.0154101601926,0.0176997172341,0.0134846008492
+Prevalence,Fiji,Both,All Ages,Anxiety disorders,Percent,2017,0.0325338751561,0.0347821664062,0.0304073768211
+Prevalence,Albania,Both,All Ages,Depressive disorders,Percent,2017,0.0260789622233,0.0283876308267,0.0240620385529
+Prevalence,Albania,Both,All Ages,Major depressive disorder,Percent,2017,0.0152661535501,0.0168134211555,0.0138012994382
+Prevalence,Albania,Both,All Ages,Dysthymia,Percent,2017,0.0111648213241,0.0128525181571,0.00978165268837
+Prevalence,Albania,Both,All Ages,Anxiety disorders,Percent,2017,0.036512985698,0.0388107358491,0.034209155066
+Prevalence,North Korea,Both,All Ages,Depressive disorders,Percent,2017,0.0362826220714,0.0397665939632,0.0333184525863
+Prevalence,North Korea,Both,All Ages,Major depressive disorder,Percent,2017,0.0170995874493,0.0189942166082,0.0154241237801
+Prevalence,North Korea,Both,All Ages,Dysthymia,Percent,2017,0.0199157354149,0.0229118278655,0.0172573151665
+Prevalence,North Korea,Both,All Ages,Anxiety disorders,Percent,2017,0.0351170376378,0.0373909621306,0.0329820716561
+Prevalence,Brazil,Both,All Ages,Depressive disorders,Percent,2017,0.0352967279844,0.0380797108179,0.0329882611134
+Prevalence,Brazil,Both,All Ages,Major depressive disorder,Percent,2017,0.0245930406825,0.0268192446288,0.0226542469531
+Prevalence,Brazil,Both,All Ages,Dysthymia,Percent,2017,0.0113243090581,0.0130552863092,0.00986152067817
+Prevalence,Brazil,Both,All Ages,Anxiety disorders,Percent,2017,0.0645081052177,0.0708467681554,0.0589314222752
+Prevalence,Moldova,Both,All Ages,Depressive disorders,Percent,2017,0.0424353960922,0.0460128696926,0.0392302563969
+Prevalence,Moldova,Both,All Ages,Major depressive disorder,Percent,2017,0.0246252647061,0.0272481923081,0.0224308378554
+Prevalence,Moldova,Both,All Ages,Dysthymia,Percent,2017,0.0187373370255,0.0215625691948,0.0161791558816
+Prevalence,Moldova,Both,All Ages,Anxiety disorders,Percent,2017,0.0312309116783,0.0332399873097,0.0292341078614
+Prevalence,Lithuania,Both,All Ages,Major depressive disorder,Percent,2017,0.0354104426903,0.0386676217429,0.032372663195
+Prevalence,Lithuania,Both,All Ages,Dysthymia,Percent,2017,0.0200239062427,0.0231675759199,0.0173665430406
+Prevalence,Lithuania,Both,All Ages,Anxiety disorders,Percent,2017,0.0317435717868,0.0336392877814,0.0297922755081
+Prevalence,Zambia,Both,All Ages,Depressive disorders,Percent,2017,0.0258957962744,0.0284789525041,0.0237542254331
+Prevalence,Zambia,Both,All Ages,Major depressive disorder,Percent,2017,0.0181440827382,0.0203858873132,0.0161751587678
+Prevalence,Zambia,Both,All Ages,Dysthymia,Percent,2017,0.00818930290601,0.00966006514871,0.00703386494869
+Prevalence,Zambia,Both,All Ages,Anxiety disorders,Percent,2017,0.0323108742764,0.0346625050356,0.0299298706541
+Prevalence,Congo,Both,All Ages,Depressive disorders,Percent,2017,0.0342426454601,0.037657840249,0.0311920423563
+Prevalence,Congo,Both,All Ages,Major depressive disorder,Percent,2017,0.0253633051163,0.0284733235363,0.0227301429929
+Prevalence,Congo,Both,All Ages,Dysthymia,Percent,2017,0.00955988017847,0.0111259026995,0.00830166013217
+Prevalence,Congo,Both,All Ages,Anxiety disorders,Percent,2017,0.031424637299,0.0337672119726,0.0292132023808
+Prevalence,Bermuda,Both,All Ages,Depressive disorders,Percent,2017,0.0350809248985,0.0380110836185,0.0323945653762
+Prevalence,Bermuda,Both,All Ages,Major depressive disorder,Percent,2017,0.0228051628763,0.0251635361497,0.0206061749568
+Prevalence,Bermuda,Both,All Ages,Dysthymia,Percent,2017,0.0128481902036,0.0148136111148,0.0111794832099
+Prevalence,Bermuda,Both,All Ages,Anxiety disorders,Percent,2017,0.0506689252807,0.0541662867385,0.0474097179869
+Prevalence,Marshall Islands,Both,All Ages,Depressive disorders,Percent,2017,0.0273151938692,0.0300004858832,0.0249953262782
+Prevalence,Marshall Islands,Both,All Ages,Major depressive disorder,Percent,2017,0.0146514666833,0.01650224879,0.0131291286582
+Prevalence,Marshall Islands,Both,All Ages,Dysthymia,Percent,2017,0.0131081991762,0.0151782946809,0.0114642227559
+Prevalence,Papua New Guinea,Both,All Ages,Depressive disorders,Percent,2017,0.0259043419652,0.0284741510457,0.0235630490048
+Prevalence,Papua New Guinea,Both,All Ages,Major depressive disorder,Percent,2017,0.0147560468526,0.0167737106657,0.0130429810694
+Prevalence,Papua New Guinea,Both,All Ages,Dysthymia,Percent,2017,0.0115713761134,0.0134384750532,0.0101157759202
+Prevalence,Papua New Guinea,Both,All Ages,Anxiety disorders,Percent,2017,0.0291107108016,0.0314273383393,0.027003353494
+Prevalence,Qatar,Both,All Ages,Depressive disorders,Percent,2017,0.040037342714,0.0445439977031,0.0359077493288
+Prevalence,Qatar,Both,All Ages,Major depressive disorder,Percent,2017,0.0300235746101,0.0341465861233,0.0260896191801
+Prevalence,Qatar,Both,All Ages,Dysthymia,Percent,2017,0.0107351390107,0.0127634183078,0.00906497359886
+Prevalence,Qatar,Both,All Ages,Anxiety disorders,Percent,2017,0.0486716531812,0.0527261827396,0.0449734974172
+Prevalence,Greenland,Both,All Ages,Depressive disorders,Percent,2017,0.0657790893241,0.0714012511019,0.060620356913
+Prevalence,Greenland,Both,All Ages,Major depressive disorder,Percent,2017,0.0476495473845,0.0525990741348,0.0432436260115
+Prevalence,Greenland,Both,All Ages,Dysthymia,Percent,2017,0.0202531579665,0.0233468860562,0.0175233431816
+Prevalence,Greenland,Both,All Ages,Anxiety disorders,Percent,2017,0.0603465067489,0.06433808803,0.0564652441574
+Prevalence,Namibia,Both,All Ages,Depressive disorders,Percent,2017,0.0299472084353,0.0327974090906,0.0274682405551
+Prevalence,Namibia,Both,All Ages,Major depressive disorder,Percent,2017,0.0203661728925,0.0227832992936,0.0183261003857
+Prevalence,Namibia,Both,All Ages,Dysthymia,Percent,2017,0.0100967135042,0.0116738648031,0.00878709558521
+Prevalence,Namibia,Both,All Ages,Anxiety disorders,Percent,2017,0.0340814738523,0.0367864305814,0.0317077833301
+Prevalence,Nigeria,Both,All Ages,Depressive disorders,Percent,2017,0.0279586863981,0.0306859004784,0.0256742807096
+Prevalence,Egypt,Both,All Ages,Dysthymia,Percent,2017,0.00862550120357,0.0100251954276,0.00748675819758
+Prevalence,Canada,Both,All Ages,Depressive disorders,Percent,2017,0.0425359604088,0.0462458680302,0.0392087935933
+Prevalence,Canada,Both,All Ages,Major depressive disorder,Percent,2017,0.0219157082709,0.0241607431012,0.0198994645077
+Prevalence,Canada,Both,All Ages,Dysthymia,Percent,2017,0.0214727962247,0.0248482539555,0.018650848046
+Prevalence,Canada,Both,All Ages,Anxiety disorders,Percent,2017,0.0536534010675,0.0571969743241,0.0504425811216
+Prevalence,South Africa,Both,All Ages,Depressive disorders,Percent,2017,0.0369185180851,0.0402338313127,0.0341555667231
+Prevalence,South Africa,Both,All Ages,Major depressive disorder,Percent,2017,0.0260557997987,0.0286918538536,0.0237722695019
+Prevalence,South Africa,Both,All Ages,Dysthymia,Percent,2017,0.0115958674404,0.013483104126,0.0100007481526
+Prevalence,South Africa,Both,All Ages,Anxiety disorders,Percent,2017,0.0404554149571,0.0447392972359,0.0368845830238
+Prevalence,Niger,Both,All Ages,Dysthymia,Percent,2017,0.00710820928595,0.00827585285191,0.0061179837289
+Prevalence,Niger,Both,All Ages,Anxiety disorders,Percent,2017,0.0245618210268,0.026370542056,0.022748773993
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Depressive disorders,Percent,2017,0.0302983855835,0.033416042908,0.0277356250754
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Major depressive disorder,Percent,2017,0.0225458004948,0.0254582920823,0.0201557822379
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Dysthymia,Percent,2017,0.00833502805824,0.00969382823853,0.00721013606782
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Depressive disorders,Percent,2017,0.0292029500714,0.0320544560273,0.0267259504497
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Major depressive disorder,Percent,2017,0.0175749040356,0.0196706767823,0.0157820080293
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Dysthymia,Percent,2017,0.0120505169623,0.0138882471459,0.0105129839402
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Anxiety disorders,Percent,2017,0.037595497343,0.0402431732234,0.0352819944903
+Prevalence,Indonesia,Both,All Ages,Depressive disorders,Percent,2017,0.0265361201951,0.0292436290414,0.0240788607924
+Prevalence,Indonesia,Both,All Ages,Major depressive disorder,Percent,2017,0.0111048986898,0.0126653099199,0.00973042573139
+Prevalence,Indonesia,Both,All Ages,Dysthymia,Percent,2017,0.0158230774108,0.018266924385,0.0138516404607
+Prevalence,Indonesia,Both,All Ages,Anxiety disorders,Percent,2017,0.033655527746,0.0369378174586,0.0305306865391
+Prevalence,Taiwan (Province of China),Both,All Ages,Depressive disorders,Percent,2017,0.0395728789766,0.0434603799714,0.0361634655799
+Prevalence,Taiwan (Province of China),Both,All Ages,Major depressive disorder,Percent,2017,0.0170357234153,0.018958176435,0.0155496529132
+Prevalence,Taiwan (Province of China),Both,All Ages,Dysthymia,Percent,2017,0.0232984783439,0.0267518349921,0.0201902438936
+Prevalence,Taiwan (Province of China),Both,All Ages,Anxiety disorders,Percent,2017,0.0382565164209,0.0406980739869,0.0359231459892
+Prevalence,United States,Both,All Ages,Dysthymia,Percent,2017,0.020578267465,0.0237462651962,0.0177614041688
+Prevalence,United States,Both,All Ages,Anxiety disorders,Percent,2017,0.0688429321955,0.0753362516251,0.0631736779558
+Prevalence,Tonga,Both,All Ages,Dysthymia,Percent,2017,0.0140325786106,0.0161117117887,0.0122963109878
+Prevalence,Tonga,Both,All Ages,Anxiety disorders,Percent,2017,0.0319241675444,0.034178474138,0.0297604714246
+Prevalence,Samoa,Both,All Ages,Depressive disorders,Percent,2017,0.0259923494971,0.0285996269304,0.023841742232
+Prevalence,Samoa,Both,All Ages,Major depressive disorder,Percent,2017,0.013456756089,0.0149998162087,0.0120694048706
+Prevalence,Samoa,Both,All Ages,Dysthymia,Percent,2017,0.0129501727173,0.0148671038465,0.0113463575605
+Prevalence,Colombia,Both,All Ages,Depressive disorders,Percent,2017,0.0228742694369,0.024819126723,0.0211981134959
+Prevalence,Colombia,Both,All Ages,Major depressive disorder,Percent,2017,0.0155320590468,0.0170299389556,0.0141611555391
+Prevalence,Colombia,Both,All Ages,Dysthymia,Percent,2017,0.00762718848775,0.00867014825126,0.00668720883882
+Prevalence,Colombia,Both,All Ages,Anxiety disorders,Percent,2017,0.0257840871894,0.027501879783,0.0242715381301
+Prevalence,Burundi,Both,All Ages,Depressive disorders,Percent,2017,0.0265525871454,0.0292492042467,0.0242431195767
+Prevalence,Burundi,Both,All Ages,Major depressive disorder,Percent,2017,0.0188788613207,0.0212182682743,0.0168243486878
+Prevalence,Burundi,Both,All Ages,Dysthymia,Percent,2017,0.0081565482475,0.0096120404425,0.00701281608141
+Prevalence,Burundi,Both,All Ages,Anxiety disorders,Percent,2017,0.0319876364386,0.0344306664443,0.0296496096036
+Prevalence,Greece,Both,All Ages,Depressive disorders,Percent,2017,0.0483658953528,0.0524430236687,0.0448970651598
+Prevalence,Greece,Both,All Ages,Major depressive disorder,Percent,2017,0.0301777512496,0.0332561848753,0.0275135678012
+Prevalence,Greece,Both,All Ages,Dysthymia,Percent,2017,0.0192626333277,0.0221036011083,0.0167555603168
+Prevalence,Greece,Both,All Ages,Anxiety disorders,Percent,2017,0.0591933630801,0.0628570461396,0.0554484659253
+Prevalence,Afghanistan,Both,All Ages,Depressive disorders,Percent,2017,0.0305078536451,0.0337718850216,0.0276520494399
+Prevalence,Afghanistan,Both,All Ages,Major depressive disorder,Percent,2017,0.0238780596503,0.0268490767642,0.0210698021162
+Prevalence,Afghanistan,Both,All Ages,Dysthymia,Percent,2017,0.00723173458934,0.00852711095916,0.00623260236045
+Prevalence,Afghanistan,Both,All Ages,Anxiety disorders,Percent,2017,0.0426573405436,0.0460516889872,0.0395740612295
+Prevalence,Lesotho,Both,All Ages,Depressive disorders,Percent,2017,0.0498050395822,0.0544844143974,0.0457499892931
+Prevalence,Lesotho,Both,All Ages,Major depressive disorder,Percent,2017,0.0409155525336,0.0455318522521,0.037076686534
+Prevalence,Lesotho,Both,All Ages,Dysthymia,Percent,2017,0.0102418199548,0.0118684761679,0.00891250841498
+Prevalence,Lesotho,Both,All Ages,Anxiety disorders,Percent,2017,0.0342012216561,0.0367804083913,0.0317634338632
+Prevalence,Belize,Both,All Ages,Depressive disorders,Percent,2017,0.0267589413316,0.0293554602576,0.0245133057322
+Prevalence,Gabon,Both,All Ages,Depressive disorders,Percent,2017,0.0363842973446,0.0399931192906,0.0332377476929
+Prevalence,Gabon,Both,All Ages,Major depressive disorder,Percent,2017,0.0269458004292,0.0300585006508,0.0242425645008
+Prevalence,Gabon,Both,All Ages,Dysthymia,Percent,2017,0.0101667195515,0.0117785662385,0.00885318029575
+Prevalence,Gabon,Both,All Ages,Anxiety disorders,Percent,2017,0.0324192567948,0.0347847636207,0.0303016841436
+Prevalence,Equatorial Guinea,Both,All Ages,Depressive disorders,Percent,2017,0.0320880770854,0.0354729329087,0.0291172359212
+Prevalence,Equatorial Guinea,Both,All Ages,Major depressive disorder,Percent,2017,0.0244071540766,0.0276134557639,0.0216758284669
+Prevalence,Equatorial Guinea,Both,All Ages,Dysthymia,Percent,2017,0.0083076173032,0.00974258294939,0.00710838811624
+Prevalence,Equatorial Guinea,Both,All Ages,Anxiety disorders,Percent,2017,0.0304217977681,0.0329094442278,0.0280467241018
+Prevalence,Belize,Both,All Ages,Major depressive disorder,Percent,2017,0.0182533732062,0.0205054701468,0.0163956472385
+Prevalence,Belize,Both,All Ages,Dysthymia,Percent,2017,0.00890099558101,0.0103052796827,0.00770531147813
+Prevalence,Belize,Both,All Ages,Anxiety disorders,Percent,2017,0.0459569233626,0.049443762117,0.0428185923292
+Prevalence,France,Both,All Ages,Depressive disorders,Percent,2017,0.0479285411628,0.0518103368142,0.0447003949452
+Prevalence,France,Both,All Ages,Major depressive disorder,Percent,2017,0.0327337799056,0.03608290143,0.0299815470444
+Prevalence,France,Both,All Ages,Dysthymia,Percent,2017,0.0162766451669,0.0186675371636,0.0141755817875
+Prevalence,France,Both,All Ages,Anxiety disorders,Percent,2017,0.0671260909228,0.0716288830072,0.0632001571195
+Prevalence,Egypt,Both,All Ages,Depressive disorders,Percent,2017,0.0297079006004,0.0326226701948,0.0272796886241
+Prevalence,Egypt,Both,All Ages,Major depressive disorder,Percent,2017,0.0215764520299,0.0241331693598,0.0191951679694
+Prevalence,Tonga,Both,All Ages,Depressive disorders,Percent,2017,0.0264314063232,0.0289939968664,0.0242069043411
+Prevalence,Tonga,Both,All Ages,Major depressive disorder,Percent,2017,0.0128188841099,0.0143950148604,0.011502313415
+Prevalence,Antigua and Barbuda,Both,All Ages,Depressive disorders,Percent,2017,0.0284010983178,0.0310499695884,0.0261080330411
+Prevalence,Antigua and Barbuda,Both,All Ages,Major depressive disorder,Percent,2017,0.0177845172787,0.0198141333509,0.0160240799705
+Prevalence,Antigua and Barbuda,Both,All Ages,Dysthymia,Percent,2017,0.011007351144,0.0127185884827,0.00955407221839
+Prevalence,Antigua and Barbuda,Both,All Ages,Anxiety disorders,Percent,2017,0.0494856999203,0.0528086181507,0.0461886497872
+Prevalence,Barbados,Both,All Ages,Depressive disorders,Percent,2017,0.0328308976209,0.0356291377089,0.0302074004005
+Prevalence,Barbados,Both,All Ages,Major depressive disorder,Percent,2017,0.0212227164254,0.0235276048696,0.0191478811371
+Prevalence,Barbados,Both,All Ages,Dysthymia,Percent,2017,0.0121159615361,0.0139773959338,0.0105547505831
+Prevalence,Sao Tome and Principe,Both,All Ages,Major depressive disorder,Percent,2017,0.0167545237732,0.0188433579153,0.0148465831058
+Prevalence,Sao Tome and Principe,Both,All Ages,Dysthymia,Percent,2017,0.00937223912784,0.0108762656065,0.00813735477317
+Prevalence,Sao Tome and Principe,Both,All Ages,Anxiety disorders,Percent,2017,0.02838340231,0.0304500859331,0.0263484062751
+Prevalence,Libya,Both,All Ages,Major depressive disorder,Percent,2017,0.0284370736591,0.0320652275536,0.0252862131054
+Prevalence,Libya,Both,All Ages,Dysthymia,Percent,2017,0.0107267745712,0.0124197870062,0.00926392116332
+Prevalence,Libya,Both,All Ages,Anxiety disorders,Percent,2017,0.051666587215,0.0555844373719,0.0480914179199
+Prevalence,Swaziland,Both,All Ages,Depressive disorders,Percent,2017,0.0338587052549,0.0371081996933,0.031072048197
+Prevalence,Swaziland,Both,All Ages,Major depressive disorder,Percent,2017,0.0249574067342,0.0278988073086,0.0224919920664
+Prevalence,Swaziland,Both,All Ages,Dysthymia,Percent,2017,0.00957863011301,0.0111461780835,0.00829626180805
+Prevalence,Swaziland,Both,All Ages,Anxiety disorders,Percent,2017,0.033563107014,0.0361490629744,0.0310075236486
+Prevalence,Bangladesh,Both,All Ages,Depressive disorders,Percent,2017,0.0392079740617,0.0427148121792,0.0362032736289
+Prevalence,Bangladesh,Both,All Ages,Major depressive disorder,Percent,2017,0.027939405746,0.0310577397623,0.0252985360703
+Prevalence,Bangladesh,Both,All Ages,Dysthymia,Percent,2017,0.0121842921529,0.014098757462,0.0106353182284
+Prevalence,Bangladesh,Both,All Ages,Anxiety disorders,Percent,2017,0.0427771343724,0.0457281775206,0.0398432047802
+Prevalence,Ireland,Both,All Ages,Depressive disorders,Percent,2017,0.0457070176879,0.049878428457,0.0422575182379
+Prevalence,Ireland,Both,All Ages,Major depressive disorder,Percent,2017,0.0280001076464,0.0309048769647,0.0254619491816
+Prevalence,Kenya,Both,All Ages,Depressive disorders,Percent,2017,0.0269922886027,0.0296039407594,0.0248850580163
+Prevalence,Kenya,Both,All Ages,Major depressive disorder,Percent,2017,0.0185337353723,0.0207326228215,0.0166007633465
+Prevalence,Kenya,Both,All Ages,Dysthymia,Percent,2017,0.00893454630942,0.010456965114,0.00772549940525
+Prevalence,Kenya,Both,All Ages,Anxiety disorders,Percent,2017,0.0342781867633,0.0381265276341,0.0307725379465
+Prevalence,Vanuatu,Both,All Ages,Depressive disorders,Percent,2017,0.0256949524083,0.0282798050081,0.0234831737821
+Prevalence,Australia,Both,All Ages,Anxiety disorders,Percent,2017,0.0656879014449,0.0702472732348,0.0616426044124
+Prevalence,Ireland,Both,All Ages,Dysthymia,Percent,2017,0.0186690983885,0.0216102187611,0.0161344151408
+Prevalence,Ireland,Both,All Ages,Anxiety disorders,Percent,2017,0.0592207744922,0.0629793117504,0.055499335701
+Prevalence,Eritrea,Both,All Ages,Depressive disorders,Percent,2017,0.029135864929,0.0321373196967,0.0266781431433
+Prevalence,Eritrea,Both,All Ages,Major depressive disorder,Percent,2017,0.0208333496088,0.0233548615617,0.0184955521293
+Prevalence,Eritrea,Both,All Ages,Dysthymia,Percent,2017,0.00883288023799,0.0104384030514,0.0075994110357
+Prevalence,Eritrea,Both,All Ages,Anxiety disorders,Percent,2017,0.0339736492692,0.0366885774741,0.0314087814349
+Prevalence,Vanuatu,Both,All Ages,Major depressive disorder,Percent,2017,0.0141579032635,0.015938230924,0.0126559880576
+Prevalence,Vanuatu,Both,All Ages,Dysthymia,Percent,2017,0.0119648641998,0.0137714424723,0.0105016423931
+Prevalence,Vanuatu,Both,All Ages,Anxiety disorders,Percent,2017,0.0294063060473,0.0315964533121,0.0273692733326
+Prevalence,Zimbabwe,Both,All Ages,Depressive disorders,Percent,2017,0.0241574609914,0.0265555954469,0.022171084669
+Prevalence,Australia,Both,All Ages,Depressive disorders,Percent,2017,0.0485863575799,0.0527185183659,0.0450781735161
+Prevalence,Australia,Both,All Ages,Major depressive disorder,Percent,2017,0.0329572974936,0.0363014748087,0.0301705837832
+Prevalence,Australia,Both,All Ages,Dysthymia,Percent,2017,0.0166838163278,0.0193236316156,0.0145023420987
+Prevalence,Maldives,Both,All Ages,Depressive disorders,Percent,2017,0.0301910990762,0.0333586527593,0.0275614321264
+Prevalence,Maldives,Both,All Ages,Major depressive disorder,Percent,2017,0.0160165490399,0.0179935892221,0.014448436894
+Prevalence,Maldives,Both,All Ages,Dysthymia,Percent,2017,0.0146542399522,0.0170233986346,0.0127815396342
+Prevalence,Maldives,Both,All Ages,Anxiety disorders,Percent,2017,0.0320656975231,0.0342759887346,0.0299972678295
+Prevalence,El Salvador,Both,All Ages,Depressive disorders,Percent,2017,0.0304740566091,0.0333035706215,0.0280631969205
+Prevalence,El Salvador,Both,All Ages,Major depressive disorder,Percent,2017,0.0223067467303,0.0248145483636,0.0201275427885
+Prevalence,El Salvador,Both,All Ages,Dysthymia,Percent,2017,0.00864866009641,0.00994206710692,0.007537605091
+Prevalence,El Salvador,Both,All Ages,Anxiety disorders,Percent,2017,0.0299987508078,0.0320566243792,0.0280504505916
+Prevalence,Hungary,Both,All Ages,Depressive disorders,Percent,2017,0.036609828828,0.0397041675823,0.0338748972382
+Prevalence,Hungary,Both,All Ages,Major depressive disorder,Percent,2017,0.0248525058682,0.0275020359512,0.0225107435292
+Prevalence,Hungary,Both,All Ages,Dysthymia,Percent,2017,0.0124458944593,0.01435129373,0.0108862316466
+Prevalence,Hungary,Both,All Ages,Anxiety disorders,Percent,2017,0.0382003343905,0.0408397131958,0.0359385085612
+Prevalence,Poland,Both,All Ages,Depressive disorders,Percent,2017,0.0279445774913,0.0302853067082,0.025891149485
+Prevalence,Poland,Both,All Ages,Major depressive disorder,Percent,2017,0.0161602018694,0.0176758498368,0.0148186978466
+Prevalence,Poland,Both,All Ages,Dysthymia,Percent,2017,0.0121567766811,0.0140133910935,0.010637452666
+Prevalence,Poland,Both,All Ages,Anxiety disorders,Percent,2017,0.0378054640265,0.0404054840926,0.0355546129059
+Prevalence,Armenia,Both,All Ages,Depressive disorders,Percent,2017,0.031861302859,0.0346217352247,0.0294126354657
+Prevalence,Armenia,Both,All Ages,Major depressive disorder,Percent,2017,0.0184385359823,0.0203814717349,0.0167108731291
+Prevalence,Armenia,Both,All Ages,Dysthymia,Percent,2017,0.0139662728565,0.016095430063,0.012110944417
+Prevalence,Armenia,Both,All Ages,Anxiety disorders,Percent,2017,0.0275756749531,0.0293901671144,0.0258654791414
+Prevalence,Ethiopia,Both,All Ages,Depressive disorders,Percent,2017,0.0272809961665,0.0301772580937,0.0247207034107
+Prevalence,Ethiopia,Both,All Ages,Major depressive disorder,Percent,2017,0.019647371169,0.0224476173687,0.0171494100456
+Prevalence,Ethiopia,Both,All Ages,Dysthymia,Percent,2017,0.0081419978655,0.00958301362315,0.00702627794139
+Prevalence,Madagascar,Both,All Ages,Depressive disorders,Percent,2017,0.0270671835566,0.0297509247828,0.0247826006989
+Prevalence,Madagascar,Both,All Ages,Major depressive disorder,Percent,2017,0.0192182572916,0.0215129602595,0.0171506340081
+Prevalence,Madagascar,Both,All Ages,Dysthymia,Percent,2017,0.00834307582217,0.00984346258138,0.00718370015449
+Prevalence,Madagascar,Both,All Ages,Anxiety disorders,Percent,2017,0.0320920099353,0.0344580482253,0.0297641186947
+Prevalence,Andorra,Both,All Ages,Depressive disorders,Percent,2017,0.0437248460677,0.0477618100996,0.040108090489
+Prevalence,Andorra,Both,All Ages,Major depressive disorder,Percent,2017,0.0254791665225,0.0284660875255,0.0229395852939
+Prevalence,Andorra,Both,All Ages,Dysthymia,Percent,2017,0.0191089391987,0.0222345239473,0.016555845475
+Prevalence,Andorra,Both,All Ages,Anxiety disorders,Percent,2017,0.0554449835809,0.0593532006305,0.0519918695323
+Prevalence,Kuwait,Both,All Ages,Depressive disorders,Percent,2017,0.040284035104,0.0446372700356,0.0364413954977
+Prevalence,Kuwait,Both,All Ages,Major depressive disorder,Percent,2017,0.0292543495414,0.0333088375196,0.0257161675647
+Prevalence,Kuwait,Both,All Ages,Dysthymia,Percent,2017,0.0117654262883,0.0138437151462,0.0100232201969
+Prevalence,Kuwait,Both,All Ages,Anxiety disorders,Percent,2017,0.0549371210278,0.059329950233,0.0511596923678
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Depressive disorders,Percent,2017,0.0345384118571,0.037492581404,0.0319071237564
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Major depressive disorder,Percent,2017,0.0228691518067,0.025274888797,0.0207468173462
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Dysthymia,Percent,2017,0.0122415805033,0.0141556383575,0.0106551197234
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Anxiety disorders,Percent,2017,0.0493005236558,0.0526619678212,0.0461698315917
+Prevalence,Zimbabwe,Both,All Ages,Major depressive disorder,Percent,2017,0.0154745055816,0.0173523881879,0.0137928177425
+Prevalence,Zimbabwe,Both,All Ages,Dysthymia,Percent,2017,0.00908156584719,0.0105366339926,0.00785958294022
+Prevalence,Zimbabwe,Both,All Ages,Anxiety disorders,Percent,2017,0.02911974903,0.0312893055482,0.0269760980019
+Prevalence,Botswana,Both,All Ages,Depressive disorders,Percent,2017,0.0365605505073,0.0402568595232,0.0335405481041
+Prevalence,Botswana,Both,All Ages,Major depressive disorder,Percent,2017,0.0264182810897,0.0295809503053,0.0237651892
+Prevalence,Botswana,Both,All Ages,Dysthymia,Percent,2017,0.0108678613187,0.0126354811674,0.0094413791426
+Prevalence,Botswana,Both,All Ages,Anxiety disorders,Percent,2017,0.0353121985503,0.0379803993914,0.0327774356104
+Prevalence,South Sudan,Both,All Ages,Depressive disorders,Percent,2017,0.0258887843753,0.0285744401364,0.0236661826845
+Prevalence,South Sudan,Both,All Ages,Major depressive disorder,Percent,2017,0.0184959956451,0.020798913742,0.0165076945902
+Prevalence,South Sudan,Both,All Ages,Dysthymia,Percent,2017,0.00785246249147,0.00927772415204,0.00675390406206
+Prevalence,South Sudan,Both,All Ages,Anxiety disorders,Percent,2017,0.03107155362,0.0335735173224,0.0286947399702
+Prevalence,Iran,Both,All Ages,Depressive disorders,Percent,2017,0.0550969018331,0.0615753897505,0.0497432722894
+Prevalence,Iran,Both,All Ages,Major depressive disorder,Percent,2017,0.0438851708974,0.0499158141205,0.0385168819118
+Prevalence,Iran,Both,All Ages,Dysthymia,Percent,2017,0.0126899929065,0.0148154167307,0.0109565534057
+Prevalence,Iran,Both,All Ages,Anxiety disorders,Percent,2017,0.072955262433,0.0810650235138,0.0661876549489
+Prevalence,Mauritania,Both,All Ages,Anxiety disorders,Percent,2017,0.02752961853,0.0295439261422,0.0254302480343
+Prevalence,Japan,Both,All Ages,Depressive disorders,Percent,2017,0.037622690861,0.0405152839528,0.0351733027465
+Prevalence,Japan,Both,All Ages,Major depressive disorder,Percent,2017,0.0246318649617,0.0266566128196,0.0227610986201
+Prevalence,Japan,Both,All Ages,Dysthymia,Percent,2017,0.0136181527055,0.0155066483556,0.0119936474754
+Prevalence,Japan,Both,All Ages,Anxiety disorders,Percent,2017,0.0354408201918,0.0387416633627,0.0326633787813
+Prevalence,Federated States of Micronesia,Both,All Ages,Depressive disorders,Percent,2017,0.0286680473888,0.031552793684,0.0263459107965
+Prevalence,Federated States of Micronesia,Both,All Ages,Major depressive disorder,Percent,2017,0.0153436663147,0.0171180540203,0.0137414883053
+Prevalence,Federated States of Micronesia,Both,All Ages,Dysthymia,Percent,2017,0.0138069831804,0.0159029571327,0.0120763384181
+Prevalence,Federated States of Micronesia,Both,All Ages,Anxiety disorders,Percent,2017,0.0318346056162,0.0341937722713,0.0296606241347
+Prevalence,Algeria,Both,All Ages,Major depressive disorder,Percent,2017,0.026413056976,0.0296438811566,0.0236182103857
+Prevalence,Algeria,Both,All Ages,Dysthymia,Percent,2017,0.0111787383431,0.0129384676552,0.0097061677054
+Prevalence,Algeria,Both,All Ages,Anxiety disorders,Percent,2017,0.0516475579919,0.0555468483996,0.0482257544487
+Prevalence,Croatia,Both,All Ages,Depressive disorders,Percent,2017,0.0364584589573,0.0394547883474,0.0337551997402
+Prevalence,Croatia,Both,All Ages,Major depressive disorder,Percent,2017,0.024703643033,0.0270858177026,0.0225242392844
+Prevalence,Croatia,Both,All Ages,Dysthymia,Percent,2017,0.012407001098,0.0143133442902,0.0108600629874
+Prevalence,Croatia,Both,All Ages,Anxiety disorders,Percent,2017,0.0379164721058,0.040344357767,0.035622996556
+Prevalence,Barbados,Both,All Ages,Anxiety disorders,Percent,2017,0.0500799536942,0.0534815660165,0.0469875142104
+Prevalence,Azerbaijan,Both,All Ages,Anxiety disorders,Percent,2017,0.0266945366139,0.028505317319,0.0249726949734
+Prevalence,Czech Republic,Both,All Ages,Depressive disorders,Percent,2017,0.0338806571959,0.0368975258266,0.0313420203115
+Prevalence,Czech Republic,Both,All Ages,Major depressive disorder,Percent,2017,0.0221906960839,0.0245132686295,0.020268985617
+Prevalence,Czech Republic,Both,All Ages,Dysthymia,Percent,2017,0.0122578780013,0.0141407306752,0.0107128798322
+Prevalence,Niger,Both,All Ages,Depressive disorders,Percent,2017,0.0216621866845,0.0238433512962,0.0197412721072
+Prevalence,Niger,Both,All Ages,Major depressive disorder,Percent,2017,0.0149373102977,0.0168011993185,0.01325649275
+Prevalence,Iceland,Both,All Ages,Anxiety disorders,Percent,2017,0.0539963595337,0.0576457672651,0.0505976399123
+Prevalence,Lebanon,Both,All Ages,Depressive disorders,Percent,2017,0.0355506929128,0.0392532719986,0.0325961499334
+Prevalence,Lebanon,Both,All Ages,Major depressive disorder,Percent,2017,0.026693339147,0.0300605772718,0.0238322821354
+Prevalence,Lebanon,Both,All Ages,Dysthymia,Percent,2017,0.00952421139034,0.0110585119427,0.00825828436242
+Prevalence,Turkey,Both,All Ages,Depressive disorders,Percent,2017,0.0399314432011,0.0433459517798,0.0369600489459
+Prevalence,Turkey,Both,All Ages,Major depressive disorder,Percent,2017,0.0269473593632,0.0296627712579,0.0245015745131
+Prevalence,Turkey,Both,All Ages,Dysthymia,Percent,2017,0.0137676999515,0.0159508484959,0.0119813280012
+Prevalence,Turkey,Both,All Ages,Anxiety disorders,Percent,2017,0.0408841876697,0.0436947189944,0.0384041408169
+Prevalence,Solomon Islands,Both,All Ages,Depressive disorders,Percent,2017,0.0251740820613,0.0276195639125,0.0229582130518
+Prevalence,Solomon Islands,Both,All Ages,Major depressive disorder,Percent,2017,0.01412238716,0.015979416949,0.0125394654643
+Prevalence,Solomon Islands,Both,All Ages,Dysthymia,Percent,2017,0.0114723976398,0.0132676174516,0.0100436310429
+Prevalence,Solomon Islands,Both,All Ages,Anxiety disorders,Percent,2017,0.029046707859,0.031287459622,0.0269661587685
+Prevalence,Togo,Both,All Ages,Depressive disorders,Percent,2017,0.0281122769345,0.030887123956,0.0258896765513
+Prevalence,Togo,Both,All Ages,Major depressive disorder,Percent,2017,0.0196568503126,0.0219475825142,0.0176161980575
+Prevalence,Netherlands,Both,All Ages,Depressive disorders,Percent,2017,0.0458925442192,0.0498474346426,0.0425248099304
+Prevalence,Netherlands,Both,All Ages,Major depressive disorder,Percent,2017,0.0258281363949,0.0284316082498,0.0235763020869
+Prevalence,Netherlands,Both,All Ages,Dysthymia,Percent,2017,0.0210544191795,0.0242543750741,0.0183173626623
+Prevalence,Netherlands,Both,All Ages,Anxiety disorders,Percent,2017,0.0679818533454,0.0728014801728,0.0634233407227
+Prevalence,Comoros,Both,All Ages,Depressive disorders,Percent,2017,0.0287614397988,0.0315811570135,0.0265044891036
+Prevalence,Comoros,Both,All Ages,Major depressive disorder,Percent,2017,0.0191324381762,0.0213555937231,0.017110184534
+Prevalence,Comoros,Both,All Ages,Dysthymia,Percent,2017,0.0101534941388,0.0118204178188,0.00876205639664
+Prevalence,Ethiopia,Both,All Ages,Anxiety disorders,Percent,2017,0.0335556233756,0.0372787479503,0.0302514826357
+Prevalence,Kazakhstan,Both,All Ages,Depressive disorders,Percent,2017,0.0354727483525,0.0383719942378,0.0328524166179
+Prevalence,Kazakhstan,Both,All Ages,Major depressive disorder,Percent,2017,0.0239229528703,0.0262564572801,0.0218903579166
+Prevalence,Kazakhstan,Both,All Ages,Dysthymia,Percent,2017,0.0122466675968,0.0141562753614,0.0105973447717
+Prevalence,Kazakhstan,Both,All Ages,Anxiety disorders,Percent,2017,0.0261494491042,0.0278739904005,0.0245083675295
+Prevalence,Israel,Both,All Ages,Depressive disorders,Percent,2017,0.0389991044429,0.0424552016395,0.0359577385119
+Prevalence,Israel,Both,All Ages,Major depressive disorder,Percent,2017,0.0236878570892,0.0261935958314,0.0214326886348
+Prevalence,Israel,Both,All Ages,Dysthymia,Percent,2017,0.0160798723329,0.0186180056112,0.013921499107
+Prevalence,Israel,Both,All Ages,Anxiety disorders,Percent,2017,0.0303796629452,0.0322473134836,0.0286941019234
+Prevalence,Angola,Both,All Ages,Anxiety disorders,Percent,2017,0.0288200757594,0.0309873658004,0.0266541211368
+Prevalence,Costa Rica,Both,All Ages,Depressive disorders,Percent,2017,0.0310171110055,0.0337482794059,0.028670271014
+Prevalence,Costa Rica,Both,All Ages,Major depressive disorder,Percent,2017,0.0220368833301,0.0243794439386,0.0201263232749
+Prevalence,Costa Rica,Both,All Ages,Dysthymia,Percent,2017,0.00944227757194,0.0108502391548,0.00825266493023
+Prevalence,Costa Rica,Both,All Ages,Anxiety disorders,Percent,2017,0.0306801984274,0.0326475272274,0.0287304402693
+Prevalence,Samoa,Both,All Ages,Anxiety disorders,Percent,2017,0.0302760413498,0.0324834304797,0.0282227565958
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Anxiety disorders,Percent,2017,0.0293062891789,0.0315231101083,0.0272462366405
+Prevalence,Czech Republic,Both,All Ages,Anxiety disorders,Percent,2017,0.0375104569628,0.0401001436079,0.0352772293066
+Prevalence,Cape Verde,Both,All Ages,Depressive disorders,Percent,2017,0.039143451737,0.0428740311404,0.0360307333341
+Prevalence,Cape Verde,Both,All Ages,Major depressive disorder,Percent,2017,0.0284972611402,0.0315992871878,0.0258093130342
+Prevalence,Cape Verde,Both,All Ages,Dysthymia,Percent,2017,0.0114779908297,0.0132934734158,0.0100055238307
+Prevalence,Cape Verde,Both,All Ages,Anxiety disorders,Percent,2017,0.0306206073487,0.0327018687791,0.0285448851757
+Prevalence,Macedonia,Both,All Ages,Depressive disorders,Percent,2017,0.0285018519355,0.0309648796607,0.0264094584536
+Prevalence,Sri Lanka,Both,All Ages,Depressive disorders,Percent,2017,0.0373401556427,0.040485203278,0.0344356497008
+Prevalence,Sri Lanka,Both,All Ages,Major depressive disorder,Percent,2017,0.0195635717206,0.0214173693518,0.0178700908121
+Prevalence,Sri Lanka,Both,All Ages,Dysthymia,Percent,2017,0.0184914184719,0.0211520153245,0.0161171972978
+Prevalence,Sri Lanka,Both,All Ages,Anxiety disorders,Percent,2017,0.0355280680225,0.0377762665045,0.0333904088507
+Prevalence,Burkina Faso,Both,All Ages,Depressive disorders,Percent,2017,0.0257621713473,0.0282272124566,0.0236437968888
+Prevalence,Burkina Faso,Both,All Ages,Major depressive disorder,Percent,2017,0.018189647431,0.0203107854425,0.0162671314746
+Prevalence,Burkina Faso,Both,All Ages,Dysthymia,Percent,2017,0.00805204229541,0.00935358348941,0.00697649103186
+Prevalence,Burkina Faso,Both,All Ages,Anxiety disorders,Percent,2017,0.0258714554525,0.0276835663178,0.0239679658068
+Prevalence,Thailand,Both,All Ages,Depressive disorders,Percent,2017,0.0381100602005,0.0416610664117,0.0350564053452
+Prevalence,Thailand,Both,All Ages,Major depressive disorder,Percent,2017,0.017814493896,0.0197855999233,0.0160694881357
+Prevalence,Thailand,Both,All Ages,Dysthymia,Percent,2017,0.0209986393008,0.0239884496003,0.0182404058244
+Prevalence,Thailand,Both,All Ages,Anxiety disorders,Percent,2017,0.0375345822808,0.0400717085275,0.0351776976869
+Prevalence,Macedonia,Both,All Ages,Major depressive disorder,Percent,2017,0.0173494023365,0.019174462303,0.0157473759162
+Prevalence,Macedonia,Both,All Ages,Dysthymia,Percent,2017,0.0115744216269,0.0133140076,0.0101320576984
+Prevalence,Macedonia,Both,All Ages,Anxiety disorders,Percent,2017,0.0369971840478,0.039597073075,0.0347926973128
+Prevalence,New Zealand,Both,All Ages,Depressive disorders,Percent,2017,0.040731626385,0.0448563263936,0.0374031590395
+Prevalence,New Zealand,Both,All Ages,Major depressive disorder,Percent,2017,0.0234478169388,0.0263566787521,0.0208534960262
+Prevalence,New Zealand,Both,All Ages,Dysthymia,Percent,2017,0.0180413244066,0.0208280908375,0.0157517978785
+Prevalence,New Zealand,Both,All Ages,Anxiety disorders,Percent,2017,0.0844336015359,0.092127371247,0.0773340317569
+Prevalence,Romania,Both,All Ages,Dysthymia,Percent,2017,0.0110872180997,0.0126847857572,0.00974459827876
+Prevalence,Romania,Both,All Ages,Anxiety disorders,Percent,2017,0.0354974088034,0.0376499134848,0.033473433986
+Prevalence,South Korea,Both,All Ages,Depressive disorders,Percent,2017,0.0369397197353,0.0398134061301,0.0345242316481
+Prevalence,South Korea,Both,All Ages,Major depressive disorder,Percent,2017,0.0243271323459,0.026298254077,0.0226568917005
+Prevalence,South Korea,Both,All Ages,Dysthymia,Percent,2017,0.0132184278585,0.0152656707164,0.011465067162
+Prevalence,South Korea,Both,All Ages,Anxiety disorders,Percent,2017,0.0398449651572,0.0425674614854,0.037264552629
+Prevalence,Timor-Leste,Both,All Ages,Anxiety disorders,Percent,2017,0.0293193090566,0.0313734674978,0.0273847313148
+Prevalence,Djibouti,Both,All Ages,Depressive disorders,Percent,2017,0.0308408319655,0.0338654086195,0.0281143790012
+Prevalence,Djibouti,Both,All Ages,Major depressive disorder,Percent,2017,0.0211936257199,0.023638204164,0.0189018234245
+Prevalence,Djibouti,Both,All Ages,Dysthymia,Percent,2017,0.0102091279702,0.0120225779632,0.00877157651105
+Prevalence,Djibouti,Both,All Ages,Anxiety disorders,Percent,2017,0.0348275625652,0.0372641333272,0.0324244737132
+Prevalence,Sierra Leone,Both,All Ages,Depressive disorders,Percent,2017,0.0267792001379,0.0293023218442,0.024544399082
+Prevalence,Sierra Leone,Both,All Ages,Major depressive disorder,Percent,2017,0.0187314135384,0.0210299186942,0.0168007029105
+Prevalence,Sierra Leone,Both,All Ages,Dysthymia,Percent,2017,0.0085545811064,0.00996957627445,0.00738114013542
+Prevalence,Sierra Leone,Both,All Ages,Anxiety disorders,Percent,2017,0.0269942566763,0.0289228576937,0.025009205698
+Prevalence,Austria,Both,All Ages,Dysthymia,Percent,2017,0.0191649079227,0.0220654580663,0.0166608731762
+Prevalence,Austria,Both,All Ages,Anxiety disorders,Percent,2017,0.0548952822965,0.0586417913426,0.0515316197243
+Prevalence,Puerto Rico,Both,All Ages,Depressive disorders,Percent,2017,0.0330623869465,0.0358682446209,0.0305195171892
+Prevalence,Puerto Rico,Both,All Ages,Major depressive disorder,Percent,2017,0.0212200273918,0.023435444893,0.0191675953201
+Prevalence,Puerto Rico,Both,All Ages,Dysthymia,Percent,2017,0.0123374034475,0.0141884237945,0.0107687261519
+Prevalence,Puerto Rico,Both,All Ages,Anxiety disorders,Percent,2017,0.0499313023408,0.0532020241816,0.0468897925585
+Prevalence,Comoros,Both,All Ages,Anxiety disorders,Percent,2017,0.0354169029974,0.0378517228899,0.0329680921944
+Prevalence,Lebanon,Both,All Ages,Anxiety disorders,Percent,2017,0.0613764844409,0.0660316230686,0.0571532368941
+Prevalence,Yemen,Both,All Ages,Depressive disorders,Percent,2017,0.0321538780859,0.0357151179575,0.0290492545748
+Prevalence,Yemen,Both,All Ages,Major depressive disorder,Percent,2017,0.0248166126335,0.0280732818886,0.0217789186669
+Prevalence,Yemen,Both,All Ages,Dysthymia,Percent,2017,0.0079823868353,0.00935169763106,0.00690729580711
+Prevalence,Yemen,Both,All Ages,Anxiety disorders,Percent,2017,0.044047321298,0.047169466842,0.0409011181799
+Prevalence,United Arab Emirates,Both,All Ages,Depressive disorders,Percent,2017,0.0347897237697,0.0391034231787,0.0311879259548
+Prevalence,United Arab Emirates,Both,All Ages,Major depressive disorder,Percent,2017,0.0238798805529,0.0277738152622,0.0206428419467
+Prevalence,United Arab Emirates,Both,All Ages,Dysthymia,Percent,2017,0.0114378281259,0.0136754251513,0.00958295533677
+Prevalence,United Arab Emirates,Both,All Ages,Anxiety disorders,Percent,2017,0.0484257387318,0.0525632461746,0.0447363321117
+Prevalence,Jamaica,Both,All Ages,Depressive disorders,Percent,2017,0.0275382513152,0.0300515047273,0.0255173007862
+Prevalence,Jamaica,Both,All Ages,Major depressive disorder,Percent,2017,0.0175686106553,0.0195233725542,0.0158113686889
+Prevalence,Jamaica,Both,All Ages,Dysthymia,Percent,2017,0.0103488982147,0.0119155160112,0.009032507929
+Prevalence,Malaysia,Both,All Ages,Depressive disorders,Percent,2017,0.0352147820866,0.0384431110699,0.0323545485471
+Prevalence,Malaysia,Both,All Ages,Major depressive disorder,Percent,2017,0.0196679855893,0.0217893884531,0.0176263842056
+Prevalence,Malaysia,Both,All Ages,Dysthymia,Percent,2017,0.0161800303841,0.0186062648514,0.0141772016694
+Prevalence,Malaysia,Both,All Ages,Anxiety disorders,Percent,2017,0.0441608183762,0.0473383536675,0.0412772696354
+Prevalence,Cambodia,Both,All Ages,Depressive disorders,Percent,2017,0.0284212268817,0.0311713694888,0.0260852934663
+Prevalence,Cambodia,Both,All Ages,Major depressive disorder,Percent,2017,0.0146966954557,0.0164745379927,0.013190150993
+Prevalence,Cambodia,Both,All Ages,Dysthymia,Percent,2017,0.0141970939031,0.0163356151496,0.0124411395753
+Prevalence,Cambodia,Both,All Ages,Anxiety disorders,Percent,2017,0.0317014875894,0.0338274768836,0.0297697339
+Prevalence,Egypt,Both,All Ages,Anxiety disorders,Percent,2017,0.0428479696418,0.0459356539164,0.0399788681649
+Prevalence,Libya,Both,All Ages,Depressive disorders,Percent,2017,0.0384340766416,0.0425687572752,0.0350149602914
+Prevalence,Bhutan,Both,All Ages,Depressive disorders,Percent,2017,0.0316948631536,0.0348894284056,0.02918837295
+Prevalence,Bhutan,Both,All Ages,Major depressive disorder,Percent,2017,0.0202387309618,0.0225528523603,0.0181673630437
+Prevalence,Bhutan,Both,All Ages,Dysthymia,Percent,2017,0.012049513764,0.0140850319126,0.0104437011331
+Prevalence,Bhutan,Both,All Ages,Anxiety disorders,Percent,2017,0.0379518535751,0.0407164678579,0.0354092756678
+Prevalence,Denmark,Both,All Ages,Depressive disorders,Percent,2017,0.0380430899772,0.0414139046423,0.0351508703741
+Prevalence,Denmark,Both,All Ages,Major depressive disorder,Percent,2017,0.0201474207808,0.0221645901083,0.0183036664169
+Prevalence,Denmark,Both,All Ages,Dysthymia,Percent,2017,0.0185795901024,0.021360913831,0.0161731490405
+Prevalence,Romania,Both,All Ages,Depressive disorders,Percent,2017,0.0299940975147,0.0324094625851,0.0276903703776
+Prevalence,Romania,Both,All Ages,Major depressive disorder,Percent,2017,0.0193349046041,0.0212482592503,0.0174646255151
+Prevalence,Mali,Both,All Ages,Depressive disorders,Percent,2017,0.0204499083575,0.0225719230538,0.0187359232751
+Prevalence,Mali,Both,All Ages,Major depressive disorder,Percent,2017,0.0130450613119,0.0146230583693,0.0116451327751
+Prevalence,Mali,Both,All Ages,Dysthymia,Percent,2017,0.00773435474477,0.0089666752855,0.00668419147214
+Prevalence,Mali,Both,All Ages,Anxiety disorders,Percent,2017,0.025595741712,0.0275292825611,0.0235771081679
+Prevalence,Bolivia,Both,All Ages,Depressive disorders,Percent,2017,0.0283257947514,0.0308064842257,0.026073443041
+Prevalence,Bolivia,Both,All Ages,Major depressive disorder,Percent,2017,0.0199454012852,0.0220074261414,0.018037486326
+Prevalence,Bolivia,Both,All Ages,Dysthymia,Percent,2017,0.00886061350364,0.0102227523881,0.00771190232473
+Prevalence,Bolivia,Both,All Ages,Anxiety disorders,Percent,2017,0.0411803083365,0.0441096908713,0.0385474579746
+Prevalence,The Bahamas,Both,All Ages,Anxiety disorders,Percent,2017,0.0495788578115,0.0529561034826,0.046257291975
+Prevalence,Iceland,Both,All Ages,Depressive disorders,Percent,2017,0.0372551951219,0.0405921024091,0.0343525760703
+Prevalence,Iceland,Both,All Ages,Major depressive disorder,Percent,2017,0.0202037879388,0.0223100549187,0.0182456505336
+Prevalence,Iceland,Both,All Ages,Dysthymia,Percent,2017,0.0177180141899,0.020534562449,0.0153898547382
+Prevalence,Algeria,Both,All Ages,Depressive disorders,Percent,2017,0.0369102048601,0.040502186719,0.0339176338694
+Prevalence,Ecuador,Both,All Ages,Depressive disorders,Percent,2017,0.0294266240329,0.0321547681643,0.0271079342572
+Prevalence,Ecuador,Both,All Ages,Major depressive disorder,Percent,2017,0.0203070700002,0.0224460648927,0.0184002626563
+Prevalence,Ecuador,Both,All Ages,Dysthymia,Percent,2017,0.00958479550104,0.0110678985485,0.0083553674332
+Prevalence,Ecuador,Both,All Ages,Anxiety disorders,Percent,2017,0.0434868732957,0.0465572654682,0.040744620614
+Prevalence,Norway,Both,All Ages,Depressive disorders,Percent,2017,0.042005878711,0.0460080692441,0.0385291032146
+Prevalence,Norway,Both,All Ages,Major depressive disorder,Percent,2017,0.0254624764308,0.0286909559585,0.0227466121638
+Prevalence,Norway,Both,All Ages,Dysthymia,Percent,2017,0.017363705752,0.0200520281997,0.0149417758462
+Prevalence,Norway,Both,All Ages,Anxiety disorders,Percent,2017,0.0779617934776,0.0855223200005,0.0714168636103
+Prevalence,Philippines,Both,All Ages,Depressive disorders,Percent,2017,0.0251184689354,0.0276228262158,0.0230370462237
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Depressive disorders,Percent,2017,0.0309698694914,0.0336798583769,0.0287601124502
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Major depressive disorder,Percent,2017,0.0208318159438,0.0230480628303,0.0189702480872
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Dysthymia,Percent,2017,0.010609712532,0.0122068938448,0.00927286491854
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Anxiety disorders,Percent,2017,0.0472883863282,0.050430620095,0.0441968832206
+Prevalence,Dominican Republic,Both,All Ages,Depressive disorders,Percent,2017,0.0298126999248,0.0325384842994,0.0274682577976
+Prevalence,Dominican Republic,Both,All Ages,Major depressive disorder,Percent,2017,0.0205649384707,0.0227606240278,0.0185934188092
+Prevalence,Dominican Republic,Both,All Ages,Dysthymia,Percent,2017,0.00971123330543,0.0112041184576,0.00844695154403
+Prevalence,Dominican Republic,Both,All Ages,Anxiety disorders,Percent,2017,0.0466014276289,0.0500015756658,0.0434124279462
+Prevalence,Laos,Both,All Ages,Depressive disorders,Percent,2017,0.0258006243941,0.028413606596,0.0236169168902
+Prevalence,Laos,Both,All Ages,Major depressive disorder,Percent,2017,0.0128652933328,0.0144592298202,0.011477649242
+Prevalence,Laos,Both,All Ages,Dysthymia,Percent,2017,0.013323203192,0.0153816856637,0.0116704642404
+Prevalence,Laos,Both,All Ages,Anxiety disorders,Percent,2017,0.0401584425999,0.0429572458422,0.0374049246936
+Prevalence,Sudan,Both,All Ages,Depressive disorders,Percent,2017,0.0309613542787,0.0342721661929,0.0279773560132
+Prevalence,Sudan,Both,All Ages,Major depressive disorder,Percent,2017,0.0232885260491,0.0262280136168,0.0206192251906
+Prevalence,Sudan,Both,All Ages,Dysthymia,Percent,2017,0.00824014840205,0.00963062527057,0.00713251938234
+Prevalence,Sudan,Both,All Ages,Anxiety disorders,Percent,2017,0.0452067232538,0.0486624080575,0.0420670600112
+Prevalence,Myanmar,Both,All Ages,Depressive disorders,Percent,2017,0.0228543074445,0.0252724036004,0.0206775358523
+Prevalence,Myanmar,Both,All Ages,Major depressive disorder,Percent,2017,0.00720726303705,0.0080388592031,0.00646177957221
+Prevalence,Myanmar,Both,All Ages,Dysthymia,Percent,2017,0.0159318926686,0.0183350921827,0.0139450078895
+Prevalence,Myanmar,Both,All Ages,Anxiety disorders,Percent,2017,0.0337712624184,0.0361177245622,0.0316456534932
+Prevalence,Peru,Both,All Ages,Depressive disorders,Percent,2017,0.0223415218654,0.0244398649875,0.0205348085599
+Prevalence,Peru,Both,All Ages,Major depressive disorder,Percent,2017,0.0130978713506,0.0145219065692,0.0118576639091
+Prevalence,Peru,Both,All Ages,Dysthymia,Percent,2017,0.0095241514952,0.0109867883177,0.00831671261421
+Prevalence,Peru,Both,All Ages,Anxiety disorders,Percent,2017,0.0423608913186,0.0453474865568,0.039620280446
+Prevalence,Nigeria,Both,All Ages,Major depressive disorder,Percent,2017,0.0202805868161,0.0226672292026,0.0181023641383
+Prevalence,Nigeria,Both,All Ages,Dysthymia,Percent,2017,0.0082239543065,0.00954574788238,0.00711645072648
+Prevalence,Nigeria,Both,All Ages,Anxiety disorders,Percent,2017,0.0265467284472,0.028401251054,0.0245935459424
+Prevalence,Liberia,Both,All Ages,Depressive disorders,Percent,2017,0.0285945074858,0.0309371797475,0.0264592605776
+Prevalence,Liberia,Both,All Ages,Major depressive disorder,Percent,2017,0.020641681374,0.0225731275479,0.0187169293154
+Prevalence,Liberia,Both,All Ages,Dysthymia,Percent,2017,0.00856644835071,0.00998897622302,0.00741059380874
+Prevalence,Liberia,Both,All Ages,Anxiety disorders,Percent,2017,0.0270646851737,0.0290631188336,0.0250368647192
+Prevalence,Iraq,Both,All Ages,Major depressive disorder,Percent,2017,0.0255614882211,0.0286355916619,0.022915783913
+Prevalence,Iraq,Both,All Ages,Dysthymia,Percent,2017,0.00904367892873,0.0105143450256,0.00782857316141
+Prevalence,Iraq,Both,All Ages,Anxiety disorders,Percent,2017,0.0450970643176,0.0484729036117,0.0419982314573
+Prevalence,Mauritania,Both,All Ages,Depressive disorders,Percent,2017,0.023575701386,0.0259130612249,0.0216641493913
+Prevalence,Mauritania,Both,All Ages,Major depressive disorder,Percent,2017,0.0151090627512,0.0169447125587,0.0135625652182
+Prevalence,Mauritania,Both,All Ages,Dysthymia,Percent,2017,0.0088576151721,0.0102803173926,0.00768595969002
+Prevalence,Montenegro,Both,All Ages,Depressive disorders,Percent,2017,0.0308440481795,0.0334399995936,0.0284425917576
+Prevalence,Montenegro,Both,All Ages,Major depressive disorder,Percent,2017,0.019850117599,0.0219758491836,0.0180320141116
+Prevalence,Montenegro,Both,All Ages,Dysthymia,Percent,2017,0.0114980066853,0.0132502916964,0.0100695564182
+Prevalence,Montenegro,Both,All Ages,Anxiety disorders,Percent,2017,0.037014082496,0.0395233372191,0.0347821812659
+Prevalence,Cameroon,Both,All Ages,Depressive disorders,Percent,2017,0.0273508631298,0.0299706581047,0.0251254001157
+Prevalence,Cameroon,Both,All Ages,Major depressive disorder,Percent,2017,0.0193943847629,0.0216081904872,0.017436315859
+Prevalence,Cameroon,Both,All Ages,Dysthymia,Percent,2017,0.0084849415424,0.00989222704504,0.00732830483582
+Prevalence,Cameroon,Both,All Ages,Anxiety disorders,Percent,2017,0.0272282645505,0.0291322168603,0.0252732833726
+Prevalence,The Bahamas,Both,All Ages,Depressive disorders,Percent,2017,0.0282168124718,0.0309476190437,0.0260134735129
+Prevalence,The Bahamas,Both,All Ages,Major depressive disorder,Percent,2017,0.017924686297,0.0199927906181,0.0161660614407
+Prevalence,The Bahamas,Both,All Ages,Dysthymia,Percent,2017,0.010687862832,0.0123534163411,0.00926285520225
+Prevalence,Ukraine,Both,All Ages,Depressive disorders,Percent,2017,0.0518093839151,0.0567714713352,0.0472775995539
+Prevalence,Ukraine,Both,All Ages,Major depressive disorder,Percent,2017,0.0336733358584,0.0380192412337,0.0298645969458
+Prevalence,Ukraine,Both,All Ages,Dysthymia,Percent,2017,0.0194991765685,0.0225132640009,0.0169002426939
+Prevalence,Ukraine,Both,All Ages,Anxiety disorders,Percent,2017,0.0318301818049,0.0349760431247,0.0291079487535
+Prevalence,Cuba,Both,All Ages,Dysthymia,Percent,2017,0.0122267047138,0.0140955971209,0.010639495297
+Prevalence,Cuba,Both,All Ages,Anxiety disorders,Percent,2017,0.049911329464,0.0532974021644,0.0467564438582
+Prevalence,Northern Mariana Islands,Both,All Ages,Depressive disorders,Percent,2017,0.0361823501272,0.0395381957573,0.0330255838548
+Prevalence,Northern Mariana Islands,Both,All Ages,Major depressive disorder,Percent,2017,0.017119818685,0.0190069208547,0.0154981716269
+Prevalence,Northern Mariana Islands,Both,All Ages,Dysthymia,Percent,2017,0.0196762210559,0.0226546658764,0.0170428438623
+Prevalence,Northern Mariana Islands,Both,All Ages,Anxiety disorders,Percent,2017,0.0363179510453,0.0388046424804,0.034007770593
+Prevalence,Singapore,Both,All Ages,Depressive disorders,Percent,2017,0.038652929793,0.0420377945063,0.0355625296286
+Prevalence,Singapore,Both,All Ages,Major depressive disorder,Percent,2017,0.0228648631545,0.025161664084,0.0208351194776
+Prevalence,Singapore,Both,All Ages,Dysthymia,Percent,2017,0.0164378586565,0.0191822636287,0.014215560945
+Prevalence,Singapore,Both,All Ages,Anxiety disorders,Percent,2017,0.038784372948,0.0414264083486,0.0363399865382
+Prevalence,Togo,Both,All Ages,Dysthymia,Percent,2017,0.00898701702785,0.0104472234567,0.00779009219921
+Prevalence,Togo,Both,All Ages,Anxiety disorders,Percent,2017,0.0273938372766,0.0293598451534,0.0254642885602
+Prevalence,Russian Federation,Both,All Ages,Depressive disorders,Percent,2017,0.0451886652641,0.0493594108888,0.0413528361232
+Prevalence,Russian Federation,Both,All Ages,Major depressive disorder,Percent,2017,0.0273577597715,0.0306969284823,0.0244612149698
+Prevalence,Russian Federation,Both,All Ages,Dysthymia,Percent,2017,0.0188857794381,0.0217484875716,0.0163664956211
+Prevalence,Tunisia,Both,All Ages,Depressive disorders,Percent,2017,0.0420298352831,0.0459728354204,0.0385772284827
+Prevalence,Tunisia,Both,All Ages,Major depressive disorder,Percent,2017,0.0307084979199,0.0341762027231,0.0276230844922
+Prevalence,Tunisia,Both,All Ages,Dysthymia,Percent,2017,0.0121792840905,0.0140528592998,0.010593757284
+Prevalence,Tunisia,Both,All Ages,Anxiety disorders,Percent,2017,0.0528505326812,0.0566345458294,0.0495329545706
+Prevalence,Russian Federation,Both,All Ages,Anxiety disorders,Percent,2017,0.0313542322672,0.0343978601793,0.0286344248327
+Prevalence,Grenada,Both,All Ages,Anxiety disorders,Percent,2017,0.0470932631785,0.0502172020556,0.0440943099348
+Prevalence,Paraguay,Both,All Ages,Depressive disorders,Percent,2017,0.0284385402625,0.0311166033405,0.0262698784055
+Prevalence,Paraguay,Both,All Ages,Major depressive disorder,Percent,2017,0.0190068988233,0.0211488393529,0.0171850024719
+Prevalence,Paraguay,Both,All Ages,Dysthymia,Percent,2017,0.00988708027274,0.0114027331873,0.00861162085991
+Prevalence,Paraguay,Both,All Ages,Anxiety disorders,Percent,2017,0.0595935379857,0.0639632908305,0.0555146132105
+Prevalence,Italy,Both,All Ages,Depressive disorders,Percent,2017,0.0410667620844,0.0445755079218,0.0379688016685
+Prevalence,Italy,Both,All Ages,Major depressive disorder,Percent,2017,0.0249958743009,0.0276804839584,0.0226764259586
+Prevalence,Italy,Both,All Ages,Dysthymia,Percent,2017,0.0168521713125,0.0194637862556,0.0146064535809
+Prevalence,Italy,Both,All Ages,Anxiety disorders,Percent,2017,0.0581029044279,0.0616326637873,0.0544858605481
+Prevalence,Germany,Both,All Ages,Depressive disorders,Percent,2017,0.0463108567563,0.0500556231393,0.0429424612182
+Prevalence,Germany,Both,All Ages,Major depressive disorder,Percent,2017,0.0258883457751,0.0283383615561,0.0237347092817
+Prevalence,Germany,Both,All Ages,Dysthymia,Percent,2017,0.0213866827113,0.0244701320737,0.018628488935
+Prevalence,Germany,Both,All Ages,Anxiety disorders,Percent,2017,0.0667074170321,0.0711031485353,0.0628211246769
+Prevalence,United States,Both,All Ages,Depressive disorders,Percent,2017,0.0508941531334,0.0548605314799,0.0474009734676
+Prevalence,United States,Both,All Ages,Major depressive disorder,Percent,2017,0.0315592896994,0.0341178353737,0.0292874635714
+Prevalence,Bahrain,Both,All Ages,Depressive disorders,Percent,2017,0.0438626659555,0.0484269752466,0.0398899406091
+Prevalence,Bahrain,Both,All Ages,Major depressive disorder,Percent,2017,0.0332372769837,0.0373864085316,0.0295460392829
+Prevalence,Bahrain,Both,All Ages,Dysthymia,Percent,2017,0.0114932268511,0.0134041988875,0.00984026344125
+Prevalence,Bahrain,Both,All Ages,Anxiety disorders,Percent,2017,0.0505994907575,0.0544117087028,0.0472736469598
+Prevalence,Saint Lucia,Both,All Ages,Depressive disorders,Percent,2017,0.0314942382149,0.034160775824,0.0291851722601
+Prevalence,Saint Lucia,Both,All Ages,Major depressive disorder,Percent,2017,0.020948976,0.0231286586175,0.0189842504358
+Prevalence,Saint Lucia,Both,All Ages,Dysthymia,Percent,2017,0.0110212951305,0.0127218691188,0.00959664503761
+Prevalence,Saint Lucia,Both,All Ages,Anxiety disorders,Percent,2017,0.0491489682175,0.0524315078716,0.0459250384118
+Prevalence,Finland,Both,All Ages,Depressive disorders,Percent,2017,0.0533686285331,0.0573763853956,0.0498721996137
+Prevalence,Finland,Both,All Ages,Major depressive disorder,Percent,2017,0.0322663104777,0.0347342699048,0.0299250447964
+Prevalence,Finland,Both,All Ages,Dysthymia,Percent,2017,0.0224282991656,0.0257842316733,0.0194227175635
+Prevalence,Finland,Both,All Ages,Anxiety disorders,Percent,2017,0.0376811995428,0.0398934512212,0.0355810839868
+Prevalence,Luxembourg,Both,All Ages,Depressive disorders,Percent,2017,0.0416793155343,0.0454373175056,0.0384005211673
+Prevalence,Luxembourg,Both,All Ages,Major depressive disorder,Percent,2017,0.0239246306576,0.0264620326804,0.021705443232
+Prevalence,Luxembourg,Both,All Ages,Dysthymia,Percent,2017,0.0185631069025,0.0216195622044,0.0161204619191
+Prevalence,Luxembourg,Both,All Ages,Anxiety disorders,Percent,2017,0.0548020840012,0.0585862228087,0.0513838879344
+Prevalence,Brunei,Both,All Ages,Depressive disorders,Percent,2017,0.0270885441367,0.029777370138,0.0246289709162
+Prevalence,Brunei,Both,All Ages,Major depressive disorder,Percent,2017,0.0148725803798,0.0167272123237,0.0132050869705
+Prevalence,Brunei,Both,All Ages,Dysthymia,Percent,2017,0.0125550158467,0.0146273265468,0.0108068163174
+Prevalence,Brunei,Both,All Ages,Anxiety disorders,Percent,2017,0.0380017692256,0.0406985022673,0.0355108087345
+Prevalence,Bulgaria,Both,All Ages,Depressive disorders,Percent,2017,0.0342200711271,0.0371430574793,0.0314803740429
+Prevalence,Bulgaria,Both,All Ages,Major depressive disorder,Percent,2017,0.0210332859994,0.0232348521174,0.0190680881896
+Prevalence,Bulgaria,Both,All Ages,Dysthymia,Percent,2017,0.0137893390276,0.0158335930895,0.0119878750105
+Prevalence,Bulgaria,Both,All Ages,Anxiety disorders,Percent,2017,0.0398091150788,0.0424978342631,0.037381256215
+Prevalence,India,Both,All Ages,Depressive disorders,Percent,2017,0.0337395302969,0.0367891077475,0.0313002471656
+Prevalence,India,Both,All Ages,Major depressive disorder,Percent,2017,0.0221629336793,0.0244427873471,0.0201963711872
+Prevalence,India,Both,All Ages,Dysthymia,Percent,2017,0.0122950673684,0.0142589243204,0.0107152733476
+Prevalence,Kyrgyzstan,Both,All Ages,Depressive disorders,Percent,2017,0.0278662908991,0.0304837891188,0.0257158530729
+Prevalence,Kyrgyzstan,Both,All Ages,Major depressive disorder,Percent,2017,0.0176208685569,0.0195369253307,0.0160544562747
+Prevalence,Kyrgyzstan,Both,All Ages,Dysthymia,Percent,2017,0.0106964519314,0.0123909065318,0.0092367453342
+Prevalence,Kyrgyzstan,Both,All Ages,Anxiety disorders,Percent,2017,0.0247338103337,0.0264355955694,0.0231543676926
+Prevalence,Malta,Both,All Ages,Depressive disorders,Percent,2017,0.0390475111146,0.0425455098774,0.0359562240344
+Prevalence,Malta,Both,All Ages,Major depressive disorder,Percent,2017,0.0206103620679,0.0228332707787,0.0186742750774
+Prevalence,Malta,Both,All Ages,Dysthymia,Percent,2017,0.0191448887588,0.0220292668617,0.0165935152855
+Prevalence,Malta,Both,All Ages,Anxiety disorders,Percent,2017,0.0543107037817,0.0579689193195,0.051015240232
+Prevalence,India,Both,All Ages,Anxiety disorders,Percent,2017,0.0331309737459,0.0360628372769,0.0304483585646
+Prevalence,Cuba,Both,All Ages,Depressive disorders,Percent,2017,0.0409462027628,0.0444540647846,0.0379790082658
+Prevalence,Cuba,Both,All Ages,Major depressive disorder,Percent,2017,0.0295285437563,0.0325414372503,0.0270180449846
+Prevalence,Philippines,Both,All Ages,Major depressive disorder,Percent,2017,0.0114450905425,0.0127781543898,0.0102650449472
+Prevalence,Philippines,Both,All Ages,Dysthymia,Percent,2017,0.0140467538425,0.0161725122274,0.0123237164049
+Prevalence,Grenada,Both,All Ages,Depressive disorders,Percent,2017,0.0303558044281,0.0328060336161,0.0281614304725
+Prevalence,Grenada,Both,All Ages,Major depressive disorder,Percent,2017,0.0200557498137,0.0221481295456,0.0182239795855
+Prevalence,Grenada,Both,All Ages,Dysthymia,Percent,2017,0.0107615690806,0.0123264544318,0.00940877765133
+Prevalence,Philippines,Both,All Ages,Anxiety disorders,Percent,2017,0.0314456906868,0.0336573525585,0.0294125209004
+Prevalence,Mongolia,Both,All Ages,Depressive disorders,Percent,2017,0.0338500213411,0.0371398455867,0.0312009143339
+Prevalence,Mongolia,Both,All Ages,Major depressive disorder,Percent,2017,0.0231363288799,0.0256568922394,0.0210373802854
+Prevalence,Mongolia,Both,All Ages,Dysthymia,Percent,2017,0.0113310144034,0.0131451270106,0.00972025943304
+Prevalence,Mongolia,Both,All Ages,Anxiety disorders,Percent,2017,0.025341198173,0.027110102316,0.0236685817246
+Prevalence,Dominica,Both,All Ages,Depressive disorders,Percent,2017,0.0291743730407,0.0317356419283,0.0270305990747
+Prevalence,Dominica,Both,All Ages,Major depressive disorder,Percent,2017,0.0186596807274,0.0207289055438,0.0168933621824
+Prevalence,Dominica,Both,All Ages,Dysthymia,Percent,2017,0.0109344546746,0.0125801121129,0.00954992148998
+Prevalence,Dominica,Both,All Ages,Anxiety disorders,Percent,2017,0.0479125196821,0.0510859628806,0.0448548564586
+Prevalence,Benin,Both,All Ages,Depressive disorders,Percent,2017,0.0256378900785,0.0281187975287,0.0235324112845
+Prevalence,Benin,Both,All Ages,Major depressive disorder,Percent,2017,0.0179379774334,0.0200218216651,0.0160848763847
+Prevalence,Benin,Both,All Ages,Dysthymia,Percent,2017,0.0081601120121,0.00951365178196,0.00702883439108
+Prevalence,Benin,Both,All Ages,Anxiety disorders,Percent,2017,0.0264849014769,0.0285049916629,0.0245293993837
+Prevalence,Serbia,Both,All Ages,Depressive disorders,Percent,2017,0.0324302825273,0.0350917733106,0.0299676670783
+Prevalence,Serbia,Both,All Ages,Major depressive disorder,Percent,2017,0.0212095574547,0.0233910628851,0.019159332436
+Prevalence,Serbia,Both,All Ages,Dysthymia,Percent,2017,0.0117823431251,0.0135481033026,0.0103148126162
+Prevalence,Serbia,Both,All Ages,Anxiety disorders,Percent,2017,0.0370868327291,0.0394813106285,0.0348292944024
+Prevalence,Portugal,Both,All Ages,Depressive disorders,Percent,2017,0.0531048875301,0.0575648085822,0.0490910099039
+Prevalence,Portugal,Both,All Ages,Major depressive disorder,Percent,2017,0.0320152701761,0.0351037558854,0.0291976155252
+Prevalence,Portugal,Both,All Ages,Dysthymia,Percent,2017,0.0223982620762,0.0253973878968,0.019499054721
+Prevalence,Panama,Both,All Ages,Depressive disorders,Percent,2017,0.0272089687764,0.0297110301524,0.0251004267442
+Prevalence,Panama,Both,All Ages,Major depressive disorder,Percent,2017,0.0187297759432,0.0208004125679,0.0169508352247
+Prevalence,Panama,Both,All Ages,Dysthymia,Percent,2017,0.00886331638088,0.0101926930419,0.00775733034283
+Prevalence,Panama,Both,All Ages,Anxiety disorders,Percent,2017,0.0293234499306,0.0313385570581,0.0275107498481
+Prevalence,Portugal,Both,All Ages,Anxiety disorders,Percent,2017,0.0555749452214,0.0593147612449,0.0522023944746
+Prevalence,Azerbaijan,Both,All Ages,Depressive disorders,Percent,2017,0.0268428180261,0.0293780924381,0.0246613439632
+Prevalence,Azerbaijan,Both,All Ages,Major depressive disorder,Percent,2017,0.0146866021477,0.0163733996644,0.0131805391058
+Prevalence,Azerbaijan,Both,All Ages,Dysthymia,Percent,2017,0.0125514560787,0.0145286226724,0.0108275868838
+Prevalence,Rwanda,Both,All Ages,Depressive disorders,Percent,2017,0.0298504378729,0.0328372395458,0.0273714119151
+Prevalence,Rwanda,Both,All Ages,Major depressive disorder,Percent,2017,0.0213949307932,0.0239533709062,0.0190500429412
+Prevalence,Rwanda,Both,All Ages,Dysthymia,Percent,2017,0.00902897979141,0.0106052316461,0.00777864125852
+Prevalence,Rwanda,Both,All Ages,Anxiety disorders,Percent,2017,0.0339094830773,0.0363246138299,0.0313898410063
+Prevalence,Nepal,Both,All Ages,Depressive disorders,Percent,2017,0.0326162023363,0.0356729471078,0.0300244141147
+Prevalence,Nepal,Both,All Ages,Major depressive disorder,Percent,2017,0.0214520844945,0.0238366448507,0.0193509736774
+Prevalence,Nepal,Both,All Ages,Dysthymia,Percent,2017,0.0118321030933,0.0136785663804,0.0103000446614
+Prevalence,Nepal,Both,All Ages,Anxiety disorders,Percent,2017,0.0378586315705,0.0406183346837,0.0352774615753
+Prevalence,Mexico,Both,All Ages,Depressive disorders,Percent,2017,0.0280006415435,0.0305169338364,0.0258893110242
+Prevalence,Mexico,Both,All Ages,Major depressive disorder,Percent,2017,0.018397410266,0.0203882535968,0.0167496669252
+Prevalence,Mexico,Both,All Ages,Dysthymia,Percent,2017,0.0100355211035,0.0116235059611,0.0087022806468
+Prevalence,Mexico,Both,All Ages,Anxiety disorders,Percent,2017,0.03244483215,0.0355497443999,0.0295045326958
+Prevalence,Guyana,Both,All Ages,Depressive disorders,Percent,2017,0.0413408260924,0.0449679776065,0.0382325887539
+Prevalence,Guyana,Both,All Ages,Major depressive disorder,Percent,2017,0.0327422787085,0.0360940224979,0.0297698720987
+Prevalence,Guyana,Both,All Ages,Dysthymia,Percent,2017,0.00946164894325,0.0109163843507,0.0082334276563
+Prevalence,Guyana,Both,All Ages,Anxiety disorders,Percent,2017,0.0460944761108,0.0493373053486,0.0429498904616
+Prevalence,Spain,Both,All Ages,Depressive disorders,Percent,2017,0.0413446487714,0.0448194490311,0.0383667248839
+Prevalence,Spain,Both,All Ages,Major depressive disorder,Percent,2017,0.0258059912037,0.0283519846204,0.0238027207049
+Prevalence,Spain,Both,All Ages,Dysthymia,Percent,2017,0.0163430248651,0.018973052114,0.0142336181197
+Prevalence,Spain,Both,All Ages,Anxiety disorders,Percent,2017,0.054343211461,0.0578918515209,0.0511576770776
+Prevalence,Slovakia,Both,All Ages,Depressive disorders,Percent,2017,0.0298891553184,0.0325248683708,0.0276620333574
+Prevalence,Slovakia,Both,All Ages,Major depressive disorder,Percent,2017,0.0183303861595,0.0203264149539,0.0167201125814
+Prevalence,Slovakia,Both,All Ages,Dysthymia,Percent,2017,0.0120076287189,0.0138337006837,0.010488696322
+Prevalence,Slovakia,Both,All Ages,Anxiety disorders,Percent,2017,0.037680694369,0.0402387616596,0.0354027291921
+Prevalence,Timor-Leste,Both,All Ages,Depressive disorders,Percent,2017,0.025862303576,0.0285359633951,0.0237166302464
+Prevalence,Timor-Leste,Both,All Ages,Major depressive disorder,Percent,2017,0.0143331057513,0.0165190006169,0.0125680449927
+Prevalence,Timor-Leste,Both,All Ages,Dysthymia,Percent,2017,0.0119615834496,0.0137184989986,0.0105171346083
+Prevalence,Pakistan,Both,All Ages,Depressive disorders,Percent,2017,0.027246921341,0.029885243813,0.0249438215252
+Prevalence,Pakistan,Both,All Ages,Major depressive disorder,Percent,2017,0.0172195175874,0.0192218572599,0.0153992995136
+Prevalence,Pakistan,Both,All Ages,Dysthymia,Percent,2017,0.0105414381884,0.0123191314859,0.00912718221542
+Prevalence,Pakistan,Both,All Ages,Anxiety disorders,Percent,2017,0.0355405475641,0.0382899985806,0.0330270361048
+Prevalence,Sao Tome and Principe,Both,All Ages,Depressive disorders,Percent,2017,0.0257088516319,0.0282424023334,0.0235757080891
+Prevalence,Vietnam,Both,All Ages,Depressive disorders,Percent,2017,0.0303119721783,0.0333087128027,0.0277925705339
+Prevalence,Vietnam,Both,All Ages,Major depressive disorder,Percent,2017,0.0136090582521,0.0150437980556,0.0122646074013
+Prevalence,Vietnam,Both,All Ages,Dysthymia,Percent,2017,0.0172081301878,0.0197829674635,0.015034237943
+Prevalence,Vietnam,Both,All Ages,Anxiety disorders,Percent,2017,0.0215088743887,0.0229613432848,0.0201778447637
+Prevalence,Malawi,Both,All Ages,Depressive disorders,Percent,2017,0.0252637742379,0.0278268958923,0.0231372546358
+Prevalence,Malawi,Both,All Ages,Major depressive disorder,Percent,2017,0.0172414043058,0.0192784386109,0.0153790454099
+Prevalence,Malawi,Both,All Ages,Dysthymia,Percent,2017,0.00844644653083,0.00992590592824,0.00725953155349
+Prevalence,Malawi,Both,All Ages,Anxiety disorders,Percent,2017,0.0330013162783,0.0354379744067,0.0305961628417
+Prevalence,Chad,Both,All Ages,Depressive disorders,Percent,2017,0.0247541212248,0.0273150893641,0.0225961557061
+Prevalence,Chad,Both,All Ages,Major depressive disorder,Percent,2017,0.0180253887735,0.0203043148543,0.0160173210085
+Prevalence,Chad,Both,All Ages,Dysthymia,Percent,2017,0.00720651895324,0.00837861236249,0.00620597384528
+Prevalence,Chad,Both,All Ages,Anxiety disorders,Percent,2017,0.0247950406394,0.026707724663,0.0228095056297
+Prevalence,Slovenia,Both,All Ages,Depressive disorders,Percent,2017,0.0373314257091,0.0404595222986,0.0346769796555
+Prevalence,Slovenia,Both,All Ages,Major depressive disorder,Percent,2017,0.025638560392,0.0282092268809,0.0233906830848
+Prevalence,Slovenia,Both,All Ages,Dysthymia,Percent,2017,0.0123949818761,0.0142869080337,0.0108464414971
+Prevalence,Slovenia,Both,All Ages,Anxiety disorders,Percent,2017,0.0375854549102,0.0402268843127,0.0353757139953
+Prevalence,Sweden,Both,All Ages,Depressive disorders,Percent,2017,0.0503312383738,0.054548249133,0.046801650615
+Prevalence,Sweden,Both,All Ages,Major depressive disorder,Percent,2017,0.0333576570883,0.0366671254692,0.0305972035837
+Prevalence,Sweden,Both,All Ages,Dysthymia,Percent,2017,0.0182047035236,0.0208024596539,0.0158178165852
+Prevalence,Sweden,Both,All Ages,Anxiety disorders,Percent,2017,0.0536029005795,0.0587602187435,0.0489980933795
+Prevalence,Seychelles,Both,All Ages,Depressive disorders,Percent,2017,0.0315882663489,0.0347288277308,0.0289236592705
+Prevalence,Seychelles,Both,All Ages,Major depressive disorder,Percent,2017,0.0139648557396,0.0154268006666,0.0126387748509
+Prevalence,Seychelles,Both,All Ages,Dysthymia,Percent,2017,0.0181255710491,0.0207895393821,0.0157886270293
+Prevalence,Seychelles,Both,All Ages,Anxiety disorders,Percent,2017,0.0349585077158,0.0371382384333,0.0329353006799
+Prevalence,Tajikistan,Both,All Ages,Depressive disorders,Percent,2017,0.021910213243,0.0240846424226,0.0200435900967
+Prevalence,Tajikistan,Both,All Ages,Major depressive disorder,Percent,2017,0.0123957337426,0.013847484995,0.0110869694256
+Prevalence,Tajikistan,Both,All Ages,Dysthymia,Percent,2017,0.00981788684824,0.0114010222518,0.00846318405074
+Prevalence,Tajikistan,Both,All Ages,Anxiety disorders,Percent,2017,0.0238406424665,0.025538947644,0.0222797634937
+Prevalence,Iraq,Both,All Ages,Depressive disorders,Percent,2017,0.0339207233683,0.037130795356,0.0310318556775
+Prevalence,Morocco,Both,All Ages,Depressive disorders,Percent,2017,0.0554719200145,0.0608384373651,0.0508669864631
+Prevalence,Morocco,Both,All Ages,Major depressive disorder,Percent,2017,0.0457817348309,0.0512271575503,0.0411706410932
+Prevalence,Morocco,Both,All Ages,Dysthymia,Percent,2017,0.0112162113299,0.0129260048017,0.00978246385599
+Prevalence,Morocco,Both,All Ages,Anxiety disorders,Percent,2017,0.0514206345997,0.0552206211371,0.0479714717199
+Prevalence,Angola,Both,All Ages,Depressive disorders,Percent,2017,0.030243076044,0.0333113403357,0.0276029428338
+Prevalence,Angola,Both,All Ages,Major depressive disorder,Percent,2017,0.0228827524242,0.0258258013052,0.0205046710594
+Prevalence,Angola,Both,All Ages,Dysthymia,Percent,2017,0.00796068208268,0.00926888262,0.00688120033952
+Prevalence,Mauritius,Both,All Ages,Anxiety disorders,Percent,2017,0.0368593276198,0.0393187756266,0.0346084387019
+Prevalence,Belarus,Both,All Ages,Depressive disorders,Percent,2017,0.0502929389826,0.0546731229429,0.0464400506701
+Prevalence,Belarus,Both,All Ages,Major depressive disorder,Percent,2017,0.032135380449,0.0355467318372,0.0292087306934
+Prevalence,Belarus,Both,All Ages,Dysthymia,Percent,2017,0.0194599256237,0.022528533844,0.0168492911282
+Prevalence,Belarus,Both,All Ages,Anxiety disorders,Percent,2017,0.0315126698309,0.0335301443564,0.0295138556453
+Prevalence,Nicaragua,Both,All Ages,Depressive disorders,Percent,2017,0.0268590232197,0.0292862083315,0.0247772841779
+Prevalence,Nicaragua,Both,All Ages,Major depressive disorder,Percent,2017,0.0192110811423,0.0213181578401,0.017350666811
+Prevalence,Nicaragua,Both,All Ages,Dysthymia,Percent,2017,0.00804037855632,0.00926413683022,0.00697433431138
+Prevalence,Nicaragua,Both,All Ages,Anxiety disorders,Percent,2017,0.0289715589442,0.031108146957,0.0270554133162
+Prevalence,Somalia,Both,All Ages,Depressive disorders,Percent,2017,0.0264467289979,0.0292354303776,0.024186159299
+Prevalence,Somalia,Both,All Ages,Major depressive disorder,Percent,2017,0.0189983896915,0.0214179468529,0.0168697387567
+Prevalence,Somalia,Both,All Ages,Dysthymia,Percent,2017,0.00793306168964,0.00937517705697,0.0068242531139
+Prevalence,Somalia,Both,All Ages,Anxiety disorders,Percent,2017,0.0312853338484,0.033804624729,0.0289695628129
+Prevalence,Palestine,Both,All Ages,Anxiety disorders,Percent,2017,0.0476116030019,0.0512121191444,0.0444190721867
+Prevalence,Senegal,Both,All Ages,Depressive disorders,Percent,2017,0.0253013608125,0.0277340055662,0.0231949074929
+Prevalence,Senegal,Both,All Ages,Major depressive disorder,Percent,2017,0.0170200950513,0.0189164553619,0.0152511472553
+Prevalence,Senegal,Both,All Ages,Dysthymia,Percent,2017,0.00873546882182,0.0101093220306,0.00758099986949
+Prevalence,Senegal,Both,All Ages,Anxiety disorders,Percent,2017,0.0269399243484,0.0288059041545,0.025045145255
+Prevalence,Cote d'Ivoire,Both,All Ages,Depressive disorders,Percent,2017,0.0249084218701,0.0274057095893,0.0228566517609
+Prevalence,Cote d'Ivoire,Both,All Ages,Major depressive disorder,Percent,2017,0.0166584896425,0.018596876612,0.0149326258285
+Prevalence,Cote d'Ivoire,Both,All Ages,Dysthymia,Percent,2017,0.00869221232586,0.0101507674393,0.00751381802725
+Prevalence,Cote d'Ivoire,Both,All Ages,Anxiety disorders,Percent,2017,0.0269197085345,0.0288426039165,0.0250384748837
+Prevalence,Estonia,Both,All Ages,Depressive disorders,Percent,2017,0.0502522253759,0.0547598343058,0.0466346037264
+Prevalence,Estonia,Both,All Ages,Major depressive disorder,Percent,2017,0.0317756449024,0.0350775582441,0.0288702837995
+Prevalence,Estonia,Both,All Ages,Dysthymia,Percent,2017,0.0198196751713,0.0229127930689,0.0172061490981
+Prevalence,Estonia,Both,All Ages,Anxiety disorders,Percent,2017,0.0316292458819,0.0335702936571,0.0296753199409
+Prevalence,The Gambia,Both,All Ages,Depressive disorders,Percent,2017,0.0309649781915,0.034106554896,0.0282545306357
+Prevalence,The Gambia,Both,All Ages,Major depressive disorder,Percent,2017,0.023131732921,0.0258698755586,0.0206015923753
+Prevalence,The Gambia,Both,All Ages,Dysthymia,Percent,2017,0.00853628052397,0.00996609347377,0.00736658253257
+Prevalence,The Gambia,Both,All Ages,Anxiety disorders,Percent,2017,0.0273570261971,0.0294400365071,0.025314594263
+Prevalence,Georgia,Both,All Ages,Depressive disorders,Percent,2017,0.0336285834258,0.0366309571263,0.0310468378938
+Prevalence,Georgia,Both,All Ages,Major depressive disorder,Percent,2017,0.019757524919,0.0218241995633,0.0178423863932
+Prevalence,Georgia,Both,All Ages,Dysthymia,Percent,2017,0.014476034714,0.0165987022239,0.0125230688375
+Prevalence,Georgia,Both,All Ages,Anxiety disorders,Percent,2017,0.0277572274042,0.0296375443379,0.0260815633894
+Prevalence,Guatemala,Both,All Ages,Depressive disorders,Percent,2017,0.0286699610113,0.0312456371573,0.0262542162056
+Prevalence,Guatemala,Both,All Ages,Major depressive disorder,Percent,2017,0.0215076231057,0.0241335006445,0.0194104091185
+Prevalence,Guatemala,Both,All Ages,Dysthymia,Percent,2017,0.00761787551063,0.00880459822036,0.00661673422121
+Prevalence,Guatemala,Both,All Ages,Anxiety disorders,Percent,2017,0.0284522625738,0.0304550421227,0.0265291006651
+Prevalence,Switzerland,Both,All Ages,Depressive disorders,Percent,2017,0.0431942520523,0.0469982339273,0.0398593120946
+Prevalence,Switzerland,Both,All Ages,Major depressive disorder,Percent,2017,0.0250101034783,0.0275031047269,0.0228936208635
+Prevalence,Switzerland,Both,All Ages,Dysthymia,Percent,2017,0.0190645670433,0.0219597890182,0.0165833710596
+Prevalence,Jordan,Both,All Ages,Depressive disorders,Percent,2017,0.0331180769777,0.0363544607889,0.0301615456549
+Prevalence,Jordan,Both,All Ages,Major depressive disorder,Percent,2017,0.0240709344096,0.0269695171342,0.0213845146035
+Prevalence,Jordan,Both,All Ages,Dysthymia,Percent,2017,0.00962921233978,0.011190147907,0.00832627603883
+Prevalence,Jordan,Both,All Ages,Anxiety disorders,Percent,2017,0.0489147873753,0.0525090406732,0.0454597939655
+Prevalence,Austria,Both,All Ages,Depressive disorders,Percent,2017,0.0385084839885,0.041792401975,0.0354356034382
+Prevalence,Austria,Both,All Ages,Major depressive disorder,Percent,2017,0.0200428349119,0.0219980731634,0.0183408585895
+Prevalence,Honduras,Both,All Ages,Depressive disorders,Percent,2017,0.0237739881775,0.0260044737357,0.0218611088197
+Prevalence,Honduras,Both,All Ages,Major depressive disorder,Percent,2017,0.016731572523,0.0186600743792,0.0149885254918
+Prevalence,Honduras,Both,All Ages,Dysthymia,Percent,2017,0.00738934780808,0.00853569293831,0.00640757381114
+Prevalence,Honduras,Both,All Ages,Anxiety disorders,Percent,2017,0.0277605208954,0.029725181392,0.0259058197369
+Prevalence,Mauritius,Both,All Ages,Depressive disorders,Percent,2017,0.0408107964695,0.0444345045129,0.0375560576966
+Prevalence,Mauritius,Both,All Ages,Major depressive disorder,Percent,2017,0.0214254888598,0.0235778993756,0.019555026351
+Prevalence,Mauritius,Both,All Ages,Dysthymia,Percent,2017,0.0201665157451,0.0230648018133,0.0175729601094
+Prevalence,Belgium,Both,All Ages,Depressive disorders,Percent,2017,0.0465847729225,0.0503628033118,0.0433637859876
+Prevalence,Belgium,Both,All Ages,Major depressive disorder,Percent,2017,0.0303768832542,0.0332331661789,0.0276540836064
+Prevalence,Belgium,Both,All Ages,Dysthymia,Percent,2017,0.0172124448688,0.0197806899342,0.0150606506645
+Prevalence,Belgium,Both,All Ages,Anxiety disorders,Percent,2017,0.0527236382598,0.0559100762607,0.0497371605781
+Prevalence,Switzerland,Both,All Ages,Anxiety disorders,Percent,2017,0.0547002598414,0.0583616237328,0.0513635325471
+Prevalence,Mozambique,Both,All Ages,Depressive disorders,Percent,2017,0.0273342727905,0.0300714522242,0.0248873553518
+Prevalence,Mozambique,Both,All Ages,Major depressive disorder,Percent,2017,0.0198300077303,0.0224228481109,0.0176789387415
+Prevalence,Mozambique,Both,All Ages,Dysthymia,Percent,2017,0.00799577586051,0.00943412653637,0.00684999396134
+Prevalence,United Kingdom,Both,All Ages,Depressive disorders,Percent,2017,0.0461743206443,0.0501776027699,0.0424809781939
+Prevalence,United Kingdom,Both,All Ages,Major depressive disorder,Percent,2017,0.0287749631496,0.0321283627102,0.0258267354666
+Prevalence,United Kingdom,Both,All Ages,Dysthymia,Percent,2017,0.0183784327124,0.0212248085739,0.0159914269157
+Prevalence,United Kingdom,Both,All Ages,Anxiety disorders,Percent,2017,0.0470224049945,0.0507486652558,0.0434376442481
+Prevalence,Mozambique,Both,All Ages,Anxiety disorders,Percent,2017,0.0326974421122,0.0353362223795,0.0302102550992
+Prevalence,Turkmenistan,Both,All Ages,Depressive disorders,Percent,2017,0.0269343845359,0.0294690827869,0.0248410990182
+Prevalence,Turkmenistan,Both,All Ages,Major depressive disorder,Percent,2017,0.0159637753956,0.0177699856112,0.0144888412137
+Prevalence,Turkmenistan,Both,All Ages,Dysthymia,Percent,2017,0.011395869594,0.0131608834093,0.00983846619139
+Prevalence,Palestine,Both,All Ages,Depressive disorders,Percent,2017,0.0406301386538,0.0446891554996,0.0371392880873
+Prevalence,Palestine,Both,All Ages,Major depressive disorder,Percent,2017,0.032519547144,0.0364432651049,0.0291282869517
+Prevalence,Palestine,Both,All Ages,Dysthymia,Percent,2017,0.00899496683319,0.0104851196915,0.00779135354759
+Prevalence,Oman,Both,All Ages,Depressive disorders,Percent,2017,0.0357175072771,0.0397114742636,0.0320971880552
+Prevalence,Oman,Both,All Ages,Major depressive disorder,Percent,2017,0.0261255023856,0.0298837644847,0.0229199479028
+Prevalence,Oman,Both,All Ages,Dysthymia,Percent,2017,0.0102070162542,0.0120760571918,0.00870615798959
+Prevalence,Oman,Both,All Ages,Anxiety disorders,Percent,2017,0.048317615318,0.0520027657749,0.0445588506983
