@@ -1,0 +1,157 @@
+---
+title: "working capstone"
+author: "duncan"
+date: "31/08/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(dplyr)
+library(tidyverse)
+library(here)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+#PANAS word lists
+
+PANAS_words<-c("active", "enthusiastic", "attentive", "strong", "interested", "alert", "proud", "excited", "afraid", "nervous", "scared", "upset", "guilty", "hostile", "ashamed", "jittery", "irritable", "distressed")
+
+
+positive_words<-c("active", "enthusiastic", "attentive", "strong", "interested", "alert", "proud", "excited")
+
+negative_words<-c("afraid", "nervous", "scared", "upset", "guilty", "hostile", "ashamed", "jittery", "irritable", "distressed")
+
+#loading the data
+
+dict_pathread <- here("capstone_dplace.csv")  
+dict_path<-read_csv(dict_pathread)
+
+wordcount_path <- here("dictionary_word_matrix_noun.csv")  
+noun_wordcount<-read.csv(wordcount_path)
+
+wordcount_adjectives<-here("dictionary_word_matrix_adj.csv")
+adjective_wordcount<-read.csv(wordcount_adjectives)
+
+wordcount_verb<-here("dictionary_word_matrix_verb.csv")
+verb_wordcount<-read.csv(wordcount_verb)
+
+country_by_language<-here("Country_by_language.csv")
+countries_language<-read.csv(country_by_language)
+
+prevalence<-here("prevalence_data.csv")
+prevalence_by_country<-read.csv(prevalence)
+
+CIA_fact_sheet<-here("CIA-fact-sheet.csv")
+CIA_language_country<-read.csv(CIA_fact_sheet)
+#we need to combinethe depressive disorder prevalence with the country data, the languages data,and then the languages with the words and the words with the PANAS and the PANAS with the total word country
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r pressure, echo=FALSE}
+#selecting only necessary columns for the adjectives
+negative_PANAS<-adjective_wordcount%>%
+  select(-c(id,title, area, gcode, longitude, latitude, affiliation))
+negative_PANAS
+
+
+positive_PANAS<-adjective_wordcount%>%
+  select(-c(id, title, area, gcode, longitude, latitude, affiliation))
+positive_PANAS
+
+
+
+
+
+
+```
+
+```{r pressure, echo=FALSE}
+#creating the different word lists
+
+#negative words
+nPANAS<-negative_PANAS%>%
+  select(langname,negative_words)
+
+nPANAS[is.na(nPANAS)]=0
+
+neg_count<-nPANAS%>%
+  mutate(wordcounts= afraid+nervous+scared+upset+hostile+ashamed+jittery+irritable+ distressed)%>%
+  select(-negative_words)
+#positive words
+pPANAS<-positive_PANAS%>%
+  select(langname, positive_words)
+
+pPANAS[is.na(pPANAS)]=0
+
+pos_count<-pPANAS%>%
+  mutate(wordcounts= active + enthusiastic+attentive+strong+interested+alert+proud+excited)%>%
+  select(-positive_words)
+#PANAS counts and ratio by language
+
+allPANAS<-negative_PANAS%>%
+  select(langname, PANAS_words)
+allPANAS[is.na(allPANAS)]=0
+
+statsPANAS<-allPANAS%>%
+  mutate(positive_count= active + enthusiastic+attentive+strong+interested+alert+proud+excited, negative_count=afraid+nervous+scared+upset+hostile+ashamed+jittery+irritable+ distressed, ratio_pos_over_neg=positive_count/negative_count)%>%
+  select(-PANAS_words)
+
+#PANAS counts averaged for languages
+averagePANAS_working<-aggregate(x=statsPANAS, by=list(language=statsPANAS$langname), FUN=mean, drop=FALSE)
+averagePANAS<-averagePANAS_working%>%
+  select(-c(langname))
+  
+  
+
+```
+
+```{r pressure, echo=FALSE}
+used_languages<-countries_language$Language%>%
+  as.vector()%>%
+  unique()
+
+countries_list<-countries_language$ï..Country%>%
+  as.vector()%>%
+  unique()
+#filtering prevalence for relevant data
+
+prevalece_depressive_do<-prevalence_by_country%>%
+  filter(cause== "Depressive disorders")
+
+
+prevalence_ddo<-prevalece_depressive_do%>%
+  select(-c(sex, age, upper, lower))
+prevalence_ddo
+
+#merging the different data sets together
+
+preva_lang<-merge(x=prevalence_ddo, y=countries_language, by.x = "location", by.y="ï..Country")
+
+preva_lang_PANAS<-merge(x=preva_lang, y=averagePANAS, by.x = "Language", by.y="language")
+
+#trying to remove extra data/averaging data for all the same language dictionaries but unsuccesfully
+
+test1<-preva_lang_PANAS%>%
+  unique()
+test1
+
+aggregated_PANAS<-aggregate(x=test1, by=list(test1$location),FUN=mean, drop=FALSE)
+
+test3<-merge(x=test2, y=countries_language, by.x = "location", by.y="ï..Country")
+  
+```
