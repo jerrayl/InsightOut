@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(tidyverse)
 library(here)
+library(DataCombine)
 
 noun_table <- read_csv(file=here("dictionary_word_matrix_noun.csv"))
 dictionary <- read_csv(file=here("capstone20_dictionaries.csv"))
@@ -22,7 +23,12 @@ Making PANAS, Mental Health, and CIA table
 
 adj_table <- read_csv(file=here("dictionary_word_matrix_adj.csv"))
 prevalence <- read_csv(file=here("IHME-GBD_2017_DATA.csv"))
-coun_lang <- read_csv(file=here("CIA fact sheet-2.csv"))
+coun_lang1 <- read_csv(file=here("CIA fact sheet-2.csv"))
+
+replaces <- data.frame(from = c("Albanian", "Bosnian", "Khmer", "Croatian", "Serbian", "Arabic", "Mandarin", "Persian", "Mongolian", "Greek", "Hebrew", "Armenian", "Malay", "Kyrgyz"), 
+                       to = c("Northern Tosk Albanian", "Serbian-Croatian-Bosnian", "Central Khmer", "Serbian-Croatian-Bosnian", "Serbian-Croatian-Bosnian", "Standard Arabic", "Mandarin Chinese", "Western Farsi", "Halh Mongolian", "Modern Greek", "Modern Hebrew", "Eastern Armenian", "Standard Malay", "Kirghiz"))
+
+coun_lang <- FindReplace(data = as.data.frame(coun_lang1), Var = "Language", replaceData = replaces, from = "from", to = "to", exact = TRUE)
 ```
 
 
@@ -50,32 +56,50 @@ Editing dictionary data before joining with MHPrevalence and CIA file
 
 # select only relevent PANAS-X words
 PANAS <- adj_table %>% 
-  select("title","langname","area","active","alert","attentive","enthusiastic","excited","interested","proud","happy","joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless","afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset","distressed","frightened","shaky","angry","irritable","disgusted","sad","lonely") 
+  select("title","langname","area","active","alert","attentive","enthusiastic","excited",
+         "interested","proud","happy","joyful","delighted","cheerful","lively","energetic",
+         "strong","confident","bold","daring","fearless","afraid","scared","nervous","jittery",
+         "irritable","hostile","guilty","ashamed","upset","distressed","frightened","shaky",
+         "angry","irritable","disgusted","sad","lonely") 
 
 # Add 2 columns that have total frequency of Positive and Negative words by each dictionary
 PANASsum <- PANAS %>% 
   mutate(totalPos = select(., active:fearless) %>% rowSums(na.rm = TRUE),
-         totalNeg = select(., afraid:lonely)%>% rowSums(na.rm = TRUE))
+         totalNeg = select(., afraid:lonely)%>% rowSums(na.rm = TRUE)) %>%
+  add_row(langname= "English", totalPos = 20, totalNeg = 16)
 
+```
+
+```{r edit}
 #New table: frequency of Positive And Negative words - average across dictionaries of the same language
 PANASavr <- PANASsum %>%
   group_by(langname)%>%
   summarise(mnPos = mean(totalPos),
-            mnNeg = mean(totalNeg))%>% 
-  add_row(langname= "English", mnPos = 20, mnNeg = 17)%>%
-  ungroup()
+            mnNeg = mean(totalNeg),
+            mnTotal = sum(totalNeg, totalPos))%>% 
+    ungroup()
 
 ```
 
 #Join MH data, CIA, and Average PANAS table
 ```{r Join all 3 table}
-d_all <- inner_join(MHPandLang, PANASavr, by = c("Language" = "langname" ))
+d_all <- inner_join(MHPandLang, PANASavr, by = c("Language" = "langname" )) %>%
+  group_by(location)%>%
+  mutate(mn_pos = weighted.mean(mnPos, Percentage/100),
+         mn_neg = weighted.mean(mnNeg, Percentage/100),
+         ratio = mn_neg/mn_pos,
+         total = mn_pos + mn_neg) %>%
+  ungroup()
 
+d_all_brief <- d_all %>% group_by(location)%>%
+  select(-c(Language, Percentage, mnPos, mnNeg, mnTotal)) %>% 
+  distinct() %>% 
+  ungroup()
 ```
 
 ##Plots
 
 ```{r pressure, echo=FALSE}
-
+cor.test(x = d_all_brief$`Depressive disorders`, y = d_all_brief$total)
 ```
 
