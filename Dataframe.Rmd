@@ -86,7 +86,7 @@ lang_countries <- FindReplace(data = as.data.frame(lang_countries), Var = "Langu
 Merge IMHE data with CIA data to obtain disorder prevelance by countries and languages spoken
 ```{r loaddata, include=TRUE}
 # Obtain Depressive Disorder Prevalence by Country
-depression_prevalence <- mh %>%  filter(cause == "Depressive disorders")  %>% select(location, val, upper, lower)
+depression_prevalence <- mh %>%   select(location, val, cause)
 
 temp1 <- merge(x= depression_prevalence, y = lang_countries, by.x = "location", by.y = "Country")
 
@@ -98,16 +98,21 @@ Merge temporary dataset with panas frequencies
 d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
 
 # weigh each country by the percentage of people speaking the particular language
-d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% mutate(Percentage = sum(Percentage)) %>% subset(select = -c(Language)) %>% distinct()
+d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
 
 # remove countries with percentage < 80
 d <- d %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
 
 # convert val to percentage
-d <- d %>% mutate_at(c("val", "upper", "lower"), function(x) x * 100)
+d <- d %>% mutate(val = val*100)
 
-# add ratio column
+
+# add ratio column and total column
 d <- d %>% mutate(ratio = mean_negative / mean_positive)
+d <- d %>% mutate(total = mean_negative + mean_positive)
+
+#pivot longer
+d <- d %>% pivot_wider(names_from = "cause", values_from="val")
 ```
 
 Export to csv
@@ -129,4 +134,5 @@ ggplot(plotd, aes(x=val, y=propn)) +
   facet_wrap(~affect_words, scales = "free") +
   geom_smooth(method=lm) +
   labs(x="mood disorder prevalence/%", y="counts per 1000, ratio")
+
 ```
