@@ -98,13 +98,21 @@ Merge temporary dataset with panas frequencies
 d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
 
 # weigh each country by the percentage of people speaking the particular language
-d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% subset(select = -c(Language,Percentage)) %>% distinct()
+d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% mutate(Percentage = sum(Percentage)) %>% subset(select = -c(Language)) %>% distinct()
+
+# remove countries with percentage < 80
+d <- d %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
 
 # convert val to percentage
 d <- d %>% mutate_at(c("val", "upper", "lower"), function(x) x * 100)
 
 # add ratio column
 d <- d %>% mutate(ratio = mean_negative / mean_positive)
+```
+
+Export to csv
+```{r loaddata, include=TRUE}
+write.csv(d,"dataframe.csv", row.names = FALSE)
 ```
 
 Draw ratio graph
