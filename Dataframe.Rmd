@@ -33,7 +33,7 @@ mh <- read_csv(mh_path)
 ```
 
 Positive and negative affect words from PANAS X
-```{r loaddata, include=TRUE}
+```{r loadwords, include=TRUE}
 positive_words = c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
 negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","disgusted","sad","lonely")
 ```
@@ -41,7 +41,7 @@ negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile",
 
 
 Calculate mean frequencies for positive and negative affect
-```{r loaddata, include=TRUE}
+```{r calculatefrequencies, include=TRUE}
 # load adj matrix and sum across columns to compute the total size of each dictionary
 adjcount <- read_csv(adjcount_path) %>%  
   mutate(dictsize = select(., abbreviated:zealous) %>% apply(1, sum, na.rm=TRUE))
@@ -71,11 +71,11 @@ panas_frequencies <- aggregate(word_frequencies, by = list(language = word_frequ
 
 #select relevant columns
 panas_frequencies <- panas_frequencies %>% select(language, mean_positive, mean_negative)
-
 ```
 
+
 Replace Language Names to match CIA dataset to Dictionary Dataset
-```{r loaddata, include=TRUE}
+```{r replacelanguagenames, include=TRUE}
 replaces <- data.frame(from = c("Albanian", "Bosnian", "Khmer", "Croatian", "Serbian", "Arabic", "Mandarin", "Persian", "Mongolian", "Greek", "Hebrew", "Armenian", "Malay", "Kyrgyz"), to = c("Northern Tosk Albanian", "Serbian-Croatian-Bosnian", "Central Khmer", "Serbian-Croatian-Bosnian", "Serbian-Croatian-Bosnian", "Standard Arabic", "Mandarin Chinese", "Western Farsi", "Halh Mongolian", "Modern Greek", "Modern Hebrew", "Eastern Armenian", "Standard Malay", "Kirghiz"))
 lang_countries <- FindReplace(data = as.data.frame(lang_countries), Var = "Language", replaceData = replaces,
                      from = "from", to = "to", exact = TRUE)
@@ -84,7 +84,7 @@ lang_countries <- FindReplace(data = as.data.frame(lang_countries), Var = "Langu
 
 
 Merge IMHE data with CIA data to obtain disorder prevelance by countries and languages spoken
-```{r loaddata, include=TRUE}
+```{r createtemp, include=TRUE}
 # Obtain Depressive Disorder Prevalence by Country
 depression_prevalence <- mh %>%   select(location, val, cause)
 
@@ -94,7 +94,7 @@ temp1 <- merge(x= depression_prevalence, y = lang_countries, by.x = "location", 
 
 
 Merge temporary dataset with panas frequencies
-```{r loaddata, include=TRUE}
+```{r createdataframe, include=TRUE}
 d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
 
 # weigh each country by the percentage of people speaking the particular language
@@ -113,26 +113,132 @@ d <- d %>% mutate(total = mean_negative + mean_positive)
 
 #pivot longer
 d <- d %>% pivot_wider(names_from = "cause", values_from="val")
+
+# rename columns
+d <- rename(d, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia",  "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
 ```
 
-Export to csv
-```{r loaddata, include=TRUE}
-write.csv(d,"dataframe.csv", row.names = FALSE)
-```
-
-Draw ratio graph
-```{r loaddata, include=TRUE}
+## Exploratory Plot
+Draw graph for depressive disorders (all three disorders combined)
+```{r plotgraphs, include=TRUE}
 
 plotd <- d %>% 
-  pivot_longer(cols=c(mean_positive, mean_negative, ratio), names_to="affect_words", values_to="propn") %>% 
-  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive")) %>% 
-  mutate(affect_words = factor(affect_words, levels=c("positive words", "negative words", "ratio of negative to positive")))
+  pivot_longer(cols=c(mean_positive, mean_negative, ratio, total), names_to="affect_words", values_to="propn") %>% 
+  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive", total="total of negative and positive")) 
 
 
-ggplot(plotd, aes(x=val, y=propn)) +
+ggplot(plotd, aes(x=depressive_disorders, y=propn)) +
   geom_point() +
   facet_wrap(~affect_words, scales = "free") +
   geom_smooth(method=lm) +
-  labs(x="mood disorder prevalence/%", y="counts per 1000, ratio")
+  labs(x="depressive disorder prevalence/%", y="counts per 1000, ratio")
 
 ```
+
+
+
+Top Right:
+This plot suggests that mean frequency of positive emotion words is associated with higher prevalence of depressive disorders (each datapoint is a country). The x-axis represents depressive disorder prevalence in each country. The y-axis represents the mean frequency of positive words in language(s) that are spoken by >= 80% of the population in that country. 
+
+
+Top left:
+This graph plots the relationship between count of negative PANAS words on the y-axis  and the countries’ depressive disorder prevalence (percentage of total population) on the x-axis. As we see an increase in negative PANAS word counts, an increase in depressive disorder prevalence is also observed. Overall, this plot indicates a greater amount of negative PANAS words may be related to an increased prevalence of depressive disorder. 
+
+
+
+Bottom left: 
+This plot shows the correlation between the ratio of negative to positive words present in a language (y-axis) and the depressive disorder prevalence of the country in which that language is predominantly spoken (x-axis). It suggests a negligible relationship between the two variables, with an increase in the depressive disorder prevalence being associated with a negligible change in the ratio of negative to positive words.
+
+
+Bottom Right: This plot shows the correlation between the total count of both positive and negative words present in a language (y-axis) and the depressive disorder prevalence of the country in which that language is predominantly spoken (x-axis). It suggests a positive relationship between the two variables, with an increase in the depressive disorder prevalence of a country being associated with an increase in the total count of positive and negative words in the language predominantly spoken in that country.
+
+## Further Plots
+Draw graphs for other depressive disorders
+```{r plotgraphs2, include=TRUE}
+ggplot(plotd, aes(x=dysthymia, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="dysthymia prevalence/%", y="counts per 1000, ratio")
+
+
+ggplot(plotd, aes(x=major_depressive_disorder, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="major depressive disorder prevalence/%", y="counts per 1000, ratio")
+
+
+ggplot(plotd, aes(x=anxiety_disorders, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
+```
+
+
+It was found that similar trends were seen in the graphs for anxiety disorders and major depressive disorders, but a different trend was seen for dysthymia.
+
+
+## Control Independant Variable
+Select 36 random words and perform same method to compare with PANAS words
+```{r calculatecontrol, include=TRUE}
+random_words <- colnames(sample(select(adjcount, abbreviated:zealous), size=36))
+
+control_word_count <- adjcount %>% 
+  select(id, random_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+
+# we'll express frequencies in terms of counts per 10000 tokens
+unit <- 10000
+
+# 
+control_word_frequencies <- dict %>% 
+  inner_join(control_word_count, by="id") %>%
+  filter(dictsize >= 5000)  # only include dictionaries with more than 5000 tokens
+
+# generate frequencies
+for (word in random_words){
+  control_word_frequencies <- control_word_frequencies %>% mutate(!!sym(word) :=  unit * !!sym(word)/dictsize)
+}
+
+# calculate mean frequencies
+control_word_frequencies$mean_words<-rowSums(control_word_frequencies[,random_words])
+
+# take the mean of the frequencies for each dictionary in order to merge into a single language
+control_frequencies <- aggregate(control_word_frequencies, by = list(language = control_word_frequencies$langname), FUN = mean)
+
+#select relevant columns
+control_frequencies <- control_frequencies %>% select(language, mean_words)
+
+d_control <- merge(x= temp1, y = control_frequencies, by.x = "Language", by.y = "language")
+
+# weigh each country by the percentage of people speaking the particular language
+d_control <- d_control %>% group_by(location) %>% mutate(mean_words = weighted.mean(mean_words, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
+
+# remove countries with percentage < 80
+d_control <- d_control %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
+
+# convert val to percentage
+d_control <- d_control %>% mutate(val = val*100)
+
+#pivot longer
+d_control <- d_control %>% pivot_wider(names_from = "cause", values_from="val")
+
+# rename columns
+d_control <- rename(d_control, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia",  "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
+
+plotd_control <- d_control %>% 
+  pivot_longer(cols=c(depressive_disorders, major_depressive_disorder, anxiety_disorders, dysthymia), names_to="disorders", values_to="prevalence") 
+
+print(random_words)
+
+ggplot(plotd_control, aes(x=prevalence, y=mean_words)) +
+  geom_point() +
+  facet_wrap(~disorders, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="depressive disorder prevalence/%", y="counts per 1000, ratio")
+
+```
+
+
+Further tests can be done by calculating the chance of a significant result using 36 random words from the dictionary dataset over thousands of sets of random words
