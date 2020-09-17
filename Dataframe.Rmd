@@ -145,7 +145,6 @@ Top left:
 This graph plots the relationship between count of negative PANAS words on the y-axis  and the countries’ depressive disorder prevalence (percentage of total population) on the x-axis. As we see an increase in negative PANAS word counts, an increase in depressive disorder prevalence is also observed. Overall, this plot indicates a greater amount of negative PANAS words may be related to an increased prevalence of depressive disorder. 
 
 
-
 Bottom left: 
 This plot shows the correlation between the ratio of negative to positive words present in a language (y-axis) and the depressive disorder prevalence of the country in which that language is predominantly spoken (x-axis). It suggests a negligible relationship between the two variables, with an increase in the depressive disorder prevalence being associated with a negligible change in the ratio of negative to positive words.
 
@@ -183,60 +182,81 @@ It was found that similar trends were seen in the graphs for anxiety disorders a
 ## Control Independant Variable
 Select 36 random words and perform same method to compare with PANAS words
 ```{r calculatecontrol, include=TRUE}
-random_words <- colnames(sample(select(adjcount, abbreviated:zealous), size=36))
 
-control_word_count <- adjcount %>% 
-  select(id, random_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+calculate_significance <- function(){
+  random_words <- colnames(sample(select(adjcount, abbreviated:zealous), size=36))
+  
+  control_word_count <- adjcount %>% 
+    select(id, random_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+  
+  # we'll express frequencies in terms of counts per 10000 tokens
+  unit <- 10000
+  
+  #
+  control_word_frequencies <- dict %>% 
+    inner_join(control_word_count, by="id") %>%
+    filter(dictsize >= 5000)  # only include dictionaries with more than 5000 tokens
+  
+  # generate frequencies
+  for (word in random_words){
+    control_word_frequencies <- control_word_frequencies %>% mutate(!!sym(word) :=  unit * !!sym(word)/dictsize)
+  }
+  
+  # calculate mean frequencies
+  control_word_frequencies$mean_words<-rowSums(control_word_frequencies[,random_words])
+  
+  # take the mean of the frequencies for each dictionary in order to merge into a single language
+  control_frequencies <- aggregate(control_word_frequencies, by = list(language = control_word_frequencies$langname), FUN = mean)
+  
+  #select relevant columns
+  control_frequencies <- control_frequencies %>% select(language, mean_words)
+  
+  d_control <- merge(x= temp1, y = control_frequencies, by.x = "Language", by.y = "language")
+  
+  # weigh each country by the percentage of people speaking the particular language
+  d_control <- d_control %>% group_by(location) %>% mutate(mean_words = weighted.mean(mean_words, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
+  
+  # remove countries with percentage < 80
+  d_control <- d_control %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
+  
+  # convert val to percentage
+  d_control <- d_control %>% mutate(val = val*100)
+  
+  #pivot longer
+  d_control <- d_control %>% pivot_wider(names_from = "cause", values_from="val")
 
-# we'll express frequencies in terms of counts per 10000 tokens
-unit <- 10000
-
-# 
-control_word_frequencies <- dict %>% 
-  inner_join(control_word_count, by="id") %>%
-  filter(dictsize >= 5000)  # only include dictionaries with more than 5000 tokens
-
-# generate frequencies
-for (word in random_words){
-  control_word_frequencies <- control_word_frequencies %>% mutate(!!sym(word) :=  unit * !!sym(word)/dictsize)
+  # rename columns
+  d_control <- rename(d_control, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia", "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
+  
+  mdd_result <- cor.test(d_control$mean_words, d_control$major_depressive_disorder)
+  anxiety_result <- cor.test(d_control$mean_words, d_control$anxiety_disorders)
+  return (c(mdd_result$p.value<0.05, anxiety_result$p.value<0.05))
 }
 
-# calculate mean frequencies
-control_word_frequencies$mean_words<-rowSums(control_word_frequencies[,random_words])
+mdd_sig <- 0
+mdd_not_sig <- 0
+anxiety_sig <- 0
+anxiety_not_sig <- 0
+for(i in 0:999){
+  result <- calculate_significance()
+  if (result[1] == TRUE){
+    mdd_sig <- mdd_sig + 1
+  }
+  else{
+    mdd_not_sig <- mdd_not_sig +1
+  }
+  if (result[2] == TRUE){
+    anxiety_sig <- anxiety_sig +1
+  }
+  else{
+    anxiety_not_sig <- anxiety_not_sig + 1
+  }
+  mdd_control <- append(mdd_control, result[0])
+}
 
-# take the mean of the frequencies for each dictionary in order to merge into a single language
-control_frequencies <- aggregate(control_word_frequencies, by = list(language = control_word_frequencies$langname), FUN = mean)
-
-#select relevant columns
-control_frequencies <- control_frequencies %>% select(language, mean_words)
-
-d_control <- merge(x= temp1, y = control_frequencies, by.x = "Language", by.y = "language")
-
-# weigh each country by the percentage of people speaking the particular language
-d_control <- d_control %>% group_by(location) %>% mutate(mean_words = weighted.mean(mean_words, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
-
-# remove countries with percentage < 80
-d_control <- d_control %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
-
-# convert val to percentage
-d_control <- d_control %>% mutate(val = val*100)
-
-#pivot longer
-d_control <- d_control %>% pivot_wider(names_from = "cause", values_from="val")
-
-# rename columns
-d_control <- rename(d_control, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia",  "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
-
-plotd_control <- d_control %>% 
-  pivot_longer(cols=c(depressive_disorders, major_depressive_disorder, anxiety_disorders, dysthymia), names_to="disorders", values_to="prevalence") 
-
-print(random_words)
-
-ggplot(plotd_control, aes(x=prevalence, y=mean_words)) +
-  geom_point() +
-  facet_wrap(~disorders, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="depressive disorder prevalence/%", y="counts per 1000, ratio")
+ print(mdd_sig/mdd_not_sig)
+ print(anxiety_sig/anxiety_not_sig)
+  
 
 ```
 
