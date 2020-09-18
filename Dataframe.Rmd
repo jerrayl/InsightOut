@@ -251,7 +251,6 @@ for(i in 0:999){
   else{
     anxiety_not_sig <- anxiety_not_sig + 1
   }
-  mdd_control <- append(mdd_control, result[0])
 }
 
  print(mdd_sig/mdd_not_sig)
