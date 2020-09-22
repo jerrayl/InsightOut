@@ -1,0 +1,177 @@
+---
+title: "Seminar 2"
+author: "Uyen"
+date: "8/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(tidyverse)
+library(here)
+library(DataCombine)
+library(lme4)
+
+
+dict_path <- here("capstone20_dictionaries.csv")  
+wordcount_path <- here("dictionary_word_matrix_adj.csv") 
+
+ 
+coun_lang1_path <- here("CIA fact sheet-2.csv")
+prevalence_path <- here("IHME-GBD_2017_DATA.csv")
+geographical_path <- here("Cultural-Clusters.csv")
+```
+
+```{r, include=TRUE}
+dict <- read_csv(dict_path)  
+
+adjcount <- read_csv(wordcount_path,  col_types = cols(id = col_character(), 
+                                                       year= col_integer(), 
+                                                       title = col_character(), 
+                                                       langname = col_character(), 
+                                                       gcode = col_character(), 
+                                                       area = col_character(), 
+                                                       langfamily = col_character(), 
+                                                       affiliation = col_character(), 
+                                                       .default=col_double()))  %>% 
+  mutate(dictsize = select(., abbreviated:zealous) %>% apply(1, sum, na.rm=TRUE)) 
+
+positive_words <- c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
+negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","disgusted","sad","lonely")
+
+
+word_count <- adjcount %>% 
+  select(id, all_of(positive_words), all_of(negative_words), dictsize) %>% mutate_all(~replace_na(.x, 0))
+
+unit <- 10000
+
+word_frequencies <- dict %>% 
+ inner_join(word_count, by="id") %>%
+  filter(dictsize >= 5000)
+
+for (word in c(positive_words, negative_words))
+{word_frequencies <- word_frequencies %>% mutate(!!sym(word) :=  unit * !!sym(word)/dictsize)}
+
+word_frequencies$mean_positive<-rowSums(word_frequencies[,positive_words])
+word_frequencies$mean_negative<-rowSums(word_frequencies[,negative_words])
+
+panas_frequencies <- aggregate(word_frequencies, by = list(language = word_frequencies$langname), FUN = mean)
+
+panas_frequencies <- panas_frequencies %>% select(language, mean_positive, mean_negative)
+
+```
+
+
+Making PANAS, Mental Health, and CIA table
+```{r manipulate CIA, echo=FALSE}
+
+prevalence <- read_csv(prevalence_path)
+coun_lang1 <- read_csv(coun_lang1_path)
+
+replaces <- data.frame(from = c("Albanian", "Bosnian", "Khmer", "Croatian", "Serbian", "Arabic", "Mandarin", "Persian", "Mongolian", "Greek", "Hebrew", "Armenian", "Malay", "Kyrgyz"), 
+                       to = c("Northern Tosk Albanian", "Serbian-Croatian-Bosnian", "Central Khmer", "Serbian-Croatian-Bosnian", "Serbian-Croatian-Bosnian", "Standard Arabic", "Mandarin Chinese", "Western Farsi", "Halh Mongolian", "Modern Greek", "Modern Hebrew", "Eastern Armenian", "Standard Malay", "Kirghiz"))
+
+coun_lang <- FindReplace(data = as.data.frame(coun_lang1), Var = "Language", replaceData = replaces, from = "from", to = "to", exact = TRUE)
+```
+
+```{r Merge Culture cluster and CIA and MH}
+geographical_region <- read_csv(geographical_path) 
+
+temp0 <- merge(x= geographical_region, y = coun_lang, by.x = "Country", by.y = "Country")
+
+mh <- read_csv(prevalence_path) 
+
+prevalence <- mh %>%   select(location, val, cause)
+temp1 <- merge(x= prevalence, y = temp0, by.x = "location", by.y = "Country")
+
+d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
+
+
+d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
+
+d <- d %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
+d <- d %>% mutate(val = val*100)
+
+d <- d %>% mutate(ratio = mean_negative / mean_positive)
+d <- d %>% mutate(total = mean_negative + mean_positive)
+#pivot longer
+d <- d %>% pivot_wider(names_from = "cause", values_from="val")
+# rename columns
+d <- rename(d, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia",  "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders","cluster" = "Cultural Cluster" ))
+
+```
+
+
+```{r control}
+
+
+```
+
+##Plots
+```{r}
+plotd <- d %>% 
+  pivot_longer(cols=c(mean_positive, mean_negative, ratio, total), names_to="affect_words", values_to="propn") %>% 
+  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive", total="total of negative and positive")) 
+
+ggplot(plotd, aes(x=dysthymia, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="dysthymia prevalence/%", y="counts per 1000, ratio")
+
+
+ggplot(plotd, aes(x=major_depressive_disorder, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="major depressive disorder prevalence/%", y="counts per 1000, ratio")
+
+ggplot(plotd, aes(x=anxiety_disorders, y=propn)) +
+  geom_point() +
+  facet_wrap(~affect_words, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
+```
+```{r linear regression}
+LDepressionModel <- lm(mean_positive ~ major_depressive_disorder, data = d)
+summary(LDepressionModel)
+
+LTDepressionModel <- lm(total ~ major_depressive_disorder, data = d)
+summary(LTDepressionModel)
+
+LDysthymiaModel <- lm(mean_positive ~ dysthymia, data = d)
+summary(LDysthymiaModel)
+```
+
+```{r regression, echo=FALSE}
+DepressionModel <- lmer(mean_positive ~ major_depressive_disorder + (1|cluster), data = d, REML = FALSE)
+DepressionModel
+
+NullModel <-lmer(mean_positive ~ (1|cluster), data = d, REML=FALSE)
+NullModel
+
+a1<-anova(DepressionModel,NullModel)
+
+p_value <-  signif(a1$"Pr(>Chisq)"[2] , digits=3)
+chi_sq <- signif(a1$Chisq[2], digits=3)
+df <- a1$Df[2]
+
+show(a1)
+
+DysthymiaModel <- lmer(total ~ dysthymia + (1|cluster), data = d, REML=FALSE)
+DysthymiaModel
+
+NullModel2 <-lmer(total ~ (1|cluster), data = d, REML=FALSE)
+NullModel2
+
+a2<-anova(DysthymiaModel,NullModel2)
+
+p_value <-  signif(a2$"Pr(>Chisq)"[2] , digits=3)
+chi_sq <- signif(a2$Chisq[2], digits=3)
+df <- a2$Df[2]
+
+show(a2)
+```
+
