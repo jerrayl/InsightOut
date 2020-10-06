@@ -2,7 +2,9 @@
 title: "Relationship between dictionary count of emotion words and mood disorder incidence"
 author: "Insight Out"
 date: "06/10/2020"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -188,6 +190,33 @@ cor.test(da$mean_positive, da$percentage_anxiety)
 cor.test(da$mean_negative, da$percentage_mdd)
 cor.test(da$mean_negative, da$percentage_anxiety)
 
+
+ggplot(da, aes(x=percentage_mdd, y=mean_positive)) +
+  geom_point() +
+  facet_wrap(~cluster, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="major depressive disorder prevalence/%", y="mean positive")
+
+ggplot(da, aes(x=percentage_mdd, y=mean_negative)) +
+  geom_point() +
+  facet_wrap(~cluster, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="major depressive disorder prevalence/%", y="mean negative")
+
+
+ggplot(da, aes(x=percentage_anxiety, y=mean_positive)) +
+  geom_point() +
+  facet_wrap(~cluster, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
+
+
+ggplot(da, aes(x=percentage_anxiety, y=mean_negative)) +
+  geom_point() +
+  facet_wrap(~cluster, scales = "free") +
+  geom_smooth(method=lm) +
+  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
+
 ```
 
 ##Statistical Analysis - Mixed Model Regression
@@ -205,7 +234,6 @@ p_value <-  signif(a1$"Pr(>Chisq)"[2] , digits=3)
 chi_sq <- signif(a1$Chisq[2], digits=3)
 df <- a1$Df[2]
 show(a1)
-
 ```
 
 ```{r AD regression}
@@ -225,7 +253,7 @@ show(a1)
 
 ## Control Independant Variable
 Select 36 random words and perform same method to compare with PANAS words
-```{r calculatecontrol, include=TRUE}
+```{r calculatecontrol, include=FALSE}
 
 calculate_significance <- function(){
   random_words <- colnames(sample(select(adjcount, abbreviated:zealous), size=36))
@@ -300,5 +328,4 @@ for(i in 0:9999){
  print(mdd_sig/mdd_not_sig)
  print(anxiety_sig/anxiety_not_sig)
   
-
 ```
