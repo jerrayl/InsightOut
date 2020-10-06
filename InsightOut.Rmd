@@ -1,5 +1,7 @@
 ---
-title: "PANAS by country preliminary analysis"
+title: "Relationship between dictionary count of emotion words and mood disorder incidence"
+author: "Insight Out"
+date: "06/10/2020"
 output: html_document
 ---
 
@@ -13,6 +15,7 @@ library(dplyr)
 library(tidyverse)
 library(here)
 library(DataCombine)
+library(lme4)
 ```
 
 Specify paths for each of the files and load them
@@ -20,7 +23,9 @@ Specify paths for each of the files and load them
 dict_path <- here("data", "capstone20_dictionaries.csv")  
 adjcount_path <- here("data", "dictionary_word_matrix_adj.csv")  
 countries_path <- here("data", "countries-languages.csv")
-mh_path <- here("data", "country-mentalhealth.csv")
+disease_path <- here("data", "disease-incidences.csv")
+cluster_path <- here("data", "cultural-clusters.csv")
+population_path <- here("data", "world-population.csv")
 
 # List of dictionaries in dataset
 dict <- read_csv(dict_path)  
@@ -29,15 +34,17 @@ dict <- read_csv(dict_path)
 lang_countries <- read_csv(countries_path) 
 
 # Mental health disorder prevalance by country
-mh <- read_csv(mh_path) 
+mh <- read_csv(disease_path) 
+
+# World population by country
+population <- read.csv(population_path)
 ```
 
 Positive and negative affect words from PANAS X
 ```{r loadwords, include=TRUE}
-positive_words = c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
+positive_words <- c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
 negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","disgusted","sad","lonely")
 ```
-
 
 
 Calculate mean frequencies for positive and negative affect
@@ -82,83 +89,137 @@ lang_countries <- FindReplace(data = as.data.frame(lang_countries), Var = "Langu
 
 ```
 
+Merge CIA data with Cultural Cluster data to include cluster
+```{r addsubregions, include=TRUE}
+cultural_cluster <- read_csv(cluster_path)
+cul_lang <- merge(x= cultural_cluster, y = lang_countries, by.x = "country", by.y = "Country")
+
+```
+
 
 Merge IMHE data with CIA data to obtain disorder prevelance by countries and languages spoken
-```{r createtemp, include=TRUE}
+```{r mergedata, include=TRUE}
 # Obtain Depressive Disorder Prevalence by Country
-depression_prevalence <- mh %>%   select(location, val, cause)
+replaces2 <-data.frame(from = c("Myanmar", "Congo", "Czech Republic", "Russian Federation", "Taiwan, Province of China", "Virgin Islands, U.S."), to = c("Burma", "Republic of the Congo", "Czechia", "Russia", "Taiwan", "Virgin Islands"))
 
-temp1 <- merge(x= depression_prevalence, y = lang_countries, by.x = "location", by.y = "Country")
+mh <- FindReplace(data = as.data.frame(mh), Var = "location", replaceData = replaces2,
+                     from = "from", to = "to", exact = TRUE)
+
+population <- FindReplace(data = as.data.frame(population), Var = "location_name", replaceData = replaces2,
+                     from = "from", to = "to", exact = TRUE)
+
+incidence <- mh %>%   select(location, val, cause) %>% 
+  filter(!cause == "Dysthymia")%>%
+  rename(incidence_count = val)
+
+world_pop <- population %>% 
+  filter(age_group_id == "22" & year_id == "2017" & sex_id =="3") %>%
+  rename(total_pop = val)%>%
+  select(location_name, total_pop)
+
+disease_pop <- merge( x= incidence, y=world_pop, 
+                      by.x = "location", 
+                      by.y = "location_name")
+
+cul_lang_pop <- merge(x= cul_lang, y = disease_pop, 
+                      by.x = "country", 
+                      by.y = "location")
 
 ```
 
 
 Merge temporary dataset with panas frequencies
 ```{r createdataframe, include=TRUE}
-d <- merge(x= temp1, y = panas_frequencies, by.x = "Language", by.y = "language")
+d <- merge(x= cul_lang_pop, y = panas_frequencies, by.x = "Language", by.y = "language")
 
 # weigh each country by the percentage of people speaking the particular language
-d <- d %>% group_by(location) %>% mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
+d <- d %>% group_by(country) %>% 
+  mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% 
+  mutate(mean_negative = weighted.mean(mean_negative, Percentage/100)) %>% 
+  mutate(Percentage = sum(Percentage)/2) %>% 
+  subset(select = -c(Language)) %>% 
+  distinct()
 
 # remove countries with percentage < 80
 d <- d %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
 
-# convert val to percentage
-d <- d %>% mutate(val = val*100)
-
-
-# add ratio column and total column
-d <- d %>% mutate(ratio = mean_negative / mean_positive)
-d <- d %>% mutate(total = mean_negative + mean_positive)
-
 #pivot longer
-d <- d %>% pivot_wider(names_from = "cause", values_from="val")
+d <- d %>% pivot_wider(names_from = "cause", values_from="incidence_count")
 
 # rename columns
-d <- rename(d, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia",  "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
+d <- rename(d, c("major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
 ```
+
 
 ## Exploratory Plot
 Draw graph for depressive disorders (all three disorders combined)
 ```{r plotgraphs, include=TRUE}
 
 plotd <- d %>% 
-  pivot_longer(cols=c(mean_positive, mean_negative, ratio, total), names_to="affect_words", values_to="propn") %>% 
-  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive", total="total of negative and positive")) 
-
-
-ggplot(plotd, aes(x=depressive_disorders, y=propn)) +
-  geom_point() +
-  facet_wrap(~affect_words, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="depressive disorder prevalence/%", y="counts per 1000, ratio")
-
-```
-
-
-
-## Further Plots
-Draw graphs for other depressive disorders
-```{r plotgraphs2, include=TRUE}
-ggplot(plotd, aes(x=dysthymia, y=propn)) +
-  geom_point() +
-  facet_wrap(~affect_words, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="dysthymia prevalence/%", y="counts per 1000, ratio")
-
-
-ggplot(plotd, aes(x=major_depressive_disorder, y=propn)) +
+  pivot_longer(cols=c(mean_positive, mean_negative), names_to="affect_words", values_to="propn") %>% 
+  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive", total="total of negative and positive")) %>%
+  mutate(percentage_mdd=major_depressive_disorder/total_pop) %>%
+  mutate(percentage_anxiety=anxiety_disorders/total_pop) 
+  
+ggplot(plotd, aes(x=percentage_mdd, y=propn)) +
   geom_point() +
   facet_wrap(~affect_words, scales = "free") +
   geom_smooth(method=lm) +
   labs(x="major depressive disorder prevalence/%", y="counts per 1000, ratio")
 
 
-ggplot(plotd, aes(x=anxiety_disorders, y=propn)) +
+ggplot(plotd, aes(x=percentage_anxiety, y=propn)) +
   geom_point() +
   facet_wrap(~affect_words, scales = "free") +
   geom_smooth(method=lm) +
   labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
+
+```
+
+
+
+## Correlations
+```{r correlation, include=TRUE}
+da <- d %>%  mutate(percentage_mdd=major_depressive_disorder/total_pop) %>%
+  mutate(percentage_anxiety=anxiety_disorders/total_pop) 
+
+cor.test(da$mean_positive, da$percentage_mdd)
+cor.test(da$mean_positive, da$percentage_anxiety)
+cor.test(da$mean_negative, da$percentage_mdd)
+cor.test(da$mean_negative, da$percentage_anxiety)
+
+```
+
+##Statistical Analysis - Mixed Model Regression
+```{r MD regression, include=TRUE}
+# We will not used linear regression in our lab report because one of the assumption in linear regression is independence of data, and our country data violate this assumption. Instead, we will use mixed model regression. We found a study that group countries based on cultural clusters (Mensah, Y. M., & Chen, H. Y. (2013). Global clustering of countries by culture–an extension of the GLOBE study.) and we will use this cultural cluster as our random effect for the analysis. 
+
+FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ mean_positive + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+beta_temp <- round(coef(summary(FullDepressionModel))[2,"Estimate"], 2)
+show(FullDepressionModel)
+
+ReducedDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+
+a1<-anova(FullDepressionModel,ReducedDepressionModel)
+p_value <-  signif(a1$"Pr(>Chisq)"[2] , digits=3)
+chi_sq <- signif(a1$Chisq[2], digits=3)
+df <- a1$Df[2]
+show(a1)
+
+```
+
+```{r AD regression}
+FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ mean_positive + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+beta_temp <- round(coef(summary(FullADModel))[2,"Estimate"], 2)
+show(FullDepressionModel)
+
+ReducedADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+
+a1<-anova(FullADModel,ReducedADModel)
+p_value <-  signif(a1$"Pr(>Chisq)"[2] , digits=3)
+chi_sq <- signif(a1$Chisq[2], digits=3)
+df <- a1$Df[2]
+show(a1)
 ```
 
 
@@ -241,6 +302,3 @@ for(i in 0:9999){
   
 
 ```
-
-
-Further tests can be done by calculating the chance of a significant result using 36 random words from the dictionary dataset over thousands of sets of random words
