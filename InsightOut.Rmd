@@ -20,6 +20,7 @@ library(DataCombine)
 library(lme4)
 ```
 
+
 Specify paths for each of the files and load them
 ```{r loaddata, include=TRUE}
 dict_path <- here("data", "capstone20_dictionaries.csv")  
@@ -46,6 +47,7 @@ Positive and negative affect words from PANAS X
 ```{r loadwords, include=TRUE}
 positive_words <- c("active","alert","attentive","enthusiastic","excited","interested","proud","happy", "joyful","delighted","cheerful","lively","energetic","strong","confident","bold","daring","fearless")
 negative_words <- c("afraid","scared","nervous","jittery","irritable","hostile","guilty","ashamed","upset", "distressed","frightened","shaky","angry","disgusted","sad","lonely")
+
 ```
 
 
@@ -117,6 +119,7 @@ incidence <- mh %>%   select(location, val, cause) %>%
 world_pop <- population %>% 
   filter(age_group_id == "22" & year_id == "2017" & sex_id =="3") %>%
   rename(total_pop = val)%>%
+  filter(total_pop != 10502507) %>%    #remove georgia, US
   select(location_name, total_pop)
 
 disease_pop <- merge( x= incidence, y=world_pop, 
@@ -133,7 +136,9 @@ cul_lang_pop <- merge(x= cul_lang, y = disease_pop,
 Merge temporary dataset with panas frequencies
 ```{r createdataframe, include=TRUE}
 d <- merge(x= cul_lang_pop, y = panas_frequencies, by.x = "Language", by.y = "language")
+```
 
+```{r test2, include=TRUE}
 # weigh each country by the percentage of people speaking the particular language
 d <- d %>% group_by(country) %>% 
   mutate(mean_positive = weighted.mean(mean_positive, Percentage/100)) %>% 
@@ -150,6 +155,16 @@ d <- d %>% pivot_wider(names_from = "cause", values_from="incidence_count")
 
 # rename columns
 d <- rename(d, c("major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
+
+# Remove GEORGIA
+d <- d %>% filter(country != "Georgia" | total_pop < 5000000)
+
+# Create Total
+d <- d %>% mutate(total = (mean_positive + mean_negative) / 1000)
+
+#Round population and disorder incidence 
+d <- d %>% mutate(total_pop = round(total_pop), anxiety_disorders = round(anxiety_disorders), major_depressive_disorder = round(major_depressive_disorder)) 
+
 ```
 
 
@@ -159,31 +174,28 @@ Draw graph for depressive disorders (all three disorders combined)
 
 plotd <- d %>% 
   pivot_longer(cols=c(mean_positive, mean_negative), names_to="affect_words", values_to="propn") %>% 
-  mutate(affect_words = recode(affect_words, mean_positive="positive words", mean_negative="negative words", ratio="ratio of negative to positive", total="total of negative and positive")) %>%
-  mutate(percentage_mdd=major_depressive_disorder/total_pop) %>%
-  mutate(percentage_anxiety=anxiety_disorders/total_pop) 
+  mutate(percentage_mdd= 100 * major_depressive_disorder/total_pop) %>%
+  mutate(percentage_anxiety= 100* anxiety_disorders/total_pop) 
   
-ggplot(plotd, aes(x=percentage_mdd, y=propn)) +
+ggplot(plotd, aes(y=percentage_mdd, x=total)) +
   geom_point() +
-  facet_wrap(~affect_words, scales = "free") +
+  theme_bw() +
   geom_smooth(method=lm) +
-  labs(x="major depressive disorder prevalence/%", y="counts per 1000, ratio")
+  labs(y="Major Depressive Disorder prevalence/%", x="Emotion words per 10000 tokens", title="Scatterplot of emotion words and Major Depressive Disorder prevalence")
 
-
-ggplot(plotd, aes(x=percentage_anxiety, y=propn)) +
+ggplot(plotd, aes(y=percentage_anxiety, x=total)) +
   geom_point() +
-  facet_wrap(~affect_words, scales = "free") +
+  theme_bw() +
   geom_smooth(method=lm) +
-  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
-
+  labs(y="Anxiety disorders prevalence/%", x="Emotion words per 10000 tokens", title="Scatterplot of emotion words and Anxiety disorders prevalence")
 ```
 
 
 
 ## Correlations
 ```{r correlation, include=TRUE}
-da <- d %>%  mutate(percentage_mdd=major_depressive_disorder/total_pop) %>%
-  mutate(percentage_anxiety=anxiety_disorders/total_pop) 
+da <- d %>%  mutate(percentage_mdd=100 * major_depressive_disorder/total_pop) %>%
+  mutate(percentage_anxiety= 100 * anxiety_disorders/total_pop) 
 
 cor.test(da$mean_positive, da$percentage_mdd)
 cor.test(da$mean_positive, da$percentage_anxiety)
@@ -223,7 +235,7 @@ ggplot(da, aes(x=percentage_anxiety, y=mean_negative)) +
 ```{r MD regression, include=TRUE}
 # We will not used linear regression in our lab report because one of the assumption in linear regression is independence of data, and our country data violate this assumption. Instead, we will use mixed model regression. We found a study that group countries based on cultural clusters (Mensah, Y. M., & Chen, H. Y. (2013). Global clustering of countries by culture–an extension of the GLOBE study.) and we will use this cultural cluster as our random effect for the analysis. 
 
-FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ mean_positive + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
 beta_temp <- round(coef(summary(FullDepressionModel))[2,"Estimate"], 2)
 show(FullDepressionModel)
 
@@ -234,12 +246,13 @@ p_value <-  signif(a1$"Pr(>Chisq)"[2] , digits=3)
 chi_sq <- signif(a1$Chisq[2], digits=3)
 df <- a1$Df[2]
 show(a1)
+
 ```
 
 ```{r AD regression}
-FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ mean_positive + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
 beta_temp <- round(coef(summary(FullADModel))[2,"Estimate"], 2)
-show(FullDepressionModel)
+show(FullADModel)
 
 ReducedADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
 
@@ -253,9 +266,9 @@ show(a1)
 
 ## Control Independant Variable
 Select 36 random words and perform same method to compare with PANAS words
-```{r calculatecontrol, include=FALSE}
+```{r calculatecontrol}
 
-calculate_significance <- function(){
+#calculate_significance <- function(){
   random_words <- colnames(sample(select(adjcount, abbreviated:zealous), size=36))
   
   control_word_count <- adjcount %>% 
@@ -283,49 +296,56 @@ calculate_significance <- function(){
   #select relevant columns
   control_frequencies <- control_frequencies %>% select(language, mean_words)
   
-  d_control <- merge(x= temp1, y = control_frequencies, by.x = "Language", by.y = "language")
-  
+  d_control <- merge(x= cul_lang_pop, y = control_frequencies, by.x = "Language", by.y = "language")
+
   # weigh each country by the percentage of people speaking the particular language
-  d_control <- d_control %>% group_by(location) %>% mutate(mean_words = weighted.mean(mean_words, Percentage/100)) %>% mutate(Percentage = sum(Percentage)/4) %>% subset(select = -c(Language)) %>% distinct()
+  d_control <- d_control %>% group_by(country) %>% 
+    mutate(mean_words = weighted.mean(mean_words, Percentage/100)) %>% 
+    mutate(Percentage = sum(Percentage)) %>% 
+    subset(select = -c(Language)) %>% 
+    distinct()
   
   # remove countries with percentage < 80
   d_control <- d_control %>% subset(Percentage >= 80) %>% subset(select = -c(Percentage))
   
-  # convert val to percentage
-  d_control <- d_control %>% mutate(val = val*100)
-  
   #pivot longer
-  d_control <- d_control %>% pivot_wider(names_from = "cause", values_from="val")
-
+  d_control <- d_control %>% pivot_wider(names_from = "cause", values_from="incidence_count")
+  
+  
   # rename columns
-  d_control <- rename(d_control, c("depressive_disorders"="Depressive disorders", "dysthymia"="Dysthymia", "major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
+  d_control <- rename(d_control, c("major_depressive_disorder"="Major depressive disorder",  "anxiety_disorders" = "Anxiety disorders"))
   
-  mdd_result <- cor.test(d_control$mean_words, d_control$major_depressive_disorder)
-  anxiety_result <- cor.test(d_control$mean_words, d_control$anxiety_disorders)
-  return (c(mdd_result$p.value<0.05, anxiety_result$p.value<0.05))
-}
-
-mdd_sig <- 0
-mdd_not_sig <- 0
-anxiety_sig <- 0
-anxiety_not_sig <- 0
-for(i in 0:9999){
-  result <- calculate_significance()
-  if (result[1] == TRUE){
-    mdd_sig <- mdd_sig + 1
-  }
-  else{
-    mdd_not_sig <- mdd_not_sig +1
-  }
-  if (result[2] == TRUE){
-    anxiety_sig <- anxiety_sig +1
-  }
-  else{
-    anxiety_not_sig <- anxiety_not_sig + 1
-  }
-}
-
- print(mdd_sig/mdd_not_sig)
- print(anxiety_sig/anxiety_not_sig)
+  # Remove GEORGIA
+  d_control <- d_control %>% filter(country != "Georgia" | total_pop < 5000000)
   
+  #Round population and disorder incidence 
+  d_control <- d_control %>% mutate(total_pop = round(total_pop), anxiety_disorders = round(anxiety_disorders), major_depressive_disorder = round(major_depressive_disorder)) 
+  
+  
+  d_control <- d_control %>%  mutate(percentage_mdd=100 * major_depressive_disorder/total_pop) %>%
+  mutate(percentage_anxiety= 100 * anxiety_disorders/total_pop) 
+
+ggplot(d_control, aes(x=percentage_mdd, y=mean_words)) +
+  geom_point() +
+  geom_smooth(method=lm) +
+  labs(x="major depressive disorder prevalence/%", y="mean positive")
+  
+    FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ mean_words + (1|cluster), data = d_control, family = binomial, control=glmerControl(optimizer="bobyqa"))
+
+  ReducedDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ (1|cluster), data = d_control, family = binomial, control=glmerControl(optimizer="bobyqa"))
+  
+  a1<-anova(FullDepressionModel,ReducedDepressionModel)
+  p_value_depression <-  signif(a1$"Pr(>Chisq)"[2] )
+  
+  
+    FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ mean_words + (1|cluster), data = d_control, family = binomial, control=glmerControl(optimizer="bobyqa"))
+
+  ReducedADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ (1|cluster), data = d_control, family = binomial, control=glmerControl(optimizer="bobyqa"))
+  
+  a1<-anova(FullADModel,ReducedADModel)
+  p_value_anxiety <-  signif(a1$"Pr(>Chisq)"[2])
+
+  print(p_value_depression)
+  print(p_value_anxiety)
+
 ```
