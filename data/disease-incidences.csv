@@ -1,586 +1,391 @@
 measure,location,sex,age,cause,metric,year,val,upper,lower
-Incidence,Kiribati,Both,All Ages,Major depressive disorder,Number,2017,2489.72778368,2801.34058132,2217.8085364
-Incidence,Kiribati,Both,All Ages,Dysthymia,Number,2017,224.974366322,258.641306523,195.181819614
-Incidence,Kiribati,Both,All Ages,Anxiety disorders,Number,2017,597.464215815,643.091590576,556.35056445
-Incidence,Lebanon,Both,All Ages,Major depressive disorder,Number,2017,320873.951334,361138.950941,287425.12809
-Incidence,Lebanon,Both,All Ages,Dysthymia,Number,2017,13891.2962189,15975.2331553,12086.0637632
-Incidence,Lebanon,Both,All Ages,Anxiety disorders,Number,2017,66841.0174601,72270.1277512,62151.5455388
-Incidence,Israel,Both,All Ages,Major depressive disorder,Number,2017,292132.929313,323409.026585,263571.098761
-Incidence,Israel,Both,All Ages,Dysthymia,Number,2017,18580.1861334,21189.4752682,16100.6894708
-Incidence,Israel,Both,All Ages,Anxiety disorders,Number,2017,42380.7687786,45246.5071659,39841.4914141
-Incidence,Somalia,Both,All Ages,Major depressive disorder,Number,2017,470835.779893,528656.346279,419013.966866
-Incidence,Somalia,Both,All Ages,Dysthymia,Number,2017,24045.5197869,27675.1325218,20618.2040515
-Incidence,Somalia,Both,All Ages,Anxiety disorders,Number,2017,90145.9908031,97154.5721233,83133.3235267
-Incidence,Costa Rica,Both,All Ages,Anxiety disorders,Number,2017,21836.7833048,23499.9173909,20365.6865622
-Incidence,Antigua and Barbuda,Both,All Ages,Major depressive disorder,Number,2017,2294.61400274,2557.0577805,2065.15225282
-Incidence,Antigua and Barbuda,Both,All Ages,Dysthymia,Number,2017,165.754477365,188.967999371,143.813802238
-Incidence,Italy,Both,All Ages,Major depressive disorder,Number,2017,2141927.73107,2375335.8485,1946113.97913
-Incidence,Italy,Both,All Ages,Dysthymia,Number,2017,132513.937079,151398.821996,115071.584036
-Incidence,Italy,Both,All Ages,Anxiety disorders,Number,2017,367169.251492,389409.022995,343592.044702
-Incidence,Bosnia and Herzegovina,Both,All Ages,Major depressive disorder,Number,2017,86675.0323132,96877.1416077,77799.1404712
-Incidence,Bosnia and Herzegovina,Both,All Ages,Dysthymia,Number,2017,6681.83290475,7672.52082854,5855.27970998
-Incidence,Bosnia and Herzegovina,Both,All Ages,Anxiety disorders,Number,2017,16855.4834569,18085.512896,15679.4050573
-Incidence,Angola,Both,All Ages,Major depressive disorder,Number,2017,944540.859592,1062435.90938,843415.717618
-Incidence,Angola,Both,All Ages,Dysthymia,Number,2017,40500.4157426,46339.8112175,34959.8469356
-Incidence,Angola,Both,All Ages,Anxiety disorders,Number,2017,147040.938629,159577.186153,136111.078564
-Incidence,The Bahamas,Both,All Ages,Major depressive disorder,Number,2017,9660.96323057,10768.900494,8732.55441312
-Incidence,The Bahamas,Both,All Ages,Dysthymia,Number,2017,681.229764275,777.526773018,590.490002002
-Incidence,The Bahamas,Both,All Ages,Anxiety disorders,Number,2017,2468.75469384,2638.59281708,2299.74747618
-Incidence,Brunei,Both,All Ages,Major depressive disorder,Number,2017,8932.76335817,10052.2932573,7961.38863656
-Incidence,Brunei,Both,All Ages,Dysthymia,Number,2017,854.00545638,985.178561273,732.837511651
-Incidence,Brunei,Both,All Ages,Anxiety disorders,Number,2017,2417.24466076,2592.03673593,2251.21647887
-Incidence,Marshall Islands,Both,All Ages,Major depressive disorder,Number,2017,1187.54299105,1324.31921779,1066.08967022
-Incidence,Marshall Islands,Both,All Ages,Dysthymia,Number,2017,110.757300554,127.915625018,96.1894111268
-Incidence,Marshall Islands,Both,All Ages,Anxiety disorders,Number,2017,292.077369099,314.42765177,272.493605024
-Incidence,Bulgaria,Both,All Ages,Major depressive disorder,Number,2017,212988.855081,235665.199378,192878.717108
-Incidence,Bulgaria,Both,All Ages,Dysthymia,Number,2017,14894.2872249,17012.1045626,13061.2136271
-Incidence,Bulgaria,Both,All Ages,Anxiety disorders,Number,2017,34907.0892265,37110.4572457,32596.0111898
-Incidence,Antigua and Barbuda,Both,All Ages,Anxiety disorders,Number,2017,575.479007767,615.317115662,535.909454063
-Incidence,Guinea-Bissau,Both,All Ages,Major depressive disorder,Number,2017,50020.2476431,55811.3106978,44641.8059818
-Incidence,Guinea-Bissau,Both,All Ages,Dysthymia,Number,2017,2776.09301352,3184.641146,2382.81728722
-Incidence,Guinea-Bissau,Both,All Ages,Anxiety disorders,Number,2017,9155.39716045,9838.83056978,8466.98975191
-Incidence,China,Both,All Ages,Major depressive disorder,Number,2017,42333562.548,46712230.5591,38437903.6805
-Incidence,China,Both,All Ages,Dysthymia,Number,2017,3834051.9148,4423174.74352,3299875.96872
-Incidence,China,Both,All Ages,Anxiety disorders,Number,2017,6713577.86801,7223006.76671,6229520.27135
-Incidence,Japan,Both,All Ages,Major depressive disorder,Number,2017,4378858.4543,4761228.87525,4042781.70086
-Incidence,Japan,Both,All Ages,Dysthymia,Number,2017,269587.420492,303429.63735,237694.040927
-Incidence,Japan,Both,All Ages,Anxiety disorders,Number,2017,596853.954687,641312.365964,555090.042
-Incidence,Barbados,Both,All Ages,Major depressive disorder,Number,2017,8989.14497525,9929.81958274,8083.9141796
-Incidence,Barbados,Both,All Ages,Dysthymia,Number,2017,586.084451049,663.615054918,510.831916471
-Incidence,Barbados,Both,All Ages,Anxiety disorders,Number,2017,1823.87631048,1950.47099801,1702.21553605
-Incidence,Tanzania,Both,All Ages,Major depressive disorder,Number,2017,1526733.71234,1704385.14678,1363276.8594
-Incidence,Tanzania,Both,All Ages,Dysthymia,Number,2017,80552.392865,92699.2639121,69249.5611681
-Incidence,Tanzania,Both,All Ages,Anxiety disorders,Number,2017,290209.434421,312656.598787,268051.509394
-Incidence,Liberia,Both,All Ages,Major depressive disorder,Number,2017,142890.486134,157535.262346,129281.659616
-Incidence,Liberia,Both,All Ages,Dysthymia,Number,2017,7265.99276109,8313.30584337,6269.24809836
-Incidence,Liberia,Both,All Ages,Anxiety disorders,Number,2017,23641.4558122,25446.0059239,21924.591698
-Incidence,Federated States of Micronesia,Both,All Ages,Major depressive disorder,Number,2017,2302.16603615,2581.82904795,2073.05249413
-Incidence,Federated States of Micronesia,Both,All Ages,Dysthymia,Number,2017,211.539738517,243.247061826,183.970202411
-Incidence,Federated States of Micronesia,Both,All Ages,Anxiety disorders,Number,2017,540.36696898,580.875129514,503.672346606
-Incidence,El Salvador,Both,All Ages,Major depressive disorder,Number,2017,190873.267105,212647.202922,172999.845303
-Incidence,El Salvador,Both,All Ages,Dysthymia,Number,2017,9338.40813171,10641.2978308,8133.09777406
-Incidence,El Salvador,Both,All Ages,Anxiety disorders,Number,2017,28621.8722113,30837.3320522,26532.2448423
-Incidence,Papua New Guinea,Both,All Ages,Major depressive disorder,Number,2017,196813.641514,222064.325725,175017.191634
-Incidence,Papua New Guinea,Both,All Ages,Dysthymia,Number,2017,16728.224283,19325.0347351,14491.6300905
-Incidence,Papua New Guinea,Both,All Ages,Anxiety disorders,Number,2017,46446.0906593,50270.0005427,43158.6481333
-Incidence,Costa Rica,Both,All Ages,Major depressive disorder,Number,2017,143899.974631,158625.359565,130617.228658
-Incidence,Costa Rica,Both,All Ages,Dysthymia,Number,2017,7596.4309249,8619.56118458,6615.72622994
-Incidence,Czech Republic,Both,All Ages,Major depressive disorder,Number,2017,331536.910998,367321.321896,301418.836232
-Incidence,Czech Republic,Both,All Ages,Dysthymia,Number,2017,20599.8018913,23628.1650512,18058.9299158
-Incidence,Czech Republic,Both,All Ages,Anxiety disorders,Number,2017,51445.6936907,54784.3041652,48111.9475069
-Incidence,Northern Mariana Islands,Both,All Ages,Major depressive disorder,Number,2017,1102.31268039,1230.03018295,994.979060034
-Incidence,Northern Mariana Islands,Both,All Ages,Dysthymia,Number,2017,117.461515441,136.444567273,101.023572528
-Incidence,Northern Mariana Islands,Both,All Ages,Anxiety disorders,Number,2017,235.484405037,251.101910976,220.75025055
-Incidence,Congo,Both,All Ages,Major depressive disorder,Number,2017,182314.959728,203469.281944,162862.921263
-Incidence,Congo,Both,All Ages,Dysthymia,Number,2017,8142.03421201,9319.50241358,7035.95132135
-Incidence,Congo,Both,All Ages,Anxiety disorders,Number,2017,26466.4951467,28474.7590023,24505.3775691
-Incidence,North Korea,Both,All Ages,Major depressive disorder,Number,2017,628079.165446,699217.211843,566723.729611
-Incidence,North Korea,Both,All Ages,Dysthymia,Number,2017,65680.0157961,75838.3721139,57008.4191852
-Incidence,North Korea,Both,All Ages,Anxiety disorders,Number,2017,129818.820267,138637.494737,120729.879302
-Incidence,Libya,Both,All Ages,Major depressive disorder,Number,2017,279476.297973,313390.781104,248238.08424
-Incidence,Libya,Both,All Ages,Dysthymia,Number,2017,12370.7105581,14284.9432477,10678.8378768
-Incidence,Libya,Both,All Ages,Anxiety disorders,Number,2017,49492.2714546,53338.3549788,46129.924884
-Incidence,Croatia,Both,All Ages,Major depressive disorder,Number,2017,148473.91295,163166.540328,134592.968882
-Incidence,Croatia,Both,All Ages,Dysthymia,Number,2017,8446.31924369,9653.06938578,7414.48551977
-Incidence,Luxembourg,Both,All Ages,Anxiety disorders,Number,2017,3725.94606131,3987.71278054,3473.76518436
-Incidence,Puerto Rico,Both,All Ages,Major depressive disorder,Number,2017,111269.202883,123012.35991,100139.248304
-Incidence,Puerto Rico,Both,All Ages,Dysthymia,Number,2017,7308.28092407,8270.84807798,6394.04028935
-Incidence,Puerto Rico,Both,All Ages,Anxiety disorders,Number,2017,22129.9524267,23631.753652,20650.5626727
-Incidence,Morocco,Both,All Ages,Major depressive disorder,Number,2017,2241556.88046,2507713.08872,2014940.81514
-Incidence,Morocco,Both,All Ages,Dysthymia,Number,2017,65978.9734219,75655.1508163,57326.0066211
-Incidence,Morocco,Both,All Ages,Anxiety disorders,Number,2017,247958.205514,265511.23872,230341.096816
-Incidence,Croatia,Both,All Ages,Anxiety disorders,Number,2017,20702.8587314,22122.6311683,19347.606889
-Incidence,Luxembourg,Both,All Ages,Major depressive disorder,Number,2017,19820.7163722,21897.2457923,18009.3739224
-Incidence,Luxembourg,Both,All Ages,Dysthymia,Number,2017,1367.06897711,1562.30621066,1184.36155768
-Incidence,Uganda,Both,All Ages,Major depressive disorder,Number,2017,1497064.47882,1692598.03104,1335882.52475
-Incidence,Uganda,Both,All Ages,Dysthymia,Number,2017,54975.5575138,63692.8963887,47055.1017873
-Incidence,Uganda,Both,All Ages,Anxiety disorders,Number,2017,206582.180683,224575.311351,188452.480413
-Incidence,"Virgin Islands, U.S.",Both,All Ages,Major depressive disorder,Number,2017,3393.42462015,3728.4884255,3078.43137759
-Incidence,"Virgin Islands, U.S.",Both,All Ages,Dysthymia,Number,2017,206.774930101,234.638597084,180.012508003
-Incidence,Taiwan (Province of China),Both,All Ages,Major depressive disorder,Number,2017,569667.482961,630652.056416,517780.686943
-Incidence,Taiwan (Province of China),Both,All Ages,Dysthymia,Number,2017,66171.3665133,77000.6905438,57259.7749161
-Incidence,Taiwan (Province of China),Both,All Ages,Anxiety disorders,Number,2017,118878.926548,126841.536808,110798.965928
-Incidence,Cuba,Both,All Ages,Major depressive disorder,Number,2017,466836.499224,516147.251706,426510.579081
-Incidence,Cuba,Both,All Ages,Dysthymia,Number,2017,22670.6871306,25772.6854627,19669.9460134
-Incidence,Cuba,Both,All Ages,Anxiety disorders,Number,2017,69680.1761135,74512.1279188,65064.3991111
-Incidence,Samoa,Both,All Ages,Major depressive disorder,Number,2017,3844.68410203,4290.82837548,3458.65934695
-Incidence,Samoa,Both,All Ages,Dysthymia,Number,2017,372.111598348,426.527371305,323.752002068
-Incidence,Samoa,Both,All Ages,Anxiety disorders,Number,2017,995.944494786,1071.71065113,928.530915289
-Incidence,South Korea,Both,All Ages,Major depressive disorder,Number,2017,1776719.45386,1936771.65024,1640578.2092
-Incidence,South Korea,Both,All Ages,Dysthymia,Number,2017,110381.309235,127617.584318,96356.7747141
-Incidence,South Korea,Both,All Ages,Anxiety disorders,Number,2017,271623.578744,289968.042645,253939.19319
-Incidence,Macedonia,Both,All Ages,Anxiety disorders,Number,2017,10860.7919745,11590.4043008,10175.322377
-Incidence,Zambia,Both,All Ages,Major depressive disorder,Number,2017,464964.070877,523453.129408,414786.155694
-Incidence,Zambia,Both,All Ages,Dysthymia,Number,2017,25556.5807063,29510.0518189,21929.2562393
-Incidence,Zambia,Both,All Ages,Anxiety disorders,Number,2017,94183.1189119,101646.823738,86888.4318873
-Incidence,Mali,Both,All Ages,Major depressive disorder,Number,2017,398185.387876,447337.303618,356457.522783
-Incidence,Mali,Both,All Ages,Dysthymia,Number,2017,28655.466099,32799.2587035,24671.9373565
-Incidence,Mali,Both,All Ages,Anxiety disorders,Number,2017,98110.5655296,105697.362825,90388.5774487
-Incidence,Central African Republic,Both,All Ages,Major depressive disorder,Number,2017,179288.014998,202603.224228,160897.747742
-Incidence,Central African Republic,Both,All Ages,Dysthymia,Number,2017,7418.27608641,8487.41522772,6408.3542337
-Incidence,Central African Republic,Both,All Ages,Anxiety disorders,Number,2017,24997.2138091,27051.700923,23152.1807132
-Incidence,Solomon Islands,Both,All Ages,Dysthymia,Number,2017,1131.72008242,1303.45310454,981.213226454
-Incidence,Solomon Islands,Both,All Ages,Anxiety disorders,Number,2017,3219.22019803,3474.19203596,2991.73351417
-Incidence,Singapore,Both,All Ages,Major depressive disorder,Number,2017,173915.983859,192112.4927,158551.641358
-Incidence,Singapore,Both,All Ages,Dysthymia,Number,2017,13121.9925643,14967.5259036,11459.9183578
-Incidence,Singapore,Both,All Ages,Anxiety disorders,Number,2017,29460.8483577,31586.0902592,27370.512432
-Incidence,Equatorial Guinea,Both,All Ages,Major depressive disorder,Number,2017,47640.5840877,53707.1819924,42314.0621987
-Incidence,Equatorial Guinea,Both,All Ages,Dysthymia,Number,2017,2022.00673136,2328.54694183,1732.72300609
-Incidence,Equatorial Guinea,Both,All Ages,Anxiety disorders,Number,2017,7224.63124613,7792.46479467,6667.5964558
-Incidence,Norway,Both,All Ages,Major depressive disorder,Number,2017,185707.662329,208077.56662,165671.892418
-Incidence,Norway,Both,All Ages,Dysthymia,Number,2017,11949.9104002,13672.5798511,10373.3498467
-Incidence,Norway,Both,All Ages,Anxiety disorders,Number,2017,40473.1646002,43656.5349566,37592.1984757
-Incidence,Solomon Islands,Both,All Ages,Major depressive disorder,Number,2017,13037.7850942,14684.6418609,11585.0141448
-Incidence,Belize,Both,All Ages,Major depressive disorder,Number,2017,10277.6957798,11518.6387134,9234.53937253
-Incidence,Belize,Both,All Ages,Dysthymia,Number,2017,624.391193978,714.35877689,540.937748216
-Incidence,Belize,Both,All Ages,Anxiety disorders,Number,2017,2619.13271001,2817.63967632,2432.07237166
-Incidence,Guatemala,Both,All Ages,Major depressive disorder,Number,2017,507378.136163,564841.221416,458284.804869
-Incidence,Guatemala,Both,All Ages,Dysthymia,Number,2017,23426.4674469,26963.6692945,20415.6759698
-Incidence,Guatemala,Both,All Ages,Anxiety disorders,Number,2017,79290.6368468,85674.3007483,73631.3258286
-Incidence,Mauritania,Both,All Ages,Major depressive disorder,Number,2017,87432.2983757,98099.6357301,78779.2570999
-Incidence,Mauritania,Both,All Ages,Dysthymia,Number,2017,6077.19307208,6931.97923368,5250.61371217
-Incidence,Mauritania,Both,All Ages,Anxiety disorders,Number,2017,19481.0223016,20958.2121993,17998.1003695
-Incidence,Qatar,Both,All Ages,Major depressive disorder,Number,2017,117690.55034,133675.860238,103151.34551
-Incidence,Qatar,Both,All Ages,Dysthymia,Number,2017,4892.83691206,5808.32879855,4116.88627446
-Incidence,Qatar,Both,All Ages,Anxiety disorders,Number,2017,20356.4177185,22169.8663935,18677.7997559
-Incidence,"Virgin Islands, U.S.",Both,All Ages,Anxiety disorders,Number,2017,627.378654707,671.128622649,585.785644663
-Incidence,Honduras,Both,All Ages,Major depressive disorder,Number,2017,226648.987429,251991.144398,203690.109016
-Incidence,Honduras,Both,All Ages,Dysthymia,Number,2017,12907.5814597,14864.0417718,11247.200149
-Incidence,Honduras,Both,All Ages,Anxiety disorders,Number,2017,44203.6870199,47619.2679307,41093.4915609
-Incidence,Cambodia,Both,All Ages,Major depressive disorder,Number,2017,340758.368351,381283.941259,304495.799068
-Incidence,Cambodia,Both,All Ages,Dysthymia,Number,2017,33245.4571005,38152.7069402,28870.062272
-Incidence,Cambodia,Both,All Ages,Anxiety disorders,Number,2017,81383.8979749,87289.6874898,75672.4565492
-Incidence,Malta,Both,All Ages,Major depressive disorder,Number,2017,12761.6739288,14096.6539462,11513.4405412
-Incidence,Malta,Both,All Ages,Dysthymia,Number,2017,1020.47735419,1162.52433282,885.689303165
-Incidence,Malta,Both,All Ages,Anxiety disorders,Number,2017,2605.77812212,2783.59845565,2431.08469224
-Incidence,Gabon,Both,All Ages,Major depressive disorder,Number,2017,66791.9185801,74576.3942992,60173.9655779
-Incidence,Dominican Republic,Both,All Ages,Major depressive disorder,Number,2017,304440.776227,339059.668521,274954.862748
-Incidence,Dominican Republic,Both,All Ages,Dysthymia,Number,2017,17503.211235,19947.2714042,15259.1276549
-Incidence,Dominican Republic,Both,All Ages,Anxiety disorders,Number,2017,67385.12485,72057.6542696,62526.3295721
-Incidence,Palestine,Both,All Ages,Major depressive disorder,Number,2017,219598.941676,246921.686518,197122.598112
-Incidence,Palestine,Both,All Ages,Dysthymia,Number,2017,7571.4264859,8731.83044553,6562.298202
-Incidence,Palestine,Both,All Ages,Anxiety disorders,Number,2017,34164.8648532,36722.7230586,31693.6296571
-Incidence,Nicaragua,Both,All Ages,Major depressive disorder,Number,2017,171917.347289,191445.392313,155716.702675
-Incidence,Nicaragua,Both,All Ages,Dysthymia,Number,2017,9152.92640813,10521.3385789,7992.59142294
-Incidence,Nicaragua,Both,All Ages,Anxiety disorders,Number,2017,30017.9406332,32238.1989093,27841.0812629
-Incidence,Oman,Both,All Ages,Dysthymia,Number,2017,7765.86894152,9116.52383024,6593.67118445
-Incidence,Oman,Both,All Ages,Anxiety disorders,Number,2017,32908.6427779,35617.512422,30162.269551
-Incidence,Hungary,Both,All Ages,Major depressive disorder,Number,2017,339582.873784,378659.030414,306902.336757
-Incidence,Hungary,Both,All Ages,Dysthymia,Number,2017,19266.0758717,22085.0344222,16861.7440739
-Incidence,Hungary,Both,All Ages,Anxiety disorders,Number,2017,47379.1920389,50465.2249846,44281.0857872
-Incidence,Panama,Both,All Ages,Major depressive disorder,Number,2017,103941.963369,114988.302659,93961.419928
-Incidence,Panama,Both,All Ages,Dysthymia,Number,2017,6054.75293495,6870.8218659,5292.27351349
-Incidence,Panama,Both,All Ages,Anxiety disorders,Number,2017,18118.0675811,19454.8518606,16952.9740071
-Incidence,Democratic Republic of the Congo,Both,All Ages,Major depressive disorder,Number,2017,2700621.98395,3038026.75221,2414415.96552
-Incidence,Democratic Republic of the Congo,Both,All Ages,Dysthymia,Number,2017,121572.975871,139039.712463,105099.707971
-Incidence,Democratic Republic of the Congo,Both,All Ages,Anxiety disorders,Number,2017,424859.649431,458548.261556,393320.786165
-Incidence,Netherlands,Both,All Ages,Major depressive disorder,Number,2017,610157.533022,669399.81348,554269.578447
-Incidence,Netherlands,Both,All Ages,Dysthymia,Number,2017,42114.4182088,47838.3599577,36565.3370535
-Incidence,Netherlands,Both,All Ages,Anxiety disorders,Number,2017,115414.457038,123436.717636,108053.007457
-Incidence,Oman,Both,All Ages,Major depressive disorder,Number,2017,170960.347909,195352.111355,149611.991425
-Incidence,Niger,Both,All Ages,Major depressive disorder,Number,2017,474628.937092,532219.471665,423485.409785
-Incidence,Niger,Both,All Ages,Dysthymia,Number,2017,28254.587001,32402.46672,24299.1519852
-Incidence,Niger,Both,All Ages,Anxiety disorders,Number,2017,101992.518758,110131.483911,93764.8420622
-Incidence,Vanuatu,Both,All Ages,Major depressive disorder,Number,2017,5888.59765261,6663.74127119,5273.15553976
-Incidence,Vanuatu,Both,All Ages,Dysthymia,Number,2017,520.939029375,597.768749981,452.309194573
-Incidence,Vanuatu,Both,All Ages,Anxiety disorders,Number,2017,1451.05576381,1562.37604606,1349.99280939
-Incidence,Sudan,Both,All Ages,Major depressive disorder,Number,2017,1360159.20622,1533837.9624,1204738.83905
-Incidence,Sudan,Both,All Ages,Dysthymia,Number,2017,59652.3739864,68974.5598505,51726.8291569
-Incidence,Sudan,Both,All Ages,Anxiety disorders,Number,2017,281093.532717,302899.391887,260026.99292
-Incidence,Lesotho,Both,All Ages,Major depressive disorder,Number,2017,110861.41468,123667.127322,99695.1744268
-Incidence,Lesotho,Both,All Ages,Dysthymia,Number,2017,3381.94896251,3868.36550119,2918.20021247
-Incidence,Lesotho,Both,All Ages,Anxiety disorders,Number,2017,11009.7096405,11932.3667333,10152.0910469
-Incidence,Spain,Both,All Ages,Major depressive disorder,Number,2017,1674560.38217,1838939.58514,1533197.28555
-Incidence,Spain,Both,All Ages,Dysthymia,Number,2017,99237.1896032,112920.387862,85673.3216442
-Incidence,Spain,Both,All Ages,Anxiety disorders,Number,2017,268667.349592,285751.759507,251989.995927
-Incidence,Syria,Both,All Ages,Major depressive disorder,Number,2017,633036.24108,707358.620018,566314.880174
-Incidence,Syria,Both,All Ages,Dysthymia,Number,2017,31033.9853732,35419.0215716,26944.0392543
-Incidence,Syria,Both,All Ages,Anxiety disorders,Number,2017,131969.138952,141299.339801,122752.565612
-Incidence,New Zealand,Both,All Ages,Major depressive disorder,Number,2017,141882.96244,159643.249223,126465.432119
-Incidence,New Zealand,Both,All Ages,Dysthymia,Number,2017,11082.4195336,12551.391081,9688.95798131
-Incidence,New Zealand,Both,All Ages,Anxiety disorders,Number,2017,36566.6521958,39432.4475456,33905.5759098
-Incidence,Laos,Both,All Ages,Major depressive disorder,Number,2017,128269.713931,143123.821028,114745.049243
-Incidence,Laos,Both,All Ages,Dysthymia,Number,2017,13756.0807467,15820.5562477,11923.1880298
-Incidence,Laos,Both,All Ages,Anxiety disorders,Number,2017,41084.3077077,44116.1613947,38089.9553163
-Incidence,Tonga,Both,All Ages,Major depressive disorder,Number,2017,1903.20667499,2127.05579552,1703.54722877
-Incidence,Tonga,Both,All Ages,Dysthymia,Number,2017,204.124096319,233.67659963,177.944133813
-Incidence,Tonga,Both,All Ages,Anxiety disorders,Number,2017,528.008477504,567.70481726,492.406607559
-Incidence,Venezuela,Both,All Ages,Major depressive disorder,Number,2017,890210.41033,983598.898556,808208.372628
-Incidence,Venezuela,Both,All Ages,Dysthymia,Number,2017,48072.2727452,54735.5607172,41911.9154592
-Incidence,Venezuela,Both,All Ages,Anxiety disorders,Number,2017,144264.278186,155143.780264,134588.660169
-Incidence,South Sudan,Both,All Ages,Major depressive disorder,Number,2017,271486.208092,303615.842263,242526.591904
-Incidence,South Sudan,Both,All Ages,Dysthymia,Number,2017,14103.453681,16211.7880889,12085.1513039
-Incidence,South Sudan,Both,All Ages,Anxiety disorders,Number,2017,53118.6830191,57196.4026706,48867.193438
-Incidence,Andorra,Both,All Ages,Major depressive disorder,Number,2017,2858.24166686,3178.60947533,2587.20116677
-Incidence,Andorra,Both,All Ages,Dysthymia,Number,2017,190.021057378,218.679128248,164.649640458
-Incidence,Andorra,Both,All Ages,Anxiety disorders,Number,2017,507.755637976,543.47057378,473.671065437
-Incidence,Guyana,Both,All Ages,Major depressive disorder,Number,2017,33632.6130201,37287.9007499,30590.8459214
-Incidence,Guyana,Both,All Ages,Dysthymia,Number,2017,1234.5267595,1405.71655867,1073.46199139
-Incidence,Guyana,Both,All Ages,Anxiety disorders,Number,2017,4787.41846479,5122.44676493,4447.07685455
-Incidence,Comoros,Both,All Ages,Major depressive disorder,Number,2017,20185.7818523,22495.4954086,18096.2046484
-Incidence,Comoros,Both,All Ages,Dysthymia,Number,2017,1225.77236755,1405.87802401,1057.1468302
-Incidence,Comoros,Both,All Ages,Anxiety disorders,Number,2017,3945.36275399,4250.91887246,3652.7799973
-Incidence,Macedonia,Both,All Ages,Major depressive disorder,Number,2017,54427.2985371,60341.5476773,49369.2068777
-Incidence,Macedonia,Both,All Ages,Dysthymia,Number,2017,4136.02053445,4743.77072357,3627.18463913
-Incidence,Malaysia,Both,All Ages,Anxiety disorders,Number,2017,181603.719607,195493.730208,169305.596534
-Incidence,Botswana,Both,All Ages,Major depressive disorder,Number,2017,85673.2218497,95553.1507395,77207.4583908
-Incidence,Botswana,Both,All Ages,Dysthymia,Number,2017,4111.7769285,4722.40886496,3537.87328187
-Incidence,Botswana,Both,All Ages,Anxiety disorders,Number,2017,13040.4242522,14098.8908504,12041.4151403
-Incidence,Haiti,Both,All Ages,Major depressive disorder,Number,2017,317333.571097,355350.887692,283085.44742
-Incidence,Haiti,Both,All Ages,Dysthymia,Number,2017,17818.1936491,20429.9371424,15396.898311
-Incidence,Haiti,Both,All Ages,Anxiety disorders,Number,2017,76844.4512061,82609.5959022,71312.6098154
-Incidence,Montenegro,Both,All Ages,Major depressive disorder,Number,2017,17641.3981234,19496.8801608,16000.4797445
-Incidence,Mexico,Both,All Ages,Major depressive disorder,Number,2017,3269678.51594,3613620.50308,2973676.39161
-Incidence,Mexico,Both,All Ages,Dysthymia,Number,2017,213976.873116,244105.862678,187376.791029
-Incidence,Mexico,Both,All Ages,Anxiety disorders,Number,2017,617082.520955,668596.521988,568229.266862
-Incidence,Nigeria,Both,All Ages,Major depressive disorder,Number,2017,6100589.76783,6795590.75086,5478179.17846
-Incidence,Nigeria,Both,All Ages,Dysthymia,Number,2017,305236.798987,349347.915138,263500.466288
-Incidence,Nigeria,Both,All Ages,Anxiety disorders,Number,2017,1014048.19025,1092455.57254,934708.132173
-Incidence,Slovakia,Both,All Ages,Major depressive disorder,Number,2017,142359.356827,157656.370654,128769.639946
-Incidence,Slovakia,Both,All Ages,Dysthymia,Number,2017,10505.540482,12089.6746547,9202.79513347
-Incidence,Slovakia,Both,All Ages,Anxiety disorders,Number,2017,26921.4208738,28667.0408045,25123.1326689
-Incidence,Gabon,Both,All Ages,Dysthymia,Number,2017,2961.10590151,3382.15209864,2552.88218042
-Incidence,South Africa,Both,All Ages,Major depressive disorder,Number,2017,2052729.14779,2260152.4182,1867007.42648
-Incidence,Sao Tome and Principe,Both,All Ages,Major depressive disorder,Number,2017,4954.16514691,5586.45443961,4409.88182462
-Incidence,Sao Tome and Principe,Both,All Ages,Dysthymia,Number,2017,326.732121637,374.124783975,282.542554039
-Incidence,Sao Tome and Principe,Both,All Ages,Anxiety disorders,Number,2017,1013.96356562,1090.60334676,938.466419981
-Incidence,Dominica,Both,All Ages,Major depressive disorder,Number,2017,1856.59313134,2056.65600673,1679.37855737
-Incidence,Dominica,Both,All Ages,Dysthymia,Number,2017,126.719696865,143.241016632,110.473919007
-Incidence,Dominica,Both,All Ages,Anxiety disorders,Number,2017,436.52311194,465.609546604,407.036313055
-Incidence,Saudi Arabia,Both,All Ages,Major depressive disorder,Number,2017,1377362.69985,1554512.04949,1214919.72178
-Incidence,Saudi Arabia,Both,All Ages,Dysthymia,Number,2017,62879.4528252,73464.8364732,53650.3462575
-Incidence,Saudi Arabia,Both,All Ages,Anxiety disorders,Number,2017,255617.446912,275031.096008,236281.674995
-Incidence,Montenegro,Both,All Ages,Dysthymia,Number,2017,1176.90998464,1345.72439586,1031.30550009
-Incidence,Montenegro,Both,All Ages,Anxiety disorders,Number,2017,3116.62491543,3318.02205039,2920.55098348
-Incidence,Australia,Both,All Ages,Major depressive disorder,Number,2017,1062805.18437,1171474.27019,970331.251299
-Incidence,Australia,Both,All Ages,Dysthymia,Number,2017,55850.101801,63382.9011659,49020.4785536
-Incidence,Australia,Both,All Ages,Anxiety disorders,Number,2017,173308.177704,185020.751478,161117.313998
-Incidence,Gabon,Both,All Ages,Anxiety disorders,Number,2017,9174.44981361,9888.11792845,8512.14653299
-Incidence,South Africa,Both,All Ages,Dysthymia,Number,2017,105198.391593,120846.574306,91003.1464386
-Incidence,South Africa,Both,All Ages,Anxiety disorders,Number,2017,329135.780161,358206.915428,303454.255217
-Incidence,Belgium,Both,All Ages,Major depressive disorder,Number,2017,468391.047514,515249.852943,427618.640607
-Incidence,Belgium,Both,All Ages,Dysthymia,Number,2017,24801.2258853,28246.6129447,21714.8202306
-Incidence,Belgium,Both,All Ages,Anxiety disorders,Number,2017,69097.6177325,73829.6157674,64776.8727367
-Incidence,Paraguay,Both,All Ages,Major depressive disorder,Number,2017,187877.779318,209025.598916,169999.324077
-Incidence,Paraguay,Both,All Ages,Dysthymia,Number,2017,11688.4146691,13329.0127757,10206.8277073
-Incidence,Paraguay,Both,All Ages,Anxiety disorders,Number,2017,52430.8547632,55992.1082604,48656.4019666
-Incidence,Swaziland,Both,All Ages,Dysthymia,Number,2017,1861.57379684,2134.73788103,1605.23143101
-Incidence,Swaziland,Both,All Ages,Anxiety disorders,Number,2017,6350.78505286,6884.43776971,5845.32913205
-Incidence,Indonesia,Both,All Ages,Major depressive disorder,Number,2017,4147025.2739,4687267.33276,3676881.17727
-Incidence,Indonesia,Both,All Ages,Dysthymia,Number,2017,587819.367421,676316.759537,513104.241867
-Incidence,Indonesia,Both,All Ages,Anxiety disorders,Number,2017,1346797.6057,1467257.73625,1249266.13368
-Incidence,Eritrea,Both,All Ages,Major depressive disorder,Number,2017,178294.674516,200198.685193,158565.260343
-Incidence,Eritrea,Both,All Ages,Dysthymia,Number,2017,9172.53412885,10615.3159605,7877.9445913
-Incidence,Eritrea,Both,All Ages,Anxiety disorders,Number,2017,32397.7953364,34885.3715738,29893.5940185
-Incidence,Georgia,Both,All Ages,Major depressive disorder,Number,2017,105086.915416,116123.119186,94158.5151451
-Incidence,Georgia,Both,All Ages,Dysthymia,Number,2017,7949.41430082,9065.39169866,6920.11185638
-Incidence,Georgia,Both,All Ages,Anxiety disorders,Number,2017,15154.1924648,16284.3072592,14095.1204896
-Incidence,Portugal,Both,All Ages,Major depressive disorder,Number,2017,472458.6698,519125.709315,429527.076104
-Incidence,Portugal,Both,All Ages,Dysthymia,Number,2017,27419.29472,31240.8618028,24015.2989539
-Incidence,Portugal,Both,All Ages,Anxiety disorders,Number,2017,64243.1436985,68643.1202461,60052.9643265
-Incidence,Azerbaijan,Both,All Ages,Major depressive disorder,Number,2017,217200.366564,243277.099661,194497.018828
-Incidence,Azerbaijan,Both,All Ages,Dysthymia,Number,2017,20300.5505471,23202.1999303,17600.0045388
-Incidence,Azerbaijan,Both,All Ages,Anxiety disorders,Number,2017,43765.892856,47212.661306,40654.0386097
-Incidence,Saint Lucia,Both,All Ages,Major depressive disorder,Number,2017,5274.41963606,5804.88074194,4789.93398031
-Incidence,Saint Lucia,Both,All Ages,Dysthymia,Number,2017,327.260963806,372.485480116,284.469444297
-Incidence,Saint Lucia,Both,All Ages,Anxiety disorders,Number,2017,1136.71938515,1215.12633753,1058.82897751
-Incidence,Poland,Both,All Ages,Major depressive disorder,Number,2017,894799.405272,984231.610628,813163.52816
-Incidence,Poland,Both,All Ages,Dysthymia,Number,2017,74777.49079,85821.3275948,65587.1868749
-Incidence,Poland,Both,All Ages,Anxiety disorders,Number,2017,188898.152941,201109.9014,176605.1338
-Incidence,Namibia,Both,All Ages,Major depressive disorder,Number,2017,69137.8659594,77219.5915878,62078.6477496
-Incidence,Namibia,Both,All Ages,Dysthymia,Number,2017,4000.61825816,4570.27418431,3457.85815565
-Incidence,Namibia,Both,All Ages,Anxiety disorders,Number,2017,13224.5521045,14297.6970532,12225.903702
-Incidence,Cyprus,Both,All Ages,Major depressive disorder,Number,2017,36233.5829284,40265.7936604,32437.8262307
-Incidence,Cyprus,Both,All Ages,Dysthymia,Number,2017,2934.50081314,3357.41318226,2537.30900627
-Incidence,Cyprus,Both,All Ages,Anxiety disorders,Number,2017,8048.21421937,8594.4785376,7492.32828218
-Incidence,Belarus,Both,All Ages,Anxiety disorders,Number,2017,42675.9216559,45503.0949042,39697.8448445
-Incidence,Argentina,Both,All Ages,Major depressive disorder,Number,2017,1400087.89703,1557262.83847,1263378.02469
-Incidence,Argentina,Both,All Ages,Dysthymia,Number,2017,99890.4381765,113449.925179,86962.6442778
-Incidence,Argentina,Both,All Ages,Anxiety disorders,Number,2017,322356.107339,344488.561732,301383.869394
-Incidence,Armenia,Both,All Ages,Major depressive disorder,Number,2017,80646.4194084,89324.7040274,72841.4991809
-Incidence,Armenia,Both,All Ages,Dysthymia,Number,2017,6431.96518116,7348.93114579,5584.60310987
-Incidence,Armenia,Both,All Ages,Anxiety disorders,Number,2017,12695.3871273,13674.6433223,11796.6903278
-Incidence,Kazakhstan,Both,All Ages,Major depressive disorder,Number,2017,592961.483157,649297.284167,539773.138396
-Incidence,Kazakhstan,Both,All Ages,Dysthymia,Number,2017,34193.1335644,39078.0710627,29735.9110884
-Incidence,Kazakhstan,Both,All Ages,Anxiety disorders,Number,2017,75017.2487508,80758.9761249,69793.2257661
-Incidence,Grenada,Both,All Ages,Major depressive disorder,Number,2017,3181.46221267,3509.7660288,2878.83658159
-Incidence,Grenada,Both,All Ages,Dysthymia,Number,2017,199.616204886,225.544546363,174.26551313
-Incidence,Grenada,Both,All Ages,Anxiety disorders,Number,2017,688.776632085,734.116878215,641.410582153
-Incidence,Kyrgyzstan,Both,All Ages,Major depressive disorder,Number,2017,159134.409172,177452.729215,144285.546638
-Incidence,Kyrgyzstan,Both,All Ages,Dysthymia,Number,2017,11157.7613833,12781.0417136,9735.33596284
-Incidence,Kyrgyzstan,Both,All Ages,Anxiety disorders,Number,2017,26640.7553758,28742.9568137,24720.0235942
-Incidence,Romania,Both,All Ages,Major depressive disorder,Number,2017,541197.458128,595710.693333,489939.793632
-Incidence,Romania,Both,All Ages,Dysthymia,Number,2017,35854.5386266,40609.2219916,31334.3248392
-Incidence,Romania,Both,All Ages,Anxiety disorders,Number,2017,92147.8244053,98235.6169875,86362.9028018
-Incidence,Senegal,Both,All Ages,Major depressive disorder,Number,2017,370149.550421,413770.998988,331251.890874
-Incidence,Senegal,Both,All Ages,Dysthymia,Number,2017,22713.1284201,25955.5967823,19635.8118255
-Incidence,Zimbabwe,Both,All Ages,Major depressive disorder,Number,2017,332865.99708,372041.547982,297079.96132
-Incidence,Zimbabwe,Both,All Ages,Dysthymia,Number,2017,23139.8308182,26442.5375142,20023.8875757
-Incidence,Zimbabwe,Both,All Ages,Anxiety disorders,Number,2017,77147.6971352,83408.8376556,71269.8821595
-Incidence,Suriname,Both,All Ages,Major depressive disorder,Number,2017,25223.2639726,27798.5722996,23110.7623074
-Incidence,Suriname,Both,All Ages,Dysthymia,Number,2017,996.43233232,1132.52414777,866.821759003
-Incidence,Suriname,Both,All Ages,Anxiety disorders,Number,2017,3668.79513801,3912.9860605,3427.35613283
-Incidence,Senegal,Both,All Ages,Anxiety disorders,Number,2017,72172.5915169,77558.8214519,66640.1711168
-Incidence,Sierra Leone,Both,All Ages,Major depressive disorder,Number,2017,217375.889113,242746.561589,195443.338221
-Incidence,Sierra Leone,Both,All Ages,Dysthymia,Number,2017,12070.6064677,13818.1087152,10359.198118
-Incidence,Sierra Leone,Both,All Ages,Anxiety disorders,Number,2017,38851.3291122,41744.7974859,35956.3936698
-Incidence,Afghanistan,Both,All Ages,Major depressive disorder,Number,2017,1134384.27757,1281986.62798,1001820.71424
-Incidence,Afghanistan,Both,All Ages,Dysthymia,Number,2017,44568.7244016,51753.2408198,38326.2237747
-Incidence,Afghanistan,Both,All Ages,Anxiety disorders,Number,2017,227108.094237,245763.951875,209404.67829
-Incidence,Denmark,Both,All Ages,Major depressive disorder,Number,2017,164437.629784,181586.661759,148451.348713
-Incidence,Denmark,Both,All Ages,Dysthymia,Number,2017,13263.197401,15067.3846663,11539.519367
-Incidence,Burundi,Both,All Ages,Major depressive disorder,Number,2017,302010.858354,338711.871044,269449.47461
-Incidence,Burundi,Both,All Ages,Dysthymia,Number,2017,15895.1969298,18320.9571221,13648.5839964
-Incidence,Burundi,Both,All Ages,Anxiety disorders,Number,2017,58921.5741791,63342.40889,54541.8576842
-Incidence,Finland,Both,All Ages,Major depressive disorder,Number,2017,243872.259474,264477.09464,225747.260649
-Incidence,Finland,Both,All Ages,Dysthymia,Number,2017,14039.7624597,15891.5539793,12243.6476158
-Incidence,Finland,Both,All Ages,Anxiety disorders,Number,2017,27529.5965386,29265.018626,25854.9679792
-Incidence,Sweden,Both,All Ages,Major depressive disorder,Number,2017,461912.347,510676.968633,422896.5714
-Incidence,Sweden,Both,All Ages,Dysthymia,Number,2017,23169.6627194,26271.6937635,20318.5129239
-Incidence,Thailand,Both,All Ages,Major depressive disorder,Number,2017,1789521.61754,1981095.02939,1619752.86516
-Incidence,Thailand,Both,All Ages,Dysthymia,Number,2017,190522.321897,222120.196519,164592.871645
-Incidence,Thailand,Both,All Ages,Anxiety disorders,Number,2017,365160.86721,387897.326819,341352.801377
-Incidence,Denmark,Both,All Ages,Anxiety disorders,Number,2017,35300.1559343,37738.0025818,32911.2672351
-Incidence,Malaysia,Both,All Ages,Major depressive disorder,Number,2017,819252.919189,909278.96503,735395.225692
-Incidence,Malaysia,Both,All Ages,Dysthymia,Number,2017,67714.828094,77845.8873843,58756.1150359
-Incidence,Sweden,Both,All Ages,Anxiety disorders,Number,2017,61371.9191744,66331.286872,57021.7027141
-Incidence,Maldives,Both,All Ages,Major depressive disorder,Number,2017,10294.1148587,11533.1623421,9253.23518956
-Incidence,Maldives,Both,All Ages,Dysthymia,Number,2017,980.969228468,1136.0887815,842.04863957
-Incidence,Maldives,Both,All Ages,Anxiety disorders,Number,2017,2345.24479699,2510.73772774,2170.79431975
-Incidence,Turkey,Both,All Ages,Major depressive disorder,Number,2017,3083901.05606,3397032.96756,2806851.47856
-Incidence,Serbia,Both,All Ages,Major depressive disorder,Number,2017,267373.521548,296090.850527,240465.518374
-Incidence,Serbia,Both,All Ages,Dysthymia,Number,2017,16936.6402909,19350.3213486,14875.4800551
-Incidence,Serbia,Both,All Ages,Anxiety disorders,Number,2017,43671.9078844,46707.951006,40808.676168
-Incidence,Malawi,Both,All Ages,Major depressive disorder,Number,2017,437886.798263,490145.883289,392571.179698
-Incidence,Malawi,Both,All Ages,Dysthymia,Number,2017,25751.1897946,29657.7928699,22110.1721707
-Incidence,Malawi,Both,All Ages,Anxiety disorders,Number,2017,93460.2078505,100854.089632,86222.2296235
-Incidence,Swaziland,Both,All Ages,Major depressive disorder,Number,2017,40140.2833713,44832.4619307,36215.351936
-Incidence,Tajikistan,Both,All Ages,Major depressive disorder,Number,2017,166259.119598,186277.186413,149024.543557
-Incidence,Tajikistan,Both,All Ages,Dysthymia,Number,2017,15318.3232942,17586.3614772,13341.5549104
-Incidence,Tajikistan,Both,All Ages,Anxiety disorders,Number,2017,38505.2358936,41443.024253,35751.4178727
-Incidence,Germany,Both,All Ages,Major depressive disorder,Number,2017,3001212.8802,3286541.6224,2744686.16221
-Incidence,Germany,Both,All Ages,Dysthymia,Number,2017,206385.911286,233482.199847,180913.905195
-Incidence,Germany,Both,All Ages,Anxiety disorders,Number,2017,538343.478272,574316.909115,503545.659204
-Incidence,Brazil,Both,All Ages,Major depressive disorder,Number,2017,7426865.52628,8104377.06471,6812222.51941
-Incidence,Brazil,Both,All Ages,Dysthymia,Number,2017,403811.236348,461318.768766,351810.998085
-Incidence,Brazil,Both,All Ages,Anxiety disorders,Number,2017,1610023.52093,1736537.64758,1494085.35221
-Incidence,Switzerland,Both,All Ages,Major depressive disorder,Number,2017,300049.467468,330264.363964,272676.376635
-Incidence,Switzerland,Both,All Ages,Dysthymia,Number,2017,20086.7084289,22926.1016551,17428.3479195
-Incidence,Switzerland,Both,All Ages,Anxiety disorders,Number,2017,52176.2869453,55791.5382653,48655.3823813
-Incidence,Turkey,Both,All Ages,Dysthymia,Number,2017,169544.650991,192507.207536,147305.221821
-Incidence,Turkey,Both,All Ages,Anxiety disorders,Number,2017,476109.466719,510305.899643,444879.302657
-Incidence,Tunisia,Both,All Ages,Major depressive disorder,Number,2017,497292.195724,553458.077508,449820.616922
-Incidence,Tunisia,Both,All Ages,Dysthymia,Number,2017,22339.463993,25609.0225269,19445.44553
-Incidence,Tunisia,Both,All Ages,Anxiety disorders,Number,2017,78370.4628077,83919.0440666,72873.2021639
-Incidence,Iran,Both,All Ages,Dysthymia,Number,2017,167245.178409,192737.288777,144582.025854
-Incidence,Iran,Both,All Ages,Anxiety disorders,Number,2017,699453.934827,759845.312733,643680.842689
-Incidence,Bhutan,Both,All Ages,Major depressive disorder,Number,2017,28437.2989504,31631.88641,25406.6874692
-Incidence,Bhutan,Both,All Ages,Dysthymia,Number,2017,1841.43796705,2110.63704225,1588.47546599
-Incidence,Bhutan,Both,All Ages,Anxiety disorders,Number,2017,5757.96266319,6212.79596268,5348.72258116
-Incidence,Sri Lanka,Both,All Ages,Major depressive disorder,Number,2017,587545.688776,643731.61131,536623.390207
-Incidence,Sri Lanka,Both,All Ages,Dysthymia,Number,2017,52115.0426507,60048.2005005,45279.2380588
-Incidence,Sri Lanka,Both,All Ages,Anxiety disorders,Number,2017,110574.30955,118071.11776,103906.038024
-Incidence,France,Both,All Ages,Anxiety disorders,Number,2017,443512.694544,472840.281992,415785.980988
-Incidence,Bolivia,Both,All Ages,Major depressive disorder,Number,2017,322969.513526,357374.984142,292711.93195
-Incidence,Bolivia,Both,All Ages,Dysthymia,Number,2017,17911.1583317,20409.8673301,15590.7047843
-Incidence,Bolivia,Both,All Ages,Anxiety disorders,Number,2017,69784.3134137,74964.1734451,64551.3495134
-Incidence,Vietnam,Both,All Ages,Anxiety disorders,Number,2017,360120.84018,385862.017956,335641.028125
-Incidence,Burkina Faso,Both,All Ages,Major depressive disorder,Number,2017,569536.876562,634583.377755,510415.515556
-Incidence,Burkina Faso,Both,All Ages,Dysthymia,Number,2017,30833.6402921,35267.6633389,26622.5734583
-Incidence,Burkina Faso,Both,All Ages,Anxiety disorders,Number,2017,102713.087969,110673.278548,94676.5935555
-Incidence,Cape Verde,Both,All Ages,Major depressive disorder,Number,2017,21817.1301088,24183.8628441,19787.3999171
-Incidence,Cape Verde,Both,All Ages,Dysthymia,Number,2017,1014.86770841,1157.9239269,878.515951323
-Incidence,Cape Verde,Both,All Ages,Anxiety disorders,Number,2017,2735.76655626,2944.48150223,2543.19467166
-Incidence,Austria,Both,All Ages,Major depressive disorder,Number,2017,251542.983997,274765.763442,229471.257924
-Incidence,Austria,Both,All Ages,Dysthymia,Number,2017,20708.7269825,23576.255836,17966.5655897
-Incidence,Austria,Both,All Ages,Anxiety disorders,Number,2017,53084.6869194,56726.6242553,49514.4456137
-Incidence,Togo,Both,All Ages,Major depressive disorder,Number,2017,218315.930097,242985.241595,195518.861015
-Incidence,Togo,Both,All Ages,Dysthymia,Number,2017,11952.7837861,13700.7518292,10329.6721702
-Incidence,Togo,Both,All Ages,Anxiety disorders,Number,2017,37596.3013725,40381.9648159,34739.0397661
-Incidence,Ecuador,Both,All Ages,Major depressive disorder,Number,2017,474972.240513,525405.041218,431777.990002
-Incidence,Jamaica,Both,All Ages,Major depressive disorder,Number,2017,70562.3168083,78578.4126051,63515.4765081
-Incidence,Jamaica,Both,All Ages,Dysthymia,Number,2017,4933.59201038,5601.05153953,4300.6195409
-Incidence,Jamaica,Both,All Ages,Anxiety disorders,Number,2017,18052.3644232,19286.3194109,16758.3589375
-Incidence,United States,Both,All Ages,Major depressive disorder,Number,2017,14023730.3987,15289636.387,12965952.5861
-Incidence,United States,Both,All Ages,Dysthymia,Number,2017,929784.182435,1056215.44032,805100.752669
-Incidence,United States,Both,All Ages,Anxiety disorders,Number,2017,2478842.78836,2665469.28725,2296496.98439
-Incidence,Iceland,Both,All Ages,Major depressive disorder,Number,2017,9634.79673374,10629.9178833,8736.68037374
-Incidence,Iceland,Both,All Ages,Dysthymia,Number,2017,757.340747859,864.079586099,658.363040985
-Incidence,Iceland,Both,All Ages,Anxiety disorders,Number,2017,2164.12191769,2318.63152944,2017.01110896
-Incidence,Ecuador,Both,All Ages,Dysthymia,Number,2017,27547.9164147,31351.2637099,24003.756807
-Incidence,Ecuador,Both,All Ages,Anxiety disorders,Number,2017,103010.615267,110659.856847,95293.2357842
-Incidence,Djibouti,Both,All Ages,Major depressive disorder,Number,2017,34000.901451,37846.724004,30311.0651125
-Incidence,Djibouti,Both,All Ages,Dysthymia,Number,2017,1881.51121894,2163.42412099,1617.46682783
-Incidence,Djibouti,Both,All Ages,Anxiety disorders,Number,2017,6011.31819126,6470.17101029,5560.44495167
-Incidence,Uzbekistan,Both,All Ages,Major depressive disorder,Number,2017,761978.934926,840582.820056,688049.207656
-Incidence,Uzbekistan,Both,All Ages,Dysthymia,Number,2017,58547.2155502,67266.1375174,51015.28527
-Incidence,Philippines,Both,All Ages,Major depressive disorder,Number,2017,1715090.88857,1914357.35912,1543801.72753
-Incidence,Philippines,Both,All Ages,Dysthymia,Number,2017,209721.349041,240661.268977,182254.168823
-Incidence,Philippines,Both,All Ages,Anxiety disorders,Number,2017,519715.44665,557064.84439,483011.101426
-Incidence,Iraq,Both,All Ages,Major depressive disorder,Number,2017,1575384.1075,1764262.18574,1417033.95661
-Incidence,United Kingdom,Both,All Ages,Major depressive disorder,Number,2017,2651561.201,2960841.94312,2384667.45191
-Incidence,United Kingdom,Both,All Ages,Dysthymia,Number,2017,154554.852036,175604.19326,135417.796931
-Incidence,United Kingdom,Both,All Ages,Anxiety disorders,Number,2017,382373.846498,410612.564798,356104.891613
-Incidence,Uzbekistan,Both,All Ages,Anxiety disorders,Number,2017,137446.7729,148010.092018,127504.540306
-Incidence,Jordan,Both,All Ages,Major depressive disorder,Number,2017,366439.805424,409291.938332,327756.328451
-Incidence,Jordan,Both,All Ages,Dysthymia,Number,2017,17622.3798035,20344.1943447,15242.0976966
-Incidence,Jordan,Both,All Ages,Anxiety disorders,Number,2017,76029.4638203,81622.8557165,70559.997397
-Incidence,Yemen,Both,All Ages,Major depressive disorder,Number,2017,1106669.03927,1244426.79661,978288.0211
-Incidence,Cote d'Ivoire,Both,All Ages,Major depressive disorder,Number,2017,614346.490961,684240.84071,547669.905206
-Incidence,Cote d'Ivoire,Both,All Ages,Dysthymia,Number,2017,38337.3863883,43936.2778479,32997.6277949
-Incidence,Cote d'Ivoire,Both,All Ages,Anxiety disorders,Number,2017,123542.353305,132997.387733,114190.090855
-Incidence,Mongolia,Both,All Ages,Major depressive disorder,Number,2017,104117.199321,115756.581493,94744.0644136
-Incidence,Mongolia,Both,All Ages,Dysthymia,Number,2017,5926.64248882,6830.39272677,5138.17094961
-Incidence,Mongolia,Both,All Ages,Anxiety disorders,Number,2017,13741.6539755,14821.753132,12748.779063
-Incidence,Myanmar,Both,All Ages,Major depressive disorder,Number,2017,571133.327419,638858.286974,513919.133282
-Incidence,Myanmar,Both,All Ages,Dysthymia,Number,2017,118319.827655,136375.819063,102891.633264
-Incidence,Myanmar,Both,All Ages,Anxiety disorders,Number,2017,273539.696414,294333.816657,254767.322887
-Incidence,Rwanda,Both,All Ages,Major depressive disorder,Number,2017,388691.731531,435598.699818,348168.996474
-Incidence,Rwanda,Both,All Ages,Dysthymia,Number,2017,19591.7901077,22634.8145642,16878.012747
-Incidence,Rwanda,Both,All Ages,Anxiety disorders,Number,2017,68267.6072492,73160.1710233,63096.8024811
-Incidence,Slovenia,Both,All Ages,Major depressive disorder,Number,2017,73786.0278651,81978.9995108,66974.1692192
-Incidence,Slovenia,Both,All Ages,Dysthymia,Number,2017,4062.96214297,4661.5738041,3570.52414894
-Incidence,Slovenia,Both,All Ages,Anxiety disorders,Number,2017,9958.3188059,10621.891408,9320.44892367
-Incidence,Yemen,Both,All Ages,Dysthymia,Number,2017,44309.2522165,51354.4267362,38374.910697
-Incidence,Yemen,Both,All Ages,Anxiety disorders,Number,2017,212202.912042,227965.93847,195579.54199
-Incidence,United Arab Emirates,Both,All Ages,Major depressive disorder,Number,2017,341980.892278,398846.244217,295780.60547
-Incidence,United Arab Emirates,Both,All Ages,Dysthymia,Number,2017,18289.9723836,21952.7337205,15212.3573864
-Incidence,United Arab Emirates,Both,All Ages,Anxiety disorders,Number,2017,72789.3751419,79952.1645435,66132.7406861
-Incidence,Albania,Both,All Ages,Major depressive disorder,Number,2017,61331.2463327,67640.4458083,55305.2091437
-Incidence,Albania,Both,All Ages,Dysthymia,Number,2017,5125.69907893,5826.81706423,4515.15911136
-Incidence,Albania,Both,All Ages,Anxiety disorders,Number,2017,13722.343168,14688.0151606,12770.9355155
-Incidence,Ireland,Both,All Ages,Major depressive disorder,Number,2017,185667.402183,205168.286516,168883.414925
-Incidence,Ireland,Both,All Ages,Dysthymia,Number,2017,11085.0461319,12633.9621876,9638.57289226
-Incidence,Ireland,Both,All Ages,Anxiety disorders,Number,2017,33249.6772306,35602.0038218,31199.6356045
-Incidence,Timor-Leste,Both,All Ages,Major depressive disorder,Number,2017,26490.7086918,30364.1088597,23359.0136884
-Incidence,Timor-Leste,Both,All Ages,Dysthymia,Number,2017,2303.95762546,2636.04240542,2006.4588084
-Incidence,Timor-Leste,Both,All Ages,Anxiety disorders,Number,2017,6349.32386164,6859.79974529,5916.02490754
-Incidence,Kuwait,Both,All Ages,Major depressive disorder,Number,2017,176758.792374,200261.343154,156845.372479
-Incidence,Kuwait,Both,All Ages,Dysthymia,Number,2017,8127.61593443,9524.23173448,6926.7530793
-Incidence,Kuwait,Both,All Ages,Anxiety disorders,Number,2017,31272.3262229,33766.435696,28907.627657
-Incidence,Turkmenistan,Both,All Ages,Major depressive disorder,Number,2017,112584.958584,124796.67362,101627.238468
-Incidence,Turkmenistan,Both,All Ages,Dysthymia,Number,2017,9058.69471384,10407.0762854,7884.84267515
-Incidence,Colombia,Both,All Ages,Major depressive disorder,Number,2017,1129536.01327,1241640.05853,1025619.8557
-Incidence,Colombia,Both,All Ages,Dysthymia,Number,2017,70462.4345109,79539.1372448,61601.3474864
-Incidence,Colombia,Both,All Ages,Anxiety disorders,Number,2017,215815.167832,230767.492826,201307.424154
-Incidence,Benin,Both,All Ages,Major depressive disorder,Number,2017,306392.011664,340627.07046,275428.832692
-Incidence,Benin,Both,All Ages,Dysthymia,Number,2017,17092.330638,19570.347481,14673.5430791
-Incidence,Benin,Both,All Ages,Anxiety disorders,Number,2017,57061.94077,61302.3823137,52627.9419544
-Incidence,Turkmenistan,Both,All Ages,Anxiety disorders,Number,2017,20855.3948996,22417.3533913,19359.5856763
-Incidence,Ethiopia,Both,All Ages,Major depressive disorder,Number,2017,2950869.46451,3368138.43319,2596789.88142
-Incidence,Ethiopia,Both,All Ages,Dysthymia,Number,2017,152339.280746,176378.688159,131924.066028
-Incidence,Ethiopia,Both,All Ages,Anxiety disorders,Number,2017,570690.025649,624130.629094,517430.552621
-Incidence,Algeria,Both,All Ages,Major depressive disorder,Number,2017,1506798.26449,1683480.87117,1343997.28334
-Incidence,Algeria,Both,All Ages,Dysthymia,Number,2017,73035.0627158,84399.9109574,63260.9230237
-Incidence,Saint Vincent and the Grenadines,Both,All Ages,Major depressive disorder,Number,2017,3401.51336511,3758.11160741,3077.64739636
-Incidence,Algeria,Both,All Ages,Anxiety disorders,Number,2017,278177.009383,298045.475602,258023.011879
-Incidence,Saint Vincent and the Grenadines,Both,All Ages,Dysthymia,Number,2017,205.073338124,232.24539661,178.258660186
-Incidence,Saint Vincent and the Grenadines,Both,All Ages,Anxiety disorders,Number,2017,724.827260957,773.933762084,675.748359683
-Incidence,Belarus,Both,All Ages,Major depressive disorder,Number,2017,426851.717545,474973.356854,385922.245632
-Incidence,Belarus,Both,All Ages,Dysthymia,Number,2017,24576.4497793,28087.885832,21420.0452413
-Incidence,Chile,Both,All Ages,Major depressive disorder,Number,2017,678731.867355,757232.457352,616993.381102
-Incidence,Chile,Both,All Ages,Dysthymia,Number,2017,42167.8119321,48029.0780253,36649.4043201
-Incidence,Chile,Both,All Ages,Anxiety disorders,Number,2017,128486.726997,137324.065847,120271.21601
-Incidence,American Samoa,Both,All Ages,Major depressive disorder,Number,2017,1069.0867875,1193.78633779,964.475979415
-Incidence,American Samoa,Both,All Ages,Dysthymia,Number,2017,116.982248018,134.686500096,101.472644145
-Incidence,American Samoa,Both,All Ages,Anxiety disorders,Number,2017,289.070595236,311.322135161,268.897424625
-Incidence,Bangladesh,Both,All Ages,Major depressive disorder,Number,2017,6379411.59409,7076080.94677,5773886.22931
-Incidence,Bangladesh,Both,All Ages,Dysthymia,Number,2017,309138.907696,353372.404895,268205.923201
-Incidence,Bangladesh,Both,All Ages,Anxiety disorders,Number,2017,995992.124099,1068793.64922,923809.526931
-Incidence,Kenya,Both,All Ages,Major depressive disorder,Number,2017,1305939.90276,1454212.2726,1173754.31155
-Incidence,Kenya,Both,All Ages,Dysthymia,Number,2017,76874.7115015,88554.0635722,66429.4674666
-Incidence,Kenya,Both,All Ages,Anxiety disorders,Number,2017,268310.793486,295051.69794,244984.223956
-Incidence,Cameroon,Both,All Ages,Major depressive disorder,Number,2017,786843.228756,875435.442521,703701.43521
-Incidence,Cameroon,Both,All Ages,Dysthymia,Number,2017,42207.5141977,48301.577538,36294.8609676
-Incidence,Cameroon,Both,All Ages,Anxiety disorders,Number,2017,139129.298044,149876.393075,128272.356324
-Incidence,Uruguay,Both,All Ages,Major depressive disorder,Number,2017,108339.000442,119192.652021,99463.1056801
-Incidence,Uruguay,Both,All Ages,Dysthymia,Number,2017,7980.49459683,9035.39264602,6955.51232006
-Incidence,Uruguay,Both,All Ages,Anxiety disorders,Number,2017,24012.1854044,25683.3291202,22489.8331531
-Incidence,Bermuda,Both,All Ages,Major depressive disorder,Number,2017,2145.86286338,2373.39246204,1940.86833215
-Incidence,Bermuda,Both,All Ages,Dysthymia,Number,2017,135.886734819,154.16810064,118.385296871
-Incidence,The Gambia,Both,All Ages,Major depressive disorder,Number,2017,71265.1840407,79736.6508471,63723.4285688
-Incidence,The Gambia,Both,All Ages,Dysthymia,Number,2017,3258.70854653,3728.97701917,2796.18239277
-Incidence,The Gambia,Both,All Ages,Anxiety disorders,Number,2017,10654.1567495,11460.5603894,9832.47915639
-Incidence,Trinidad and Tobago,Both,All Ages,Major depressive disorder,Number,2017,50946.6065755,56464.0737536,46460.1831504
-Incidence,Trinidad and Tobago,Both,All Ages,Dysthymia,Number,2017,2609.36799515,2960.98847847,2263.03889796
-Incidence,Trinidad and Tobago,Both,All Ages,Anxiety disorders,Number,2017,8783.22870917,9386.26711691,8176.53528553
-Incidence,Egypt,Both,All Ages,Major depressive disorder,Number,2017,3015524.05225,3373210.00044,2697120.45671
-Incidence,Egypt,Both,All Ages,Dysthymia,Number,2017,148231.142025,169643.46853,128534.301619
-Incidence,Egypt,Both,All Ages,Anxiety disorders,Number,2017,624778.235681,673994.290515,578336.379173
-Incidence,Estonia,Both,All Ages,Major depressive disorder,Number,2017,58350.4998541,64692.4930243,52709.1358888
-Incidence,Estonia,Both,All Ages,Dysthymia,Number,2017,3370.74024383,3831.06568552,2946.92497534
-Incidence,Estonia,Both,All Ages,Anxiety disorders,Number,2017,5787.14046335,6166.23106375,5396.39317929
-Incidence,Fiji,Both,All Ages,Major depressive disorder,Number,2017,20703.6710244,23082.3477304,18734.3207325
-Incidence,Fiji,Both,All Ages,Dysthymia,Number,2017,1960.26022855,2254.53507555,1702.84377028
-Incidence,Fiji,Both,All Ages,Anxiety disorders,Number,2017,4652.66427812,4986.02350635,4344.49840629
-Incidence,Vietnam,Both,All Ages,Major depressive disorder,Number,2017,1879651.44444,2079085.54212,1699299.73513
-Incidence,Vietnam,Both,All Ages,Dysthymia,Number,2017,226606.186619,261776.525995,196111.778595
-Incidence,Chad,Both,All Ages,Major depressive disorder,Number,2017,403003.904763,451298.338823,357006.016258
-Incidence,Chad,Both,All Ages,Dysthymia,Number,2017,20308.2450498,23297.7982656,17465.9713426
-Incidence,Chad,Both,All Ages,Anxiety disorders,Number,2017,73087.6955864,79017.4141439,67265.2825844
-Incidence,Guam,Both,All Ages,Major depressive disorder,Number,2017,4666.03368268,5164.55378045,4236.90363996
-Incidence,Guam,Both,All Ages,Dysthymia,Number,2017,382.68917008,439.228432532,331.978997405
-Incidence,Guam,Both,All Ages,Anxiety disorders,Number,2017,846.49242991,906.657710531,790.128593247
-Incidence,Canada,Both,All Ages,Major depressive disorder,Number,2017,1097138.40432,1207126.53585,997302.507786
-Incidence,Canada,Both,All Ages,Dysthymia,Number,2017,103179.999234,116372.343546,89694.7734636
-Incidence,India,Both,All Ages,Major depressive disorder,Number,2017,44879159.5139,49384973.5182,40865654.7764
-Incidence,India,Both,All Ages,Dysthymia,Number,2017,2784538.96058,3186945.2819,2411341.25093
-Incidence,Madagascar,Both,All Ages,Major depressive disorder,Number,2017,741726.142526,827499.128535,662238.754729
-Incidence,Madagascar,Both,All Ages,Dysthymia,Number,2017,38989.6706236,45039.9193496,33525.8186333
-Incidence,Madagascar,Both,All Ages,Anxiety disorders,Number,2017,140393.84322,151394.02701,129599.77652
-Incidence,Canada,Both,All Ages,Anxiety disorders,Number,2017,232924.578396,248035.225078,217164.062645
-Incidence,Bahrain,Both,All Ages,Major depressive disorder,Number,2017,69613.5668545,78335.0922172,61938.8513912
-Incidence,Bahrain,Both,All Ages,Dysthymia,Number,2017,2798.80069908,3249.98564481,2405.472864
-Incidence,Bahrain,Both,All Ages,Anxiety disorders,Number,2017,10595.1481326,11446.2196848,9794.60870269
-Incidence,Guinea,Both,All Ages,Major depressive disorder,Number,2017,312039.398868,349673.46676,278163.565758
-Incidence,Guinea,Both,All Ages,Dysthymia,Number,2017,17542.9504128,20075.3476608,15135.4797542
-Incidence,Guinea,Both,All Ages,Anxiety disorders,Number,2017,57904.2383851,62341.4842193,53398.4815402
-Incidence,Nepal,Both,All Ages,Anxiety disorders,Number,2017,175827.578516,189627.858263,163154.971244
-Incidence,Greenland,Both,All Ages,Major depressive disorder,Number,2017,3516.42117875,3896.07526545,3188.62588142
-Incidence,Greenland,Both,All Ages,Dysthymia,Number,2017,156.382531938,177.805155466,136.049537029
-Incidence,Greenland,Both,All Ages,Anxiety disorders,Number,2017,414.674985745,443.307691047,386.284547282
-Incidence,Latvia,Both,All Ages,Major depressive disorder,Number,2017,75921.7713812,83541.2295272,69263.3573183
-Incidence,Latvia,Both,All Ages,Dysthymia,Number,2017,5079.3080045,5784.67531724,4437.78488016
-Incidence,Latvia,Both,All Ages,Anxiety disorders,Number,2017,8518.6678047,9072.40956819,7941.62382937
-Incidence,France,Both,All Ages,Major depressive disorder,Number,2017,2899482.78331,3216111.83662,2639959.50036
-Incidence,France,Both,All Ages,Dysthymia,Number,2017,138781.507968,157669.239523,121654.140251
-Incidence,Peru,Both,All Ages,Major depressive disorder,Number,2017,631292.349431,701035.007459,570983.912574
-Incidence,Peru,Both,All Ages,Dysthymia,Number,2017,54205.6842775,61678.3760106,47111.1105032
-Incidence,Peru,Both,All Ages,Anxiety disorders,Number,2017,200059.039399,214887.243813,185201.224524
-Incidence,Mozambique,Both,All Ages,Major depressive disorder,Number,2017,876770.628802,986344.097906,782867.077237
-Incidence,Mozambique,Both,All Ages,Dysthymia,Number,2017,43847.7298411,50708.2900558,37519.422724
-Incidence,Mozambique,Both,All Ages,Anxiety disorders,Number,2017,165650.014098,179110.15733,153411.708707
-Incidence,Bermuda,Both,All Ages,Anxiety disorders,Number,2017,396.839473742,425.473386332,370.692040901
-Incidence,Mauritius,Both,All Ages,Major depressive disorder,Number,2017,38169.1068977,42256.2554871,34708.2662257
-Incidence,Mauritius,Both,All Ages,Dysthymia,Number,2017,3329.39591774,3858.36324662,2878.37832011
-Incidence,Mauritius,Both,All Ages,Anxiety disorders,Number,2017,6575.50353338,6982.19622396,6145.31422924
-Incidence,Ghana,Both,All Ages,Major depressive disorder,Number,2017,827285.040153,924182.87601,745126.725188
-Incidence,Ghana,Both,All Ages,Dysthymia,Number,2017,50157.5536585,57446.0794759,43280.368397
-Incidence,Ghana,Both,All Ages,Anxiety disorders,Number,2017,150930.823011,162323.838667,139417.855586
-Incidence,India,Both,All Ages,Anxiety disorders,Number,2017,7507114.33425,8126650.89126,6954788.4082
-Incidence,Seychelles,Both,All Ages,Major depressive disorder,Number,2017,2002.67607301,2217.24452292,1806.87568022
-Incidence,Seychelles,Both,All Ages,Dysthymia,Number,2017,242.706883605,281.55045666,209.824018249
-Incidence,Seychelles,Both,All Ages,Anxiety disorders,Number,2017,515.510824226,550.47793904,479.288195108
-Incidence,Moldova,Both,All Ages,Major depressive disorder,Number,2017,132295.064522,145821.454076,119777.439436
-Incidence,Moldova,Both,All Ages,Dysthymia,Number,2017,9557.00929478,10963.3864908,8336.95921354
-Incidence,Moldova,Both,All Ages,Anxiety disorders,Number,2017,17093.8272548,18316.1613107,15883.7709253
-Incidence,Lithuania,Both,All Ages,Major depressive disorder,Number,2017,141037.255759,153998.061984,128617.692925
-Incidence,Lithuania,Both,All Ages,Dysthymia,Number,2017,7465.80769031,8524.1036734,6535.38293823
-Incidence,Lithuania,Both,All Ages,Anxiety disorders,Number,2017,12501.7687447,13305.811024,11660.6434491
-Incidence,Iran,Both,All Ages,Major depressive disorder,Number,2017,5075200.73501,5792700.1337,4461343.84531
-Incidence,Iraq,Both,All Ages,Dysthymia,Number,2017,68034.6103119,78394.8896218,58982.9977103
-Incidence,Nepal,Both,All Ages,Major depressive disorder,Number,2017,943468.283187,1049093.98018,855331.363924
-Incidence,Nepal,Both,All Ages,Dysthymia,Number,2017,57725.1721335,65989.2309618,50144.9040988
-Incidence,Iraq,Both,All Ages,Anxiety disorders,Number,2017,288163.272186,310237.534737,268493.488413
-Incidence,Greece,Both,All Ages,Major depressive disorder,Number,2017,435952.790484,479397.610522,396739.645181
-Incidence,Greece,Both,All Ages,Dysthymia,Number,2017,24394.7989979,27762.1350253,21190.0625857
-Incidence,Greece,Both,All Ages,Anxiety disorders,Number,2017,65050.654594,69419.7860954,61130.6891544
-Incidence,Pakistan,Both,All Ages,Major depressive disorder,Number,2017,5429693.36105,6064106.40465,4872517.39351
-Incidence,Pakistan,Both,All Ages,Dysthymia,Number,2017,377977.739017,434760.524412,328342.671424
-Incidence,Pakistan,Both,All Ages,Anxiety disorders,Number,2017,1249059.68209,1346852.45977,1159539.44083
-Incidence,Russian Federation,Both,All Ages,Major depressive disorder,Number,2017,5682337.1154,6406889.29533,5053336.77629
-Incidence,Russian Federation,Both,All Ages,Dysthymia,Number,2017,378313.783831,432836.220617,329556.58251
-Incidence,Russian Federation,Both,All Ages,Anxiety disorders,Number,2017,661881.617569,716034.366145,611431.252012
-Incidence,Ukraine,Both,All Ages,Major depressive disorder,Number,2017,2144387.68782,2437442.8387,1901391.01397
-Incidence,Ukraine,Both,All Ages,Dysthymia,Number,2017,118754.63404,135753.275651,103628.04055
-Incidence,Ukraine,Both,All Ages,Anxiety disorders,Number,2017,202379.333553,218720.197862,187269.20796
+Prevalence,Central African Republic,Both,All Ages,Major depressive disorder,Number,2017,120277.474755,135271.788117,107813.160075
+Prevalence,Venezuela,Both,All Ages,Major depressive disorder,Number,2017,601088.161263,666833.982522,544739.6189
+Prevalence,Venezuela,Both,All Ages,Anxiety disorders,Number,2017,872697.006702,930771.949889,814924.18268
+Prevalence,Central African Republic,Both,All Ages,Anxiety disorders,Number,2017,140760.168966,151434.904071,130532.676492
+Prevalence,Kiribati,Both,All Ages,Major depressive disorder,Number,2017,1686.76187234,1896.35307082,1502.02971656
+Prevalence,Kiribati,Both,All Ages,Anxiety disorders,Number,2017,3488.23922377,3744.29915259,3244.96060916
+Prevalence,Fiji,Both,All Ages,Major depressive disorder,Number,2017,14052.5593125,15690.0748764,12715.0374687
+Prevalence,Fiji,Both,All Ages,Anxiety disorders,Number,2017,28539.5333552,30479.655916,26725.8262086
+Prevalence,Jamaica,Both,All Ages,Anxiety disorders,Number,2017,129448.827264,138621.031168,120791.704833
+Prevalence,China,Both,All Ages,Anxiety disorders,Number,2017,44745813.1022,48833920.646,41131249.608
+Prevalence,Qatar,Both,All Ages,Major depressive disorder,Number,2017,79193.7285024,90172.8893274,69014.7786012
+Prevalence,Qatar,Both,All Ages,Anxiety disorders,Number,2017,128382.784767,139378.372479,118885.600552
+Prevalence,Latvia,Both,All Ages,Major depressive disorder,Number,2017,51007.6111581,55934.0904404,46595.6396188
+Prevalence,Latvia,Both,All Ages,Anxiety disorders,Number,2017,59285.9854597,62914.6704759,55693.0335843
+Prevalence,American Samoa,Both,All Ages,Major depressive disorder,Number,2017,712.489787557,799.315735604,640.543177543
+Prevalence,American Samoa,Both,All Ages,Anxiety disorders,Number,2017,1757.9590459,1886.22397042,1640.79497054
+Prevalence,Turkmenistan,Both,All Ages,Anxiety disorders,Number,2017,119666.414656,127603.265772,111968.474627
+Prevalence,Haiti,Both,All Ages,Major depressive disorder,Number,2017,214273.013054,239728.799776,190110.59774
+Prevalence,Haiti,Both,All Ages,Anxiety disorders,Number,2017,504893.79861,542131.788095,469087.449138
+Prevalence,Cyprus,Both,All Ages,Major depressive disorder,Number,2017,24213.4702708,26821.8287679,21685.7623147
+Prevalence,Cyprus,Both,All Ages,Anxiety disorders,Number,2017,66212.5200771,70826.2604344,62167.194569
+Prevalence,Ghana,Both,All Ages,Major depressive disorder,Number,2017,548027.713657,615949.530253,492760.556173
+Prevalence,Ghana,Both,All Ages,Anxiety disorders,Number,2017,834687.5911,891450.259806,775787.111703
+Prevalence,Uzbekistan,Both,All Ages,Major depressive disorder,Number,2017,511327.235304,565770.028078,464530.789376
+Prevalence,Uzbekistan,Both,All Ages,Anxiety disorders,Number,2017,784060.240809,837125.99776,733185.307938
+Prevalence,Denmark,Both,All Ages,Anxiety disorders,Number,2017,296891.691139,316402.801801,278748.502814
+Prevalence,Argentina,Both,All Ages,Major depressive disorder,Number,2017,949994.888064,1055761.64585,855927.07389
+Prevalence,Argentina,Both,All Ages,Anxiety disorders,Number,2017,2639981.02356,2824526.46176,2471309.66418
+Prevalence,Bermuda,Both,All Ages,Major depressive disorder,Number,2017,1452.13433081,1603.52285394,1311.86302178
+Prevalence,Bermuda,Both,All Ages,Anxiety disorders,Number,2017,3226.3893811,3455.58296463,3018.49081959
+Prevalence,Tanzania,Both,All Ages,Major depressive disorder,Number,2017,1009917.41,1138266.72148,900843.448729
+Prevalence,Tanzania,Both,All Ages,Anxiety disorders,Number,2017,1704564.30942,1830857.21997,1583063.81518
+Prevalence,Guinea,Both,All Ages,Major depressive disorder,Number,2017,207155.015846,232038.960525,184560.411358
+Prevalence,Guinea,Both,All Ages,Anxiety disorders,Number,2017,305416.772451,326803.197423,283446.548238
+Prevalence,Marshall Islands,Both,All Ages,Anxiety disorders,Number,2017,1696.58753987,1819.76747199,1578.90901344
+Prevalence,Brazil,Both,All Ages,Major depressive disorder,Number,2017,5031584.96723,5494490.28097,4634532.52759
+Prevalence,Brazil,Both,All Ages,Anxiety disorders,Number,2017,13197926.8516,14484509.9812,12034921.4902
+Prevalence,Denmark,Both,All Ages,Major depressive disorder,Number,2017,109902.030869,120927.630599,99891.0325737
+Prevalence,Lithuania,Both,All Ages,Major depressive disorder,Number,2017,97116.5832992,106069.970046,88829.3815339
+Prevalence,Lithuania,Both,All Ages,Anxiety disorders,Number,2017,87059.5474532,92384.2013688,81730.2500316
+Prevalence,Chile,Both,All Ages,Major depressive disorder,Number,2017,468008.510693,519111.832186,426408.80842
+Prevalence,Chile,Both,All Ages,Anxiety disorders,Number,2017,1096215.7061,1170504.15443,1027103.77988
+Prevalence,Marshall Islands,Both,All Ages,Major depressive disorder,Number,2017,802.402807545,904.052630745,718.071441255
+Prevalence,Jamaica,Both,All Ages,Major depressive disorder,Number,2017,47187.5216868,52431.8399237,42422.3491878
+Prevalence,China,Both,All Ages,Major depressive disorder,Number,2017,28672761.8198,31698443.8905,26118274.8253
+Prevalence,Albania,Both,All Ages,Major depressive disorder,Number,2017,40793.5637813,44961.1368767,36910.4500171
+Prevalence,Albania,Both,All Ages,Anxiety disorders,Number,2017,97567.7993073,103625.053821,91340.6168153
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Major depressive disorder,Number,2017,1797295.90783,2029256.60695,1605029.96367
+Prevalence,Moldova,Both,All Ages,Major depressive disorder,Number,2017,88826.9927051,98319.3383898,80842.7771273
+Prevalence,Moldova,Both,All Ages,Anxiety disorders,Number,2017,112654.060564,119724.024747,105554.970681
+Prevalence,Saudi Arabia,Both,All Ages,Major depressive disorder,Number,2017,921229.667773,1037915.89618,809946.26983
+Prevalence,Saudi Arabia,Both,All Ages,Anxiety disorders,Number,2017,1735808.09029,1871817.82735,1615032.03287
+Prevalence,Uruguay,Both,All Ages,Major depressive disorder,Number,2017,73591.1739564,80955.6017643,67117.1550023
+Prevalence,Uruguay,Both,All Ages,Anxiety disorders,Number,2017,206948.321696,221107.451473,193915.212611
+Prevalence,Congo,Both,All Ages,Major depressive disorder,Number,2017,121947.782767,136628.487536,109229.964081
+Prevalence,Congo,Both,All Ages,Anxiety disorders,Number,2017,151091.984531,162512.595313,140564.333038
+Prevalence,Federated States of Micronesia,Both,All Ages,Major depressive disorder,Number,2017,1554.17108395,1731.99242876,1390.21430334
+Prevalence,Federated States of Micronesia,Both,All Ages,Anxiety disorders,Number,2017,3224.54272184,3454.99559371,3006.9552632
+Prevalence,Greenland,Both,All Ages,Major depressive disorder,Number,2017,2502.86827604,2759.37048346,2272.12548507
+Prevalence,Greenland,Both,All Ages,Anxiety disorders,Number,2017,3169.7826682,3379.97192484,2966.10788737
+Prevalence,Guinea-Bissau,Both,All Ages,Major depressive disorder,Number,2017,33272.4015241,37088.9134508,29671.1038739
+Prevalence,Guinea-Bissau,Both,All Ages,Anxiety disorders,Number,2017,48537.7549456,52065.4918371,44948.3167862
+Prevalence,Taiwan (Province of China),Both,All Ages,Major depressive disorder,Number,2017,384305.462967,426614.557582,350925.467833
+Prevalence,Taiwan (Province of China),Both,All Ages,Anxiety disorders,Number,2017,863020.202483,918797.868491,810338.07478
+Prevalence,Equatorial Guinea,Both,All Ages,Major depressive disorder,Number,2017,31787.6243883,35958.9606839,28222.288863
+Prevalence,Equatorial Guinea,Both,All Ages,Anxiety disorders,Number,2017,39620.6441847,42874.1999027,36573.4175027
+Prevalence,Finland,Both,All Ages,Major depressive disorder,Number,2017,169192.57621,182011.635946,157122.268331
+Prevalence,Finland,Both,All Ages,Anxiety disorders,Number,2017,197586.255436,209142.498903,186917.589633
+Prevalence,Uganda,Both,All Ages,Major depressive disorder,Number,2017,1012116.34492,1145495.25082,904290.402856
+Prevalence,Uganda,Both,All Ages,Anxiety disorders,Number,2017,1164031.62728,1268331.94624,1062913.09707
+Prevalence,Russian Federation,Both,All Ages,Major depressive disorder,Number,2017,3838064.90539,4302131.13553,3425647.4028
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Major depressive disorder,Number,2017,2300.8785015,2543.98439883,2094.38487039
+Prevalence,Saint Vincent and the Grenadines,Both,All Ages,Anxiety disorders,Number,2017,5223.01874822,5566.76169244,4883.56589228
+Prevalence,Saint Lucia,Both,All Ages,Major depressive disorder,Number,2017,3566.31711938,3936.05428002,3229.5396199
+Prevalence,Saint Lucia,Both,All Ages,Anxiety disorders,Number,2017,8366.98756158,8924.50038939,7822.50352496
+Prevalence,North Korea,Both,All Ages,Major depressive disorder,Number,2017,426673.050639,474185.492861,384531.205457
+Prevalence,North Korea,Both,All Ages,Anxiety disorders,Number,2017,876244.543067,934250.415712,823158.42265
+Prevalence,Suriname,Both,All Ages,Major depressive disorder,Number,2017,17643.7642868,19284.4604188,16167.970149
+Prevalence,Suriname,Both,All Ages,Anxiety disorders,Number,2017,26018.1625048,27870.8012492,24396.4879139
+Prevalence,Syria,Both,All Ages,Major depressive disorder,Number,2017,419201.877714,472352.928635,373635.397505
+Prevalence,Syria,Both,All Ages,Anxiety disorders,Number,2017,855999.506736,917926.198754,801204.287321
+Prevalence,Gabon,Both,All Ages,Major depressive disorder,Number,2017,44779.9473112,50009.3101831,40323.0421286
+Prevalence,Gabon,Both,All Ages,Anxiety disorders,Number,2017,53876.1971295,57843.0305122,50396.9022275
+Prevalence,Democratic Republic of the Congo,Both,All Ages,Anxiety disorders,Number,2017,2336229.65658,2514203.17914,2171826.75576
+Prevalence,Germany,Both,All Ages,Major depressive disorder,Number,2017,2043449.66249,2235904.17146,1875964.55995
+Prevalence,Germany,Both,All Ages,Anxiety disorders,Number,2017,5265447.15551,5604168.87638,4958299.63477
+Prevalence,Bulgaria,Both,All Ages,Major depressive disorder,Number,2017,144125.015162,159037.42095,130636.832523
+Prevalence,Bulgaria,Both,All Ages,Anxiety disorders,Number,2017,272780.776709,291055.306487,256218.101546
+Prevalence,Russian Federation,Both,All Ages,Anxiety disorders,Number,2017,4398718.62758,4830535.00429,4012924.19653
+Prevalence,Ukraine,Both,All Ages,Major depressive disorder,Number,2017,1452655.47808,1641354.7087,1290252.72902
+Prevalence,Ukraine,Both,All Ages,Anxiety disorders,Number,2017,1373141.22733,1509208.44952,1256626.88934
+Prevalence,Cambodia,Both,All Ages,Major depressive disorder,Number,2017,231816.992893,259622.111312,208092.422942
+Prevalence,Cambodia,Both,All Ages,Anxiety disorders,Number,2017,500040.612476,534262.627224,470178.190505
+Prevalence,France,Both,All Ages,Major depressive disorder,Number,2017,2014662.26825,2215169.39521,1843626.03781
+Prevalence,France,Both,All Ages,Anxiety disorders,Number,2017,4131411.77562,4400217.5852,3889373.65744
+Prevalence,Turkey,Both,All Ages,Major depressive disorder,Number,2017,2059364.25933,2268907.40992,1875092.35825
+Prevalence,Turkey,Both,All Ages,Anxiety disorders,Number,2017,3124438.24155,3333848.28824,2924352.92592
+Prevalence,Zambia,Both,All Ages,Major depressive disorder,Number,2017,306943.713021,345290.768946,273742.478915
+Prevalence,Zambia,Both,All Ages,Anxiety disorders,Number,2017,546603.898475,586817.185177,506790.463172
+Prevalence,Trinidad and Tobago,Both,All Ages,Major depressive disorder,Number,2017,35063.5356543,38941.4341012,31921.3705875
+Prevalence,Trinidad and Tobago,Both,All Ages,Anxiety disorders,Number,2017,65252.4197512,69776.738663,61172.1922344
+Prevalence,Guam,Both,All Ages,Major depressive disorder,Number,2017,3204.84791223,3556.63597721,2912.0280341
+Prevalence,Guam,Both,All Ages,Anxiety disorders,Number,2017,5425.56619073,5801.76895671,5092.42287052
+Prevalence,Tunisia,Both,All Ages,Major depressive disorder,Number,2017,335476.171768,373903.374285,301867.524781
+Prevalence,Tunisia,Both,All Ages,Anxiety disorders,Number,2017,577366.207811,619115.043388,541355.369584
+Prevalence,Croatia,Both,All Ages,Major depressive disorder,Number,2017,101948.297227,111782.819962,92980.9931511
+Prevalence,Croatia,Both,All Ages,Anxiety disorders,Number,2017,156475.132742,166567.527409,147179.310581
+Prevalence,Botswana,Both,All Ages,Major depressive disorder,Number,2017,57986.6452704,65018.6945881,52127.6467211
+Prevalence,Botswana,Both,All Ages,Anxiety disorders,Number,2017,77508.11822,83435.7980704,71955.5932013
+Prevalence,Liberia,Both,All Ages,Major depressive disorder,Number,2017,96031.5460073,105077.184193,87141.664017
+Prevalence,Liberia,Both,All Ages,Anxiety disorders,Number,2017,125913.892337,135124.637342,116543.925869
+Prevalence,Paraguay,Both,All Ages,Major depressive disorder,Number,2017,126330.016383,140744.248234,114260.954838
+Prevalence,Paraguay,Both,All Ages,Anxiety disorders,Number,2017,396089.115499,425789.228314,369173.935883
+Prevalence,Indonesia,Both,All Ages,Major depressive disorder,Number,2017,2789433.85111,3179558.70957,2445203.21382
+Prevalence,Indonesia,Both,All Ages,Anxiety disorders,Number,2017,8453921.33611,9271974.32535,7669104.28445
+Prevalence,United States,Both,All Ages,Major depressive disorder,Number,2017,9611115.09864,10414321.0653,8915584.63392
+Prevalence,Bolivia,Both,All Ages,Major depressive disorder,Number,2017,221556.239934,244442.256431,200225.895111
+Prevalence,Bolivia,Both,All Ages,Anxiety disorders,Number,2017,457431.824711,490191.298554,428626.589155
+Prevalence,Greece,Both,All Ages,Major depressive disorder,Number,2017,300680.002686,331615.225982,274147.732425
+Prevalence,Greece,Both,All Ages,Anxiety disorders,Number,2017,589780.818886,627759.459862,552231.536837
+Prevalence,United Arab Emirates,Both,All Ages,Major depressive disorder,Number,2017,225651.241318,262776.886394,195434.940891
+Prevalence,United Arab Emirates,Both,All Ages,Anxiety disorders,Number,2017,457592.325303,496770.097349,422149.127386
+Prevalence,Lesotho,Both,All Ages,Major depressive disorder,Number,2017,77349.4729464,86147.9697298,70138.7663671
+Prevalence,Lesotho,Both,All Ages,Anxiety disorders,Number,2017,64656.0640274,69628.7430694,59970.159922
+Prevalence,Laos,Both,All Ages,Major depressive disorder,Number,2017,86414.6052696,96919.7374405,77110.0430075
+Prevalence,Laos,Both,All Ages,Anxiety disorders,Number,2017,269738.334768,288496.643003,251298.830599
+Prevalence,United States,Both,All Ages,Anxiety disorders,Number,2017,20965590.9125,22932565.1046,19207706.8537
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Major depressive disorder,Number,2017,58043.1264037,64954.2235329,52110.3549047
+Prevalence,Bosnia and Herzegovina,Both,All Ages,Anxiety disorders,Number,2017,124163.503339,132848.898156,116522.381163
+Prevalence,Algeria,Both,All Ages,Major depressive disorder,Number,2017,1005905.47462,1130254.95442,900240.303459
+Prevalence,Algeria,Both,All Ages,Anxiety disorders,Number,2017,1966907.03966,2110249.24233,1835868.94348
+Prevalence,Burundi,Both,All Ages,Major depressive disorder,Number,2017,199704.080578,224529.623154,178293.961711
+Prevalence,Burundi,Both,All Ages,Anxiety disorders,Number,2017,338371.10866,363868.897829,313885.517154
+Prevalence,Papua New Guinea,Both,All Ages,Major depressive disorder,Number,2017,133566.040664,151834.446628,118198.042794
+Prevalence,Papua New Guinea,Both,All Ages,Anxiety disorders,Number,2017,263500.277066,284170.425398,244566.540791
+Prevalence,Malaysia,Both,All Ages,Major depressive disorder,Number,2017,565912.997949,627538.015819,507431.752376
+Prevalence,Malaysia,Both,All Ages,Anxiety disorders,Number,2017,1270663.65068,1359098.0766,1186132.74919
+Prevalence,Egypt,Both,All Ages,Major depressive disorder,Number,2017,1992296.07657,2230635.24636,1776686.08103
+Prevalence,Comoros,Both,All Ages,Anxiety disorders,Number,2017,24539.992783,26207.4778834,22889.762338
+Prevalence,Mali,Both,All Ages,Major depressive disorder,Number,2017,259291.815402,290163.918929,231474.767833
+Prevalence,Mali,Both,All Ages,Anxiety disorders,Number,2017,508761.388504,546829.93971,469337.573813
+Prevalence,Canada,Both,All Ages,Major depressive disorder,Number,2017,741366.589124,816028.618041,673804.639054
+Prevalence,Canada,Both,All Ages,Anxiety disorders,Number,2017,1814999.71788,1936354.19413,1706753.40234
+Prevalence,Samoa,Both,All Ages,Anxiety disorders,Number,2017,5799.36897055,6220.19229311,5409.12821924
+Prevalence,Iran,Both,All Ages,Major depressive disorder,Number,2017,3461517.26417,3942494.48871,3030939.29723
+Prevalence,Iran,Both,All Ages,Anxiety disorders,Number,2017,5754421.16635,6381243.89974,5223948.39515
+Prevalence,Samoa,Both,All Ages,Major depressive disorder,Number,2017,2577.6477871,2881.18656325,2312.72247279
+Prevalence,Vanuatu,Both,All Ages,Major depressive disorder,Number,2017,3980.73740295,4478.41061979,3556.63909615
+Prevalence,Vanuatu,Both,All Ages,Anxiety disorders,Number,2017,8268.06287822,8891.9318092,7693.89070022
+Prevalence,Mauritania,Both,All Ages,Major depressive disorder,Number,2017,57185.767511,64201.44823,51338.708559
+Prevalence,Mauritania,Both,All Ages,Anxiety disorders,Number,2017,104196.03747,111593.327196,96437.8193736
+Prevalence,Iceland,Both,All Ages,Major depressive disorder,Number,2017,6440.53563219,7101.74453919,5816.00623476
+Prevalence,Bahrain,Both,All Ages,Major depressive disorder,Number,2017,47305.8803987,53167.1655271,42071.8098195
+Prevalence,Bahrain,Both,All Ages,Anxiety disorders,Number,2017,72016.9391608,77474.929645,67258.4863109
+Prevalence,Iraq,Both,All Ages,Major depressive disorder,Number,2017,1054084.93641,1180177.2658,946377.302915
+Prevalence,Iraq,Both,All Ages,Anxiety disorders,Number,2017,1859690.18353,1991138.48361,1736743.52305
+Prevalence,Eritrea,Both,All Ages,Major depressive disorder,Number,2017,118423.602132,132840.766061,105044.827636
+Prevalence,Eritrea,Both,All Ages,Anxiety disorders,Number,2017,193116.584308,208575.026604,178601.049152
+Prevalence,Northern Mariana Islands,Both,All Ages,Major depressive disorder,Number,2017,743.369101512,824.123755136,672.698632915
+Prevalence,Northern Mariana Islands,Both,All Ages,Anxiety disorders,Number,2017,1576.98291649,1683.7628434,1475.26513542
+Prevalence,Barbados,Both,All Ages,Major depressive disorder,Number,2017,6062.09393696,6727.96712095,5475.58054803
+Prevalence,Iceland,Both,All Ages,Anxiety disorders,Number,2017,17212.9617052,18356.8828716,16128.4473123
+Prevalence,Czech Republic,Both,All Ages,Major depressive disorder,Number,2017,226226.676618,249768.756873,206395.95943
+Prevalence,Solomon Islands,Both,All Ages,Major depressive disorder,Number,2017,8812.43941848,9970.47091748,7815.94252736
+Prevalence,Solomon Islands,Both,All Ages,Anxiety disorders,Number,2017,18125.2976338,19526.8433921,16842.9782111
+Prevalence,Barbados,Both,All Ages,Anxiety disorders,Number,2017,14304.8338832,15290.9112344,13424.7661032
+Prevalence,Tonga,Both,All Ages,Major depressive disorder,Number,2017,1268.00136555,1421.13432929,1139.27911475
+Prevalence,Myanmar,Both,All Ages,Major depressive disorder,Number,2017,370633.864271,412032.172164,331998.701052
+Prevalence,Myanmar,Both,All Ages,Anxiety disorders,Number,2017,1736681.83739,1857362.15052,1626071.12345
+Prevalence,Yemen,Both,All Ages,Major depressive disorder,Number,2017,739465.46414,837136.410353,649452.234195
+Prevalence,Yemen,Both,All Ages,Anxiety disorders,Number,2017,1312485.67599,1406065.93167,1219554.2062
+Prevalence,Egypt,Both,All Ages,Anxiety disorders,Number,2017,3956409.48748,4234125.96579,3693353.20014
+Prevalence,Puerto Rico,Both,All Ages,Major depressive disorder,Number,2017,75069.7684235,82994.6110944,67680.9540449
+Prevalence,Puerto Rico,Both,All Ages,Anxiety disorders,Number,2017,176640.557521,188701.948758,165975.025938
+Prevalence,Antigua and Barbuda,Both,All Ages,Major depressive disorder,Number,2017,1532.98751146,1712.07846056,1381.01073953
+Prevalence,Antigua and Barbuda,Both,All Ages,Anxiety disorders,Number,2017,4265.51323126,4550.77653264,3985.7368635
+Prevalence,Colombia,Both,All Ages,Major depressive disorder,Number,2017,745720.5919,817336.759743,679307.283578
+Prevalence,Colombia,Both,All Ages,Anxiety disorders,Number,2017,1237936.13998,1319844.5506,1164612.44126
+Prevalence,Czech Republic,Both,All Ages,Anxiety disorders,Number,2017,382406.150024,408466.382081,359842.044433
+Prevalence,Ethiopia,Both,All Ages,Major depressive disorder,Number,2017,1959181.00499,2239795.32338,1715894.7406
+Prevalence,Brunei,Both,All Ages,Major depressive disorder,Number,2017,5927.57329666,6642.98151158,5252.42229343
+Prevalence,Brunei,Both,All Ages,Anxiety disorders,Number,2017,15146.1043218,16229.5022994,14162.4918556
+Prevalence,Tonga,Both,All Ages,Anxiety disorders,Number,2017,3157.82461849,3381.30327358,2946.95096612
+Prevalence,Philippines,Both,All Ages,Major depressive disorder,Number,2017,1145870.78384,1277174.57585,1029378.31228
+Prevalence,Ecuador,Both,All Ages,Major depressive disorder,Number,2017,323722.668972,357534.592287,293312.257689
+Prevalence,Ecuador,Both,All Ages,Anxiety disorders,Number,2017,693232.760296,741942.316563,650100.203654
+Prevalence,Poland,Both,All Ages,Major depressive disorder,Number,2017,597440.001555,654085.293704,548705.728383
+Prevalence,Poland,Both,All Ages,Anxiety disorders,Number,2017,1397660.56221,1492257.68005,1316113.43476
+Prevalence,Ethiopia,Both,All Ages,Anxiety disorders,Number,2017,3346059.11433,3718484.33852,3018759.26914
+Prevalence,Hungary,Both,All Ages,Major depressive disorder,Number,2017,233482.106508,257932.095993,211381.884095
+Prevalence,Hungary,Both,All Ages,Anxiety disorders,Number,2017,358880.982044,382968.436611,337486.288942
+Prevalence,Niger,Both,All Ages,Major depressive disorder,Number,2017,312710.802908,352062.496395,277026.768833
+Prevalence,Namibia,Both,All Ages,Major depressive disorder,Number,2017,45997.2898378,51447.4334049,41422.8294664
+Prevalence,Namibia,Both,All Ages,Anxiety disorders,Number,2017,76973.1211344,82995.7597674,71528.7927176
+Prevalence,Philippines,Both,All Ages,Anxiety disorders,Number,2017,3148307.98703,3370843.58755,2944637.00331
+Prevalence,The Bahamas,Both,All Ages,Major depressive disorder,Number,2017,6452.48383056,7201.8836736,5821.17295606
+Prevalence,Nigeria,Both,All Ages,Major depressive disorder,Number,2017,4080917.0989,4568138.84014,3645604.91715
+Prevalence,Nigeria,Both,All Ages,Anxiety disorders,Number,2017,5341820.27141,5715416.35064,4955730.12602
+Prevalence,Kenya,Both,All Ages,Major depressive disorder,Number,2017,865124.334905,967674.059769,774312.687906
+Prevalence,Kenya,Both,All Ages,Anxiety disorders,Number,2017,1600046.17083,1776410.82169,1437368.41157
+Prevalence,Costa Rica,Both,All Ages,Major depressive disorder,Number,2017,97426.3266106,107744.052642,88925.5977512
+Prevalence,Costa Rica,Both,All Ages,Anxiety disorders,Number,2017,135638.449084,144428.207928,126950.435698
+Prevalence,The Bahamas,Both,All Ages,Anxiety disorders,Number,2017,17847.1939852,19034.2487842,16674.5776628
+Prevalence,Bhutan,Both,All Ages,Major depressive disorder,Number,2017,18727.8865291,20842.4532785,16801.2659109
+Prevalence,Bhutan,Both,All Ages,Anxiety disorders,Number,2017,35118.7185977,37710.6535034,32743.9422124
+Prevalence,Romania,Both,All Ages,Major depressive disorder,Number,2017,365016.460102,401372.845197,330000.6713
+Prevalence,Niger,Both,All Ages,Anxiety disorders,Number,2017,514198.157248,551367.964379,476166.921449
+Prevalence,Singapore,Both,All Ages,Major depressive disorder,Number,2017,118913.782801,130878.807831,108323.692046
+Prevalence,Singapore,Both,All Ages,Anxiety disorders,Number,2017,201706.188142,215374.335813,189194.290234
+Prevalence,Ireland,Both,All Ages,Major depressive disorder,Number,2017,127220.921886,140453.254265,115982.34733
+Prevalence,El Salvador,Both,All Ages,Major depressive disorder,Number,2017,129310.578597,143518.357529,116654.954165
+Prevalence,El Salvador,Both,All Ages,Anxiety disorders,Number,2017,173899.126107,185682.519245,162804.068801
+Prevalence,Australia,Both,All Ages,Major depressive disorder,Number,2017,730866.972212,803665.390662,669745.366839
+Prevalence,Sudan,Both,All Ages,Major depressive disorder,Number,2017,904606.214342,1015581.70714,800231.646605
+Prevalence,Sudan,Both,All Ages,Anxiety disorders,Number,2017,1755975.20775,1888613.454,1632560.21195
+Prevalence,Sao Tome and Principe,Both,All Ages,Major depressive disorder,Number,2017,3255.68641097,3651.82678348,2883.99866134
+Prevalence,Sao Tome and Principe,Both,All Ages,Anxiety disorders,Number,2017,5515.38588871,5913.10185069,5122.9439174
+Prevalence,Romania,Both,All Ages,Anxiety disorders,Number,2017,670140.940335,711716.503152,631944.840252
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Major depressive disorder,Number,2017,2301.40799123,2543.18743202,2090.52538107
+Prevalence,"Virgin Islands, U.S.",Both,All Ages,Anxiety disorders,Number,2017,4961.27424263,5302.48938805,4653.7212593
+Prevalence,Japan,Both,All Ages,Major depressive disorder,Number,2017,2992362.78232,3242945.86867,2765309.04706
+Prevalence,Japan,Both,All Ages,Anxiety disorders,Number,2017,4305473.22961,4707392.12278,3965508.03951
+Prevalence,Luxembourg,Both,All Ages,Major depressive disorder,Number,2017,13413.1984826,14855.9964427,12186.1634741
+Prevalence,Luxembourg,Both,All Ages,Anxiety disorders,Number,2017,30724.4607048,32805.2108145,28815.8190827
+Prevalence,Madagascar,Both,All Ages,Major depressive disorder,Number,2017,491277.59689,549604.784312,438276.973458
+Prevalence,Madagascar,Both,All Ages,Anxiety disorders,Number,2017,820371.649958,881057.269802,761401.11642
+Prevalence,Ireland,Both,All Ages,Anxiety disorders,Number,2017,269074.775834,286781.76987,251810.041855
+Prevalence,Cuba,Both,All Ages,Major depressive disorder,Number,2017,324307.724244,357225.377092,296475.424283
+Prevalence,India,Both,All Ages,Major depressive disorder,Number,2017,30017912.531,33162530.1736,27369946.7575
+Prevalence,Comoros,Both,All Ages,Major depressive disorder,Number,2017,13256.710525,14794.064635,11860.6772896
+Prevalence,Sri Lanka,Both,All Ages,Major depressive disorder,Number,2017,405573.934302,443050.513751,370833.306451
+Prevalence,Sri Lanka,Both,All Ages,Anxiety disorders,Number,2017,736538.384097,783239.074836,692209.132463
+Prevalence,Macedonia,Both,All Ages,Major depressive disorder,Number,2017,36518.2309627,40355.9582047,33185.5153102
+Prevalence,Macedonia,Both,All Ages,Anxiety disorders,Number,2017,77874.0411967,83473.9164396,73265.9982309
+Prevalence,Thailand,Both,All Ages,Major depressive disorder,Number,2017,1225010.96824,1358973.4892,1105355.82823
+Prevalence,Thailand,Both,All Ages,Anxiety disorders,Number,2017,2581050.11596,2750066.94196,2421065.51288
+Prevalence,Benin,Both,All Ages,Major depressive disorder,Number,2017,203499.43242,227292.418752,182210.442471
+Prevalence,Benin,Both,All Ages,Anxiety disorders,Number,2017,300460.612367,323318.433555,278574.463863
+Prevalence,South Africa,Both,All Ages,Major depressive disorder,Number,2017,1382504.52111,1520318.6771,1262129.94023
+Prevalence,South Africa,Both,All Ages,Anxiety disorders,Number,2017,2146540.51697,2370782.79159,1954542.83163
+Prevalence,Italy,Both,All Ages,Major depressive disorder,Number,2017,1453911.5738,1606915.24396,1319695.25975
+Prevalence,Italy,Both,All Ages,Anxiety disorders,Number,2017,3379607.58114,3588773.22815,3169164.94723
+Prevalence,Burkina Faso,Both,All Ages,Major depressive disorder,Number,2017,378980.774125,423296.893618,338452.277495
+Prevalence,Burkina Faso,Both,All Ages,Anxiety disorders,Number,2017,539030.656474,576921.004692,500078.354761
+Prevalence,India,Both,All Ages,Anxiety disorders,Number,2017,44873323.7226,48898686.7415,41194196.56
+Prevalence,Australia,Both,All Ages,Anxiety disorders,Number,2017,1456702.27731,1557974.28694,1364248.99436
+Prevalence,New Zealand,Both,All Ages,Major depressive disorder,Number,2017,95909.1209584,107813.204749,85566.0731312
+Prevalence,New Zealand,Both,All Ages,Anxiety disorders,Number,2017,345362.559488,377117.955603,315304.313314
+Prevalence,Kuwait,Both,All Ages,Major depressive disorder,Number,2017,118395.899158,134458.535542,104079.708079
+Prevalence,Kuwait,Both,All Ages,Anxiety disorders,Number,2017,222336.035072,240090.239746,207114.499706
+Prevalence,Malta,Both,All Ages,Major depressive disorder,Number,2017,8540.53835828,9447.21625366,7729.487027
+Prevalence,Malta,Both,All Ages,Anxiety disorders,Number,2017,22505.414374,23978.5562481,21118.1475941
+Prevalence,Peru,Both,All Ages,Major depressive disorder,Number,2017,418297.71624,464084.468675,378720.607771
+Prevalence,Peru,Both,All Ages,Anxiety disorders,Number,2017,1352834.25106,1449149.89762,1263415.20684
+Prevalence,Israel,Both,All Ages,Major depressive disorder,Number,2017,197718.038306,218078.360638,179096.354878
+Prevalence,Israel,Both,All Ages,Anxiety disorders,Number,2017,253572.690951,268827.47866,239624.494689
+Prevalence,Dominica,Both,All Ages,Major depressive disorder,Number,2017,1243.11369928,1380.43671598,1126.51075181
+Prevalence,Dominica,Both,All Ages,Anxiety disorders,Number,2017,3191.93479357,3399.28326773,2989.29930955
+Prevalence,Timor-Leste,Both,All Ages,Anxiety disorders,Number,2017,36717.4368011,39220.8615472,34351.0912731
+Prevalence,Malawi,Both,All Ages,Major depressive disorder,Number,2017,287376.425072,321430.236296,256431.998165
+Prevalence,Malawi,Both,All Ages,Anxiety disorders,Number,2017,550056.063465,591251.599649,510329.719313
+Prevalence,Armenia,Both,All Ages,Major depressive disorder,Number,2017,53783.2408156,59435.8542758,48698.3827343
+Prevalence,Armenia,Both,All Ages,Anxiety disorders,Number,2017,80434.9951541,85728.3210374,75625.5474688
+Prevalence,Djibouti,Both,All Ages,Major depressive disorder,Number,2017,22576.3493709,25186.2534604,20153.0326933
+Prevalence,Djibouti,Both,All Ages,Anxiety disorders,Number,2017,37099.6374456,39623.8965524,34553.0440205
+Prevalence,Lebanon,Both,All Ages,Anxiety disorders,Number,2017,493282.083506,529883.329545,459399.767571
+Prevalence,Senegal,Both,All Ages,Major depressive disorder,Number,2017,244561.009538,271410.525684,219110.209419
+Prevalence,Senegal,Both,All Ages,Anxiety disorders,Number,2017,387097.828684,413500.029205,359217.511194
+Prevalence,South Korea,Both,All Ages,Major depressive disorder,Number,2017,1222727.05837,1322159.14153,1137761.78216
+Prevalence,South Korea,Both,All Ages,Anxiety disorders,Number,2017,2002679.30415,2141669.25216,1873947.25621
+Prevalence,Maldives,Both,All Ages,Major depressive disorder,Number,2017,7075.643633,7958.01334212,6373.28968204
+Prevalence,Maldives,Both,All Ages,Anxiety disorders,Number,2017,14165.6837849,15139.0585581,13252.5825985
+Prevalence,Afghanistan,Both,All Ages,Major depressive disorder,Number,2017,757077.672625,850098.900968,668024.125327
+Prevalence,Afghanistan,Both,All Ages,Anxiety disorders,Number,2017,1352482.72362,1458944.76779,1257160.79512
+Prevalence,Kyrgyzstan,Both,All Ages,Major depressive disorder,Number,2017,107401.165063,118818.579185,97785.8532218
+Prevalence,Kyrgyzstan,Both,All Ages,Anxiety disorders,Number,2017,150755.015215,160895.571162,141146.903953
+Prevalence,Mauritius,Both,All Ages,Anxiety disorders,Number,2017,45605.4267572,48604.1882399,42843.6961795
+Prevalence,Azerbaijan,Both,All Ages,Anxiety disorders,Number,2017,261154.72284,278720.559717,244511.469978
+Prevalence,Morocco,Both,All Ages,Major depressive disorder,Number,2017,1561111.85852,1747515.80905,1402058.59927
+Prevalence,Morocco,Both,All Ages,Anxiety disorders,Number,2017,1753386.86852,1881210.85118,1637241.32749
+Prevalence,South Sudan,Both,All Ages,Major depressive disorder,Number,2017,179218.602149,201484.002957,159936.743937
+Prevalence,South Sudan,Both,All Ages,Anxiety disorders,Number,2017,301069.313816,325098.293807,277911.971556
+Prevalence,Grenada,Both,All Ages,Major depressive disorder,Number,2017,2146.70677451,2371.31283398,1948.33299183
+Prevalence,Swaziland,Both,All Ages,Major depressive disorder,Number,2017,27121.5850837,30340.2421021,24430.5693447
+Prevalence,Swaziland,Both,All Ages,Anxiety disorders,Number,2017,36473.2669645,39296.4207342,33723.4695958
+Prevalence,Bangladesh,Both,All Ages,Major depressive disorder,Number,2017,4294374.44572,4777117.21121,3892354.03605
+Prevalence,Bangladesh,Both,All Ages,Anxiety disorders,Number,2017,6574975.48732,7029558.72071,6122265.07048
+Prevalence,Lebanon,Both,All Ages,Major depressive disorder,Number,2017,214536.230288,241067.41872,191579.563827
+Prevalence,Mongolia,Both,All Ages,Major depressive disorder,Number,2017,71785.9869106,79519.6189542,65237.8997872
+Prevalence,Mongolia,Both,All Ages,Anxiety disorders,Number,2017,78626.8740955,84053.504192,73642.2810536
+Prevalence,Palestine,Both,All Ages,Anxiety disorders,Number,2017,217965.22609,234275.765082,203405.612512
+Prevalence,Guyana,Both,All Ages,Major depressive disorder,Number,2017,23519.4803937,25955.8509998,21382.5458284
+Prevalence,Guyana,Both,All Ages,Anxiety disorders,Number,2017,33110.6923955,35449.9754076,30866.3424452
+Prevalence,Zimbabwe,Both,All Ages,Major depressive disorder,Number,2017,218167.235786,245029.832706,194379.360657
+Prevalence,Zimbabwe,Both,All Ages,Anxiety disorders,Number,2017,410547.032168,440298.052251,380241.242803
+Prevalence,Jordan,Both,All Ages,Major depressive disorder,Number,2017,243483.599227,272696.755973,216359.019515
+Prevalence,Jordan,Both,All Ages,Anxiety disorders,Number,2017,494783.16464,531203.597352,460788.641313
+Prevalence,Montenegro,Both,All Ages,Major depressive disorder,Number,2017,11960.6913167,13228.5252743,10842.6824144
+Prevalence,Montenegro,Both,All Ages,Anxiety disorders,Number,2017,22302.7808065,23817.0114761,20991.2839507
+Prevalence,Libya,Both,All Ages,Major depressive disorder,Number,2017,187497.883027,210611.857441,166415.743478
+Prevalence,Libya,Both,All Ages,Anxiety disorders,Number,2017,340657.467627,366662.602169,317522.755585
+Prevalence,Guatemala,Both,All Ages,Major depressive disorder,Number,2017,345156.669616,385740.471355,312027.18726
+Prevalence,Guatemala,Both,All Ages,Anxiety disorders,Number,2017,456602.521294,490115.650663,425767.053254
+Prevalence,Dominican Republic,Both,All Ages,Major depressive disorder,Number,2017,206371.319418,229074.96985,186461.54253
+Prevalence,Dominican Republic,Both,All Ages,Anxiety disorders,Number,2017,467648.872229,500875.010526,435837.927837
+Prevalence,Belize,Both,All Ages,Major depressive disorder,Number,2017,6899.59772991,7749.16752135,6199.6674462
+Prevalence,Belize,Both,All Ages,Anxiety disorders,Number,2017,17371.1440419,18657.3002181,16199.6932501
+Prevalence,Rwanda,Both,All Ages,Major depressive disorder,Number,2017,258379.010353,289387.76719,230253.751308
+Prevalence,Rwanda,Both,All Ages,Anxiety disorders,Number,2017,409508.58511,438993.021371,379914.002027
+Prevalence,Estonia,Both,All Ages,Major depressive disorder,Number,2017,39850.1891244,43946.4575892,36227.8599686
+Prevalence,Estonia,Both,All Ages,Anxiety disorders,Number,2017,39666.6088098,42061.8147909,37262.1374657
+Prevalence,Seychelles,Both,All Ages,Major depressive disorder,Number,2017,1350.56790609,1490.5089102,1223.0930663
+Prevalence,Seychelles,Both,All Ages,Anxiety disorders,Number,2017,3380.89347476,3591.74461643,3185.06047443
+Prevalence,Cuba,Both,All Ages,Anxiety disorders,Number,2017,548168.210359,585639.896715,513955.039122
+Prevalence,Honduras,Both,All Ages,Major depressive disorder,Number,2017,151792.881758,169162.072462,136091.406215
+Prevalence,Honduras,Both,All Ages,Anxiety disorders,Number,2017,251850.866159,269844.377971,235227.91192
+Prevalence,Sierra Leone,Both,All Ages,Major depressive disorder,Number,2017,144736.02826,162522.231343,129800.508173
+Prevalence,Sierra Leone,Both,All Ages,Anxiety disorders,Number,2017,208582.504714,223588.427465,193416.232495
+Prevalence,Panama,Both,All Ages,Major depressive disorder,Number,2017,69651.263072,77309.8385326,62967.5876168
+Prevalence,Panama,Both,All Ages,Anxiety disorders,Number,2017,109046.81078,116393.862818,102443.564856
+Prevalence,Grenada,Both,All Ages,Anxiety disorders,Number,2017,5040.69572954,5369.90206502,4716.87529419
+Prevalence,Azerbaijan,Both,All Ages,Major depressive disorder,Number,2017,143680.627094,159968.544266,128928.566352
+Prevalence,Cote d'Ivoire,Both,All Ages,Major depressive disorder,Number,2017,405957.119641,454126.322359,363509.247771
+Prevalence,Cote d'Ivoire,Both,All Ages,Anxiety disorders,Number,2017,656014.723227,701730.243562,610047.293834
+Prevalence,Serbia,Both,All Ages,Major depressive disorder,Number,2017,181945.178737,200459.457233,164465.799399
+Prevalence,Serbia,Both,All Ages,Anxiety disorders,Number,2017,318146.650805,338501.253617,298786.864349
+Prevalence,Slovakia,Both,All Ages,Major depressive disorder,Number,2017,95738.6957386,106182.424917,87220.2715703
+Prevalence,Slovakia,Both,All Ages,Anxiety disorders,Number,2017,196803.829131,210078.067711,184999.20247
+Prevalence,Somalia,Both,All Ages,Major depressive disorder,Number,2017,311411.129766,350285.161862,276145.390458
+Prevalence,Somalia,Both,All Ages,Anxiety disorders,Number,2017,512808.029493,553955.770199,474494.740718
+Prevalence,Togo,Both,All Ages,Anxiety disorders,Number,2017,202696.295156,217360.134392,188482.921933
+Prevalence,Georgia,Both,All Ages,Major depressive disorder,Number,2017,70088.2986696,77392.9004365,63303.0508358
+Prevalence,Georgia,Both,All Ages,Anxiety disorders,Number,2017,98466.4057213,104881.79403,92721.9453024
+Prevalence,Nepal,Both,All Ages,Major depressive disorder,Number,2017,623355.357484,691544.844342,562814.468329
+Prevalence,Nepal,Both,All Ages,Anxiety disorders,Number,2017,1100092.21562,1178841.74422,1025223.84582
+Prevalence,The Gambia,Both,All Ages,Major depressive disorder,Number,2017,48108.8157835,53888.4311094,42875.0732473
+Prevalence,The Gambia,Both,All Ages,Anxiety disorders,Number,2017,56896.417055,61254.7860599,52741.2656939
+Prevalence,Netherlands,Both,All Ages,Major depressive disorder,Number,2017,415965.590413,457629.313715,379714.407905
+Prevalence,Netherlands,Both,All Ages,Anxiety disorders,Number,2017,1094858.47238,1170466.47772,1022856.53287
+Prevalence,Slovenia,Both,All Ages,Major depressive disorder,Number,2017,51001.8405638,56181.5111718,46555.6356266
+Prevalence,Slovenia,Both,All Ages,Anxiety disorders,Number,2017,74767.1206656,80125.4249193,70356.4137771
+Prevalence,Switzerland,Both,All Ages,Major depressive disorder,Number,2017,204104.120975,224375.940902,186723.413202
+Prevalence,Spain,Both,All Ages,Major depressive disorder,Number,2017,1138551.85076,1250986.79028,1049530.27393
+Prevalence,Spain,Both,All Ages,Anxiety disorders,Number,2017,2397610.33999,2553793.31562,2254152.24168
+Prevalence,Switzerland,Both,All Ages,Anxiety disorders,Number,2017,446400.507795,476895.704627,418980.531408
+Prevalence,Togo,Both,All Ages,Major depressive disorder,Number,2017,145447.431817,162383.55032,130373.024225
+Prevalence,Pakistan,Both,All Ages,Major depressive disorder,Number,2017,3559135.67693,3966058.34223,3177738.20013
+Prevalence,Pakistan,Both,All Ages,Anxiety disorders,Number,2017,7345884.09262,7902090.60115,6831795.09838
+Prevalence,Cameroon,Both,All Ages,Major depressive disorder,Number,2017,524470.36339,585591.118067,470666.981658
+Prevalence,Cameroon,Both,All Ages,Anxiety disorders,Number,2017,736315.614051,787729.458985,682809.190354
+Prevalence,Timor-Leste,Both,All Ages,Major depressive disorder,Number,2017,17949.7535819,20637.8908023,15784.0645006
+Prevalence,Andorra,Both,All Ages,Major depressive disorder,Number,2017,1945.71068161,2173.11582365,1751.73561235
+Prevalence,Andorra,Both,All Ages,Anxiety disorders,Number,2017,4234.04959906,4527.69725158,3966.84922289
+Prevalence,Tajikistan,Both,All Ages,Major depressive disorder,Number,2017,109961.370923,122633.874413,98472.1105835
+Prevalence,Tajikistan,Both,All Ages,Anxiety disorders,Number,2017,211487.168819,226422.71071,197809.782319
+Prevalence,Sweden,Both,All Ages,Major depressive disorder,Number,2017,317878.544721,349169.353086,291512.383618
+Prevalence,Sweden,Both,All Ages,Anxiety disorders,Number,2017,510801.784322,561259.912056,466926.797055
+Prevalence,United Kingdom,Both,All Ages,Major depressive disorder,Number,2017,1809421.46665,2021427.76718,1625572.87324
+Prevalence,United Kingdom,Both,All Ages,Anxiety disorders,Number,2017,2956852.05902,3192056.23172,2726910.88201
+Prevalence,Kazakhstan,Both,All Ages,Major depressive disorder,Number,2017,407230.159272,446451.890201,372023.99812
+Prevalence,Kazakhstan,Both,All Ages,Anxiety disorders,Number,2017,445126.876579,474704.996776,417202.869446
+Prevalence,Norway,Both,All Ages,Major depressive disorder,Number,2017,126844.074033,142873.670327,113165.074488
+Prevalence,Norway,Both,All Ages,Anxiety disorders,Number,2017,388377.531334,425917.478538,355655.896069
+Prevalence,Cape Verde,Both,All Ages,Major depressive disorder,Number,2017,14811.6990012,16432.7304526,13409.6249852
+Prevalence,Cape Verde,Both,All Ages,Anxiety disorders,Number,2017,15915.3822471,17005.4732903,14827.4895275
+Prevalence,Vietnam,Both,All Ages,Major depressive disorder,Number,2017,1269833.55448,1405135.33409,1144968.93602
+Prevalence,Vietnam,Both,All Ages,Anxiety disorders,Number,2017,2006935.65076,2142771.3961,1882431.06838
+Prevalence,Austria,Both,All Ages,Anxiety disorders,Number,2017,459990.274492,491246.455981,431711.97211
+Prevalence,Angola,Both,All Ages,Anxiety disorders,Number,2017,793422.021204,853744.846952,734744.053665
+Prevalence,Palestine,Both,All Ages,Major depressive disorder,Number,2017,148874.566745,166769.668701,133496.644787
+Prevalence,Angola,Both,All Ages,Major depressive disorder,Number,2017,629966.43647,710169.482515,563912.819415
+Prevalence,Austria,Both,All Ages,Major depressive disorder,Number,2017,167946.881971,184028.920809,153633.229524
+Prevalence,Chad,Both,All Ages,Major depressive disorder,Number,2017,268598.949892,302630.391554,238776.669965
+Prevalence,Chad,Both,All Ages,Anxiety disorders,Number,2017,369473.002538,397819.836526,340017.345207
+Prevalence,Belgium,Both,All Ages,Major depressive disorder,Number,2017,324036.354523,354196.382414,295153.564682
+Prevalence,Oman,Both,All Ages,Major depressive disorder,Number,2017,114210.406945,130428.644266,100233.892485
+Prevalence,Oman,Both,All Ages,Anxiety disorders,Number,2017,211224.962926,227417.426897,195039.784345
+Prevalence,Belgium,Both,All Ages,Anxiety disorders,Number,2017,562413.787728,596495.265982,530991.127435
+Prevalence,Portugal,Both,All Ages,Major depressive disorder,Number,2017,327186.637346,358830.653944,298044.158996
+Prevalence,Portugal,Both,All Ages,Anxiety disorders,Number,2017,567959.943736,606352.409516,533164.40513
+Prevalence,Mexico,Both,All Ages,Major depressive disorder,Number,2017,2194044.88315,2426413.49153,1996358.9226
+Prevalence,Mexico,Both,All Ages,Anxiety disorders,Number,2017,3869307.17014,4227755.32411,3516481.67281
+Prevalence,Turkmenistan,Both,All Ages,Major depressive disorder,Number,2017,75308.5118241,83889.0757408,68274.4811877
+Prevalence,Mauritius,Both,All Ages,Major depressive disorder,Number,2017,26509.4033844,29167.6273946,24193.1266459
+Prevalence,Mozambique,Both,All Ages,Major depressive disorder,Number,2017,580529.048626,654816.626587,517788.183512
+Prevalence,Mozambique,Both,All Ages,Anxiety disorders,Number,2017,957222.33768,1034151.99886,882784.644275
+Prevalence,Nicaragua,Both,All Ages,Major depressive disorder,Number,2017,115675.813117,128564.68853,104552.858074
+Prevalence,Nicaragua,Both,All Ages,Anxiety disorders,Number,2017,174445.402154,186907.723536,163018.749349
+Prevalence,Belarus,Both,All Ages,Major depressive disorder,Number,2017,292400.581995,324013.014041,266095.697016
+Prevalence,Belarus,Both,All Ages,Anxiety disorders,Number,2017,286733.335962,304703.392452,268509.044803

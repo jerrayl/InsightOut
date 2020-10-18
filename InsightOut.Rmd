@@ -58,7 +58,7 @@ adjcount <- read_csv(adjcount_path) %>%
   mutate(dictsize = select(., abbreviated:zealous) %>% apply(1, sum, na.rm=TRUE))
 
 word_count <- adjcount %>% 
-  select(id, positive_words, negative_words, dictsize) %>% mutate_all(~replace_na(.x, 0))
+  select(id, all_of(positive_words), all_of(negative_words), dictsize) %>% mutate_all(~replace_na(.x, 0))
 
 # we'll express frequencies in terms of counts per 10000 tokens
 unit <- 10000
@@ -160,7 +160,7 @@ d <- rename(d, c("major_depressive_disorder"="Major depressive disorder",  "anxi
 d <- d %>% filter(country != "Georgia" | total_pop < 5000000)
 
 # Create Total
-d <- d %>% mutate(total = (mean_positive + mean_negative) / 1000)
+d <- d %>% mutate(total = (mean_positive + mean_negative))
 
 #Round population and disorder incidence 
 d <- d %>% mutate(total_pop = round(total_pop), anxiety_disorders = round(anxiety_disorders), major_depressive_disorder = round(major_depressive_disorder)) 
@@ -177,16 +177,16 @@ plotd <- d %>%
   mutate(percentage_mdd= 100 * major_depressive_disorder/total_pop) %>%
   mutate(percentage_anxiety= 100* anxiety_disorders/total_pop) 
   
-ggplot(plotd, aes(y=percentage_mdd, x=total)) +
+ggplot(plotd, aes(y=percentage_mdd, x=total, color=cluster)) +
   geom_point() +
   theme_bw() +
-  geom_smooth(method=lm) +
+  geom_smooth(color="black", method=lm) +
   labs(y="Major Depressive Disorder prevalence/%", x="Emotion words per 10000 tokens", title="Scatterplot of emotion words and Major Depressive Disorder prevalence")
 
-ggplot(plotd, aes(y=percentage_anxiety, x=total)) +
+ggplot(plotd, aes(y=percentage_anxiety, x=total, color=cluster)) +
   geom_point() +
   theme_bw() +
-  geom_smooth(method=lm) +
+  geom_smooth(color="black", method=lm) +
   labs(y="Anxiety disorders prevalence/%", x="Emotion words per 10000 tokens", title="Scatterplot of emotion words and Anxiety disorders prevalence")
 ```
 
@@ -197,37 +197,10 @@ ggplot(plotd, aes(y=percentage_anxiety, x=total)) +
 da <- d %>%  mutate(percentage_mdd=100 * major_depressive_disorder/total_pop) %>%
   mutate(percentage_anxiety= 100 * anxiety_disorders/total_pop) 
 
-cor.test(da$mean_positive, da$percentage_mdd)
-cor.test(da$mean_positive, da$percentage_anxiety)
-cor.test(da$mean_negative, da$percentage_mdd)
-cor.test(da$mean_negative, da$percentage_anxiety)
+cor.test(da$total, da$percentage_mdd)
+cor.test(da$total, da$percentage_anxiety)
 
 
-ggplot(da, aes(x=percentage_mdd, y=mean_positive)) +
-  geom_point() +
-  facet_wrap(~cluster, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="major depressive disorder prevalence/%", y="mean positive")
-
-ggplot(da, aes(x=percentage_mdd, y=mean_negative)) +
-  geom_point() +
-  facet_wrap(~cluster, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="major depressive disorder prevalence/%", y="mean negative")
-
-
-ggplot(da, aes(x=percentage_anxiety, y=mean_positive)) +
-  geom_point() +
-  facet_wrap(~cluster, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
-
-
-ggplot(da, aes(x=percentage_anxiety, y=mean_negative)) +
-  geom_point() +
-  facet_wrap(~cluster, scales = "free") +
-  geom_smooth(method=lm) +
-  labs(x="anxiety disorder prevalence/%", y="counts per 1000, ratio")
 
 ```
 
@@ -235,7 +208,7 @@ ggplot(da, aes(x=percentage_anxiety, y=mean_negative)) +
 ```{r MD regression, include=TRUE}
 # We will not used linear regression in our lab report because one of the assumption in linear regression is independence of data, and our country data violate this assumption. Instead, we will use mixed model regression. We found a study that group countries based on cultural clusters (Mensah, Y. M., & Chen, H. Y. (2013). Global clustering of countries by culture–an extension of the GLOBE study.) and we will use this cultural cluster as our random effect for the analysis. 
 
-FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+FullDepressionModel <- glmer(cbind(major_depressive_disorder, total_pop - major_depressive_disorder) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"), nAGQ=0)
 beta_temp <- round(coef(summary(FullDepressionModel))[2,"Estimate"], 2)
 show(FullDepressionModel)
 
@@ -250,7 +223,7 @@ show(a1)
 ```
 
 ```{r AD regression}
-FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa"))
+FullADModel <- glmer(cbind(anxiety_disorders, total_pop - anxiety_disorders) ~ total + (1|cluster), data = d, family = binomial, control=glmerControl(optimizer="bobyqa", nAGQ=0))
 beta_temp <- round(coef(summary(FullADModel))[2,"Estimate"], 2)
 show(FullADModel)
 
